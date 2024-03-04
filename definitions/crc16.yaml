@@ -1,0 +1,7 @@
+algorithm: crc16
+strength: '16'
+keywords:
+    - CRC_16
+    - CRC_16CCITT
+    - CRC_16XModem
+    - CRC16

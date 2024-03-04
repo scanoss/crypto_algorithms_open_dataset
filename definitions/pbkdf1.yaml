@@ -1,0 +1,4 @@
+algorithm: pbkdf1
+strength: '128'
+keywords:
+    - pbkdf1.js

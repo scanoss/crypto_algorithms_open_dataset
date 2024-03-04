@@ -1,0 +1,6 @@
+algorithm: rabin
+strength: '128'
+keywords:
+    - Rabin.genKey
+    - Rabin.encrypt
+    - Rabin.decrypt

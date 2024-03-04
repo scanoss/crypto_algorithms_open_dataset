@@ -1,0 +1,16 @@
+algorithm: mqv
+strength: '512'
+keywords:
+    - mqv.h
+    - hmqv.h
+    - ECMQV
+    - EQV_Domain
+    - ECHMQV512
+    - ECHMQV384
+    - ECHMQV256
+    - ECHMQV128
+    - FHMQV
+    - FHMQV512
+    - FHMQV384
+    - FHMQV256
+    - FHMQV128

@@ -1,0 +1,7 @@
+algorithm: crc32
+strength: '32'
+keywords:
+    - crc32h.h
+    - crc32.c
+    - crc32_table
+    - xcrc32

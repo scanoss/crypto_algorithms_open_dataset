@@ -1,0 +1,5 @@
+algorithm: quad
+strength: '128'
+keywords:
+    - QUAD.pack
+    - QUAD.unpack

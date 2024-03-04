@@ -1,0 +1,7 @@
+algorithm: md160
+strength: '64'
+keywords:
+    - ripemd160.h
+    - ripemd160_Init
+    - ripemd160_process
+    - ripemd160_update

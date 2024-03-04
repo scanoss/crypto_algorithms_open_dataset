@@ -1,0 +1,8 @@
+algorithm: pbes1
+strength: '128'
+keywords:
+    - PBEWithMD5AndDES
+    - getPBES1EncryptionObject
+    - getPBES1Hash
+    - getPBES1KDF
+    - PKCS5_SCHEME_PBES1

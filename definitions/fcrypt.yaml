@@ -1,0 +1,8 @@
+algorithm: fcrypt
+strength: '128'
+keywords:
+    - fcrypt.encrypt
+    - fcrypt.decrypt
+    - fcrypt_ctx
+    - fcrypt_mod_init
+    - F_ENCRYPT

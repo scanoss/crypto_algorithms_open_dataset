@@ -1,0 +1,4 @@
+algorithm: dcc
+strength: '64'
+keywords:
+    - DCC.py

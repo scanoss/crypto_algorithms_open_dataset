@@ -1,0 +1,5 @@
+algorithm: rijndael
+strength: '256'
+keywords:
+    - Rijndael.h
+    - Rijndael256

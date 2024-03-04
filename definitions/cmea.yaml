@@ -1,0 +1,5 @@
+algorithm: cmea
+strength: '64'
+keywords:
+    - startCMEA
+    - CmeaSys

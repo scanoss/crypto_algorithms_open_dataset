@@ -1,0 +1,5 @@
+algorithm: mscash
+strength: '256'
+keywords:
+    - mscash.x.gz
+    - mscash

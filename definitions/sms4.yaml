@@ -1,0 +1,9 @@
+algorithm: sms4
+strength: '128'
+keywords:
+    - sm4_encdec
+    - CRYPTOPP_SM4_H
+    - CRYPTOPP_SM4_ADVANCED_PROCESS_BLOCKS
+    - sms4.h
+    - SMS4CROL
+    - SMS4MASK

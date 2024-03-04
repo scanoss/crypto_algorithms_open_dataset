@@ -1,0 +1,7 @@
+algorithm: skipjack
+strength: '32'
+keywords:
+    - FastSkipJack
+    - SkipJack
+    - skipjackCipher
+    - skipjack.go

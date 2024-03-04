@@ -1,0 +1,7 @@
+algorithm: tnepres
+strength: '256'
+keywords:
+    - TnepresEngine
+    - Cipher.Tnepres
+    - KeyGenerator.Tnepres
+    - AlgorithmParameters.Tnepres

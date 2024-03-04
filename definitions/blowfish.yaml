@@ -1,0 +1,5 @@
+algorithm: blowfish
+strength: '320'
+keywords:
+    - egoroof-blowfish
+    - blowfish

@@ -1,0 +1,6 @@
+algorithm: tiger
+strength: '256'
+keywords:
+    - tiger_compress_macro
+    - tiger_compress
+    - ausTigerTokens1

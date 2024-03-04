@@ -1,0 +1,7 @@
+algorithm: tea
+strength: '128'
+keywords:
+    - tea_encrypt
+    - tea_decrypt
+    - tea_cbc_mode
+    - tea_ofb_mode

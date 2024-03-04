@@ -1,0 +1,5 @@
+algorithm: serpent
+strength: '128'
+keywords:
+    - serpent_subkey_t
+    - serpent_blk

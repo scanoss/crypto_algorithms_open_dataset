@@ -1,0 +1,6 @@
+algorithm: salsa10
+strength: '64'
+keywords:
+    - salsa10
+    - salsa10-src.bin
+    - salsa10-nonce.bin

@@ -1,0 +1,12 @@
+algorithm: sober
+strength: '128'
+keywords:
+    - LTC_SOBER128
+    - sober128_start
+    - sober128_add_entropy
+    - sober128_ready
+    - sober128_read
+    - sober128_done
+    - sober128_export
+    - sober128_import
+    - sober128_test

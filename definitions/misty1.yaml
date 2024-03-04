@@ -1,0 +1,6 @@
+algorithm: misty1
+strength: '32'
+keywords:
+    - misty1_keyinit
+    - misty1_encrypt_block
+    - MISTY1_KEYSIZE

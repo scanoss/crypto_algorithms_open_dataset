@@ -1,0 +1,7 @@
+algorithm: rc6
+strength: '128'
+keywords:
+    - AlgorithmRC6
+    - RC6.encrypt
+    - RC6.decript
+    - RC6_HPP__

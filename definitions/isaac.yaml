@@ -1,0 +1,5 @@
+algorithm: isaac
+strength: '256'
+keywords:
+    - isaacCSPRNG
+    - isaacRandomPool.h

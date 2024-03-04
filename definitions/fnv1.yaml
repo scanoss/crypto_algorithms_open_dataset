@@ -1,0 +1,7 @@
+algorithm: fnv1
+strength: '1024'
+keywords:
+    - Fnv1a1024
+    - Fnv1a256
+    - Fnv1a512
+    - Fnv1aBigBase

@@ -1,0 +1,5 @@
+algorithm: 3way
+strength: '128'
+keywords:
+    - 3way.h
+    - CRYPTOPP_THREEWAY_H

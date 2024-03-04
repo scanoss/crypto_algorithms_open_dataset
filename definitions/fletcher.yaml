@@ -1,0 +1,6 @@
+algorithm: fletcher
+strength: '64'
+keywords:
+    - fletcher64
+    - fletcher32
+    - fletcher16

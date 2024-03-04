@@ -1,0 +1,9 @@
+algorithm: multi2
+strength: '128'
+keywords:
+    - multi2.h
+    - LTC_MULTI2
+    - multi2_desc
+    - multi2_setup
+    - multi2_ecb_encrypt
+    - multi2_ecb_decrypt

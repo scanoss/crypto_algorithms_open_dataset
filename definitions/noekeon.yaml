@@ -1,0 +1,7 @@
+algorithm: noekeon
+strength: '128'
+keywords:
+    - NoekeonIndirectRef
+    - noekeon.h
+    - NoekeonEngine
+    - NoekeonEngine.cs

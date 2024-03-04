@@ -1,0 +1,7 @@
+algorithm: bcrypt
+strength: '320'
+keywords:
+    - bcrypt
+    - pycabcrypt.h
+    - BCrypt.java
+    - jBCrypt

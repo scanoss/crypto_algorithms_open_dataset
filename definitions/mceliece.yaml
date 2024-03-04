@@ -1,0 +1,8 @@
+algorithm: mceliece
+strength: '64'
+keywords:
+    - MCELIECE_H
+    - mceliece.h
+    - mceliece_init
+    - delete_mceliece
+    - mceliececipher.py

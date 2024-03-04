@@ -1,0 +1,4 @@
+algorithm: dhies
+strength: '128'
+keywords:
+    - DHIES

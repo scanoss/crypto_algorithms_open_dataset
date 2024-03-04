@@ -1,0 +1,6 @@
+algorithm: feal
+strength: '64'
+keywords:
+    - lmhashConstant
+    - unKnownLMHashes
+    - createLMHash

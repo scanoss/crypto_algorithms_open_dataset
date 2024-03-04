@@ -1,0 +1,6 @@
+algorithm: keccak
+strength: '256'
+keywords:
+    - KeccakHash.h
+    - Keccak_HashFinal
+    - KeccakSum

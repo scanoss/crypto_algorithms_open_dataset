@@ -1,0 +1,5 @@
+algorithm: seed
+strength: '256'
+keywords:
+    - seed128Cipher
+    - seed.go

@@ -1,0 +1,7 @@
+algorithm: shark
+strength: '64'
+keywords:
+    - voipshark
+    - shark.h
+    - SHARKTransform
+    - CRYPTOPP_SHARK_H

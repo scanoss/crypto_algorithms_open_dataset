@@ -1,0 +1,5 @@
+algorithm: nimbus
+strength: '256'
+keywords:
+    - nimbusds.jose
+    - 'JOSEObjectType '
