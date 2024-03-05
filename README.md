@@ -1,6 +1,6 @@
 # Cryptographic Algorithms Open Dataset
 
-Welcome?
+This data set, which includes a list of cryptography algorithms with an open source implementation, was originally the output of SCANOSS mining efforts across its entire data base, which includes all relevant open source software published. Today, the intention is to turn this repository into a collaborative project to enrich and maintain this data set, not just for export control, the original target activity, but for other purposes as well.
 
 ## Folder Structure
 There are two main folders in this repo:
