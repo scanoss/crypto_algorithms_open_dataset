@@ -1,8 +1,0 @@
-algorithmId:
-algorithmName: tnepres
-securityStrength: '256'
-keywords:
-    - TnepresEngine
-    - Cipher.Tnepres
-    - KeyGenerator.Tnepres
-    - AlgorithmParameters.Tnepres

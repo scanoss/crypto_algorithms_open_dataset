@@ -1,8 +1,0 @@
-algorithmId:
-algorithmName: md6
-securityStrength: '512'
-keywords:
-    - MD6.py
-    - md6_encrypt
-    - CatMD6Crypto
-    - md6Crypto.hash

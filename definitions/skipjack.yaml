@@ -1,8 +1,0 @@
-algorithmId:
-algorithmName: skipjack
-securityStrength: '32'
-keywords:
-    - FastSkipJack
-    - SkipJack
-    - skipjackCipher
-    - skipjack.go
