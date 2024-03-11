@@ -1,0 +1,7 @@
+algorithmId:
+algorithmName: f8
+securityStrength: '128'
+keywords:
+    - SrtpCipherF8
+    - F8Context
+    - processPacketAesF8

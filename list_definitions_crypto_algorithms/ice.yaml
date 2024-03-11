@@ -1,0 +1,9 @@
+algorithmId:
+algorithmName: ice
+securityStrength: '128'
+keywords:
+    - node-ice
+    - iceKey
+    - __RUBY_ICE_KEY_H
+    - ice_cipher_
+    - IceSubkey

@@ -1,0 +1,25 @@
+algorithmId:
+algorithmName: rc5
+securityStrength: '128'
+keywords:
+    - RC5.new
+    - rc5.rb
+    - RC5Enc
+    - RC5Dec
+    - RC5Enc.java
+    - RC5Dec.java
+    - RC5_32_decrypt
+    - RC5_32_set_key
+    - RC5_32_cfb64_encrypt
+    - RC5_32_ofb64_encrypt
+    - RC5_32_ecb_encrypt
+    - RC5_32_cbc_encrypt
+    - RC5_32_encrypt
+    - 'import org.bouncycastle.crypto.engines.RC532Engine'
+    - "require('rc5-cipher')"
+    - rc5.encrypt(
+    - github.com/inge6/gorc5
+    - gorc5.NewCipher
+    - "require 'RC5.php'"
+    - 'RC5::encrypt'
+    - 'from rc5 import RC5'

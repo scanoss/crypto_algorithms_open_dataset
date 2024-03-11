@@ -1,0 +1,19 @@
+algorithmId:
+algorithmName: md4
+securityStrength: '128'
+keywords:
+    - MD4.h
+    - MD4_HMAC_BLOCK_SIZE
+    - MD4_BLOCK_WORDS
+    - MD4_HASH_WORDS
+    - MD4_DIGEST_SIZE
+    - md4_update
+    - md4_init
+    - md4_final
+    - MD4_Init
+    - md4_block_data_order
+    - '#include <openssl/md4.h>'
+    - MD4_DIGEST_LENGTH
+    - ".createHash('md4')"
+    - crypto/md4
+    - "hashlib.new('md4'"

@@ -1,0 +1,7 @@
+algorithmId:
+algorithmName: ecdh
+securityStrength: '128'
+keywords:
+    - ecdh_generate_keys
+    - ecdh_shared_secret
+    - ECC_PRV_KEY_SIZE

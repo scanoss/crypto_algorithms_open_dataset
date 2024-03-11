@@ -1,0 +1,7 @@
+algorithmId:
+algorithmName: rc4-hmac
+securityStrength: '2048'
+keywords:
+    - RC4-HMAC-MD5
+    - RC4HMAC
+    - RC4-HMAC.go

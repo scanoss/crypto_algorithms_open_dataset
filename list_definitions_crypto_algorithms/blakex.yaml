@@ -1,0 +1,11 @@
+algorithmId:
+algorithmName: blakex
+securityStrength: 256/512
+keywords:
+    - blake3.h
+    - blake3_hasher_update
+    - blake3_impl.h
+    - BLAKE2b512
+    - BLAKE2b256
+    - blake2
+    - pycabcrypt.h

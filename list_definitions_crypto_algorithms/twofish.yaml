@@ -1,0 +1,10 @@
+algorithmId:
+algorithmName: twofish
+securityStrength: '64'
+keywords:
+    - twofish.h
+    - Twofish_fatal
+    - Twofish_Byte
+    - exp_Twofish_prepare_key
+    - Twofish_prepare_key
+    - twofish.h

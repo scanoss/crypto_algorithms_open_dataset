@@ -1,0 +1,10 @@
+algorithmId:
+algorithmName: elgamal
+securityStrength: '128'
+keywords:
+    - egKey
+    - elgamal.py
+    - elgamal.h
+    - ElGamalEncryptor
+    - ElGamalDecryptor
+    - CRYPTOPP_ELGAMAL_H

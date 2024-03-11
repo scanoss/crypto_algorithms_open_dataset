@@ -1,0 +1,6 @@
+algorithmId:
+algorithmName: quad
+securityStrength: '128'
+keywords:
+    - QUAD.pack
+    - QUAD.unpack

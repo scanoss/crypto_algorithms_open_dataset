@@ -1,0 +1,11 @@
+algorithmId:
+algorithmName: idea
+securityStrength: '64'
+keywords:
+    - IdeaMode_h
+    - IdeaEncryptStreamStatus
+    - IdeaStreamEncrypt
+    - IdeaStreamDecrypt
+    - IdeaStreamCTRRandomAccessInit
+    - IdeaStreamPCB
+    - IdeaStreamCFB

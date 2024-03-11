@@ -1,0 +1,45 @@
+algorithmId:
+algorithmName: shax
+securityStrength: 128-512
+keywords:
+    - SHA-1
+    - SHA-224
+    - SHA-256
+    - SHA-384
+    - SHA-512
+    - SHA3-224
+    - SHA3-256
+    - SHA3-384
+    - SHA3-512
+    - jsSHA1
+    - jsSHA256
+    - jsSHA512
+    - jsSHA3
+    - sha3.sha3_256
+    - sha.ts
+    - SHA512_Update
+    - SHA512_Init
+    - sha512_block_data_order
+    - SHA512_Transform
+    - sha512_block_p8
+    - SHA512_Final
+    - SHA256_Init
+    - SHA224_Update
+    - SHA224_Final
+    - sha512_256_init
+    - sha512_block_ppc
+    - 'import org.bouncycastle.crypto.digests.SHA256Digest'
+    - 'import org.bouncycastle.crypto.digests.SHA512Digest'
+    - forge.md.sha256.
+    - "createHash('sha256')"
+    - CryptoJS.SHA256
+    - DigestUtils.sha256Hex
+    - '.getInstance("SHA-256")'
+    - "'sha512'"
+    - openssl/sha.h
+    - cryptopp/sha.h
+    - crypto/sha1
+    - crypto/sha256
+    - crypto/sha512
+    - "hash('sha256'"
+    - sha256(

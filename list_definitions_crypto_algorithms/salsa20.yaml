@@ -1,0 +1,11 @@
+algorithmId:
+algorithmName: salsa20
+securityStrength: '128'
+keywords:
+    - ESTREAM_SALSA20
+    - wrap_salsa20_set_nonce
+    - c_salsa20_crypt
+    - '#include "salsa20.h"'
+    - ".createCipheriv('salsa20'"
+    - 'from Crypto.Cipher import Salsa20'
+    - Salsa20.new

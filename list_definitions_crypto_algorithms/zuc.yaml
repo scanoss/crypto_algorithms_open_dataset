@@ -1,0 +1,9 @@
+algorithmId:
+algorithmName: zuc
+securityStrength: '128'
+keywords:
+    - ZUC_H
+    - __ZUC_H__
+    - zuc.asm
+    - _zuc_init
+    - _zuc_generate_keystream

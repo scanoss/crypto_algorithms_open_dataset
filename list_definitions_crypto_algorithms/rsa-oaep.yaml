@@ -1,0 +1,8 @@
+algorithmId:
+algorithmName: rsa-oaep
+securityStrength: '128'
+keywords:
+    - encryptRSAWithOAEP
+    - decryptRSAWithOAEP
+    - RSA_OAEP_H
+    - RSA_OAEP

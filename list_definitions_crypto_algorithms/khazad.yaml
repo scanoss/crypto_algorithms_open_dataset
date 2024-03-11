@@ -1,0 +1,15 @@
+algorithmId:
+algorithmName: khazad
+securityStrength: '16'
+keywords:
+    - KHAZAD_ROUNDS
+    - khazad_setkey
+    - khazad_crypt
+    - khazad_encrypt
+    - khazad_decrypt
+    - khazad_mod_fini
+    - khazad-min.h
+    - KHAZAD_H
+    - KHAZAD_BLOCK_SIZE
+    - KHAZAD_NUM_ROUNDS
+    - KHAZAD_KEY_

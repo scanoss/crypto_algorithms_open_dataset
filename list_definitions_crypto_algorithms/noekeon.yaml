@@ -1,0 +1,8 @@
+algorithmId:
+algorithmName: noekeon
+securityStrength: '128'
+keywords:
+    - NoekeonIndirectRef
+    - noekeon.h
+    - NoekeonEngine
+    - NoekeonEngine.cs

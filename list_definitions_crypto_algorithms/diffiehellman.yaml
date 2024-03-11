@@ -1,0 +1,21 @@
+algorithmId:
+algorithmName: diffiehellman
+securityStrength: '128'
+keywords:
+    - getDhObjectFromEvent
+    - RSA_DH.cpp
+    - dh_cmp_parameters
+    - dh_pkey_
+    - DH_get_ex_data
+    - DH_meth_
+    - DH_check_params_ex
+    - dh_gen_named_group
+    - dh_param_init
+    - DH_set_ex_data
+    - ossl_dh_
+    - DH_test_flags
+    - DH_set0_
+    - DH_security_bits
+    - DH_set_default_method
+    - DH_get0_
+    - dh_public_print

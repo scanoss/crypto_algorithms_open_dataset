@@ -1,0 +1,10 @@
+algorithmId:
+algorithmName: ASN1
+securityStrength: '256'
+keywords:
+    - '#include <openssl/asn1.h>'
+    - ASN1_INTEGER_new
+    - 'import org.bouncycastle.asn1.ASN1Integer'
+    - ASN1Integer
+    - forge.asn1.Class.UNIVERSAL
+    - 'from pyasn1.codec.der import encoder'

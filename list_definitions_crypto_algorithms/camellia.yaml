@@ -1,0 +1,22 @@
+algorithmId:
+algorithmName: camellia
+securityStrength: '256'
+keywords:
+    - camellia.core
+    - CIPHERCAMELLIA256
+    - CAMELLIA-256-CBC
+    - Camellia_cfb8_encrypt
+    - Camellia_ctr128_encrypt
+    - Camellia_set_key
+    - Camellia_EncryptBlock_Rounds
+    - Camellia_DecryptBlock
+    - Camellia_decrypt
+    - Camellia_DecryptBlock_Rounds
+    - Camellia_cfb128_encrypt
+    - Camellia_Ekeygen
+    - Camellia_EncryptBlock
+    - Camellia_cbc_encrypt
+    - Camellia_cfb1_encrypt
+    - Camellia_ecb_encrypt
+    - Camellia_encrypt
+    - Camellia_ofb128_encrypt

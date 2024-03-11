@@ -1,0 +1,28 @@
+algorithmId:
+algorithmName: des
+securityStrength: '168'
+keywords:
+    - des_setparity
+    - DESERR_NONE
+    - DES_encrypt
+    - DES_ncbc_
+    - DES_set_
+    - DES_ede3_
+    - DES_ecb_
+    - DES_pcbc_
+    - DES_cfb
+    - DES_cbc_
+    - DES_random_key
+    - DES_ecb3_
+    - DES_ofb
+    - DES_is_weak_key
+    - DES_check_key_parity
+    - DES_key_sched
+    - DES_crypt
+    - DES_quad_cksum
+    - DES_string_to_key
+    - DES_xcbc_
+    - DES_string_to_2keys
+    - DES_fcrypt
+    - DESede/CBC
+    - DESede/ECB

@@ -1,0 +1,7 @@
+algorithmId:
+algorithmName: luc
+securityStrength: '64'
+keywords:
+    - CRYPTOPP_LUC_H
+    - LUCFunction
+    - luc.h

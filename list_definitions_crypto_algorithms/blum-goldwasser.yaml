@@ -1,0 +1,7 @@
+algorithmId:
+algorithmName: blum-goldwasser
+securityStrength: '320'
+keywords:
+    - blumgoldwasser.py
+    - BlumGoldwasser
+    - sage.crypto.public_key.blum_goldwasser.BlumGoldwasser
