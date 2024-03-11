@@ -1,5 +1,6 @@
-algorithm: khazad
-strength: '16'
+algorithmId:
+algorithmName: khazad
+securityStrength: '16'
 keywords:
     - KHAZAD_ROUNDS
     - khazad_setkey

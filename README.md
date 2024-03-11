@@ -13,6 +13,7 @@ the available cryptographic algorithms to be used when searching for hints insid
 
 Each YAML file defines one algorithm with the following:
 ```yaml
+algorithmId: id
 algorithm: name
 strength: strength-of-the-algorithm
 keywords:
@@ -21,7 +22,7 @@ keywords:
     - search-for
 ```
 
-An example can be found in [3des.yml](definitions/3des.yaml)
+An example can be found in [camellia.yml](definitions/camellia.yaml)
 
 ### Utilities
 The [utilities](utilities) folder contains some helper utility scripts written in Python to

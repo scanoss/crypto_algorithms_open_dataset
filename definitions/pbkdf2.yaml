@@ -1,5 +1,6 @@
-algorithm: pbkdf2
-strength: '128'
+algorithmId:
+algorithmName: pbkdf2
+securityStrength: '128'
 keywords:
     - pbkdf2.js
     - Ikonoshirt_Pbkdf2_Model_Encryption

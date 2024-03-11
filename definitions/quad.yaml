@@ -1,5 +1,6 @@
-algorithm: quad
-strength: '128'
+algorithmId:
+algorithmName: quad
+securityStrength: '128'
 keywords:
     - QUAD.pack
     - QUAD.unpack

@@ -1,5 +1,6 @@
-algorithm: vmpc
-strength: ''
+algorithmId:
+algorithmName: vmpc
+securityStrength: ''
 keywords:
     - 'VMPCEngine.java '
     - VMPCrypt.py

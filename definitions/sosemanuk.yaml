@@ -1,5 +1,6 @@
-algorithm: sosemanuk
-strength: '128'
+algorithmId:
+algorithmName: sosemanuk
+securityStrength: '128'
 keywords:
     - SOSEMANUK_H__
     - sosemanuk_key_context

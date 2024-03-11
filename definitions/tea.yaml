@@ -1,5 +1,6 @@
-algorithm: tea
-strength: '128'
+algorithmId:
+algorithmName: tea
+securityStrength: '128'
 keywords:
     - tea_encrypt
     - tea_decrypt

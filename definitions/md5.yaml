@@ -1,5 +1,6 @@
-algorithm: md5
-strength: '128'
+algorithmId:
+algorithmName: md5
+securityStrength: '128'
 keywords:
     - md5_file
     - md5

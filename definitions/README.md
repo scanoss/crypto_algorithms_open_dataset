@@ -5,8 +5,9 @@ searching for hints inside source files.
 
 Each YAML file defines one algorithm with the following:
 ```yaml
-algorithm: name
-strength: strength-of-the-algorithm
+algorithmId: id
+algorithmName: name
+securityStrength: strength-of-the-algorithm
 keywords:
     - list-of
     - keywords-to

@@ -1,5 +1,6 @@
-algorithm: ecmqv
-strength: '128'
+algorithmId:
+algorithmName: ecmqv
+securityStrength: '128'
 keywords:
     - ECMQV
     - IEEEP1363

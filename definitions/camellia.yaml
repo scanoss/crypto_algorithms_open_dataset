@@ -1,5 +1,6 @@
-algorithm: camellia
-strength: '256'
+algorithmId:
+algorithmName: camellia
+securityStrength: '256'
 keywords:
     - camellia.core
     - CIPHERCAMELLIA256

@@ -1,5 +1,6 @@
-algorithm: rc5
-strength: '128'
+algorithmId:
+algorithmName: rc5
+securityStrength: '128'
 keywords:
     - RC5.new
     - rc5.rb

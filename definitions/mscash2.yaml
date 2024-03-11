@@ -1,4 +1,5 @@
-algorithm: mscash2
-strength: '128'
+algorithmId:
+algorithmName: mscash2
+securityStrength: '128'
 keywords:
     - mascash2

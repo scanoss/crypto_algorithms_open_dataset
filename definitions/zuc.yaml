@@ -1,5 +1,6 @@
-algorithm: zuc
-strength: '128'
+algorithmId:
+algorithmName: zuc
+securityStrength: '128'
 keywords:
     - ZUC_H
     - __ZUC_H__

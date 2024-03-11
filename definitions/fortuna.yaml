@@ -1,4 +1,5 @@
-algorithm: fortuna
-strength: '64'
+algorithmId:
+algorithmName: fortuna
+securityStrength: '64'
 keywords:
     - fortuna

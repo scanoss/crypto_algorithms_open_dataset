@@ -1,5 +1,6 @@
-algorithm: ice
-strength: '128'
+algorithmId:
+algorithmName: ice
+securityStrength: '128'
 keywords:
     - node-ice
     - iceKey

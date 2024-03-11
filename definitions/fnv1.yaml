@@ -1,5 +1,6 @@
-algorithm: fnv1
-strength: '1024'
+algorithmId:
+algorithmName: fnv1
+securityStrength: '1024'
 keywords:
     - Fnv1a1024
     - Fnv1a256

@@ -1,5 +1,6 @@
-algorithm: ripemd
-strength: '128'
+algorithmId:
+algorithmName: ripemd
+securityStrength: '128'
 keywords:
     - RIPEMD160_DIGEST_LENGTH
     - RIPEMD160_CTX

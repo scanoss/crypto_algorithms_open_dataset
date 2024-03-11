@@ -1,5 +1,6 @@
-algorithm: haval
-strength: '128'
+algorithmId:
+algorithmName: haval
+securityStrength: '128'
 keywords:
     - haval.h
     - haval_context

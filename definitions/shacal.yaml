@@ -1,5 +1,6 @@
-algorithm: shacal
-strength: '128'
+algorithmId:
+algorithmName: shacal
+securityStrength: '128'
 keywords:
     - Shacal
     - isShacal1

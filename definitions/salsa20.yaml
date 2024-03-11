@@ -1,5 +1,6 @@
-algorithm: salsa20
-strength: '128'
+algorithmId:
+algorithmName: salsa20
+securityStrength: '128'
 keywords:
     - ESTREAM_SALSA20
     - wrap_salsa20_set_nonce

@@ -1,5 +1,6 @@
-algorithm: cast
-strength: '320'
+algorithmId:
+algorithmName: cast
+securityStrength: '320'
 keywords:
     - CAST_ecb_encrypt
     - CAST_encrypt

@@ -1,5 +1,6 @@
-algorithm: rabbit
-strength: '128'
+algorithmId:
+algorithmName: rabbit
+securityStrength: '128'
 keywords:
     - Rabbit_Util
     - Rabbit_ctx

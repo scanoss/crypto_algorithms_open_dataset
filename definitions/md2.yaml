@@ -1,5 +1,6 @@
-algorithm: md2
-strength: '256'
+algorithmId:
+algorithmName: md2
+securityStrength: '256'
 keywords:
     - MD2.py
     - md2_block

@@ -1,5 +1,6 @@
-algorithm: chacha(salsa)
-strength: '256'
+algorithmId:
+algorithmName: chacha(salsa)
+securityStrength: '256'
 keywords:
     - TLS_RSA_WITH_CHACHA20_SHA
     - TLS_ECDHE_RSA_WITH_CHACHA20_SHA

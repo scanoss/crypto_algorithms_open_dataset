@@ -1,5 +1,6 @@
-algorithm: aes
-strength: '256'
+algorithmId:
+algorithmName: aes
+securityStrength: '256'
 keywords:
     - GibberishAES
     - aes.h

@@ -1,5 +1,6 @@
-algorithm: loki91
-strength: '64'
+algorithmId:
+algorithmName: loki91
+securityStrength: '64'
 keywords:
     - loki.h
     - loki.i

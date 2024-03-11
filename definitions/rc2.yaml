@@ -1,5 +1,6 @@
-algorithm: rc2
-strength: '128'
+algorithmId:
+algorithmName: rc2
+securityStrength: '128'
 keywords:
     - rc2_LTX__mcrypt_
     - RC2_encrypt

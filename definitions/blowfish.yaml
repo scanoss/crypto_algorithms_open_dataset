@@ -1,5 +1,6 @@
-algorithm: blowfish
-strength: '320'
+algorithmId:
+algorithmName: blowfish
+securityStrength: '320'
 keywords:
     - egoroof-blowfish
     - blowfish

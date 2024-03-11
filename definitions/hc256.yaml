@@ -1,5 +1,6 @@
-algorithm: hc256
-strength: '256'
+algorithmId:
+algorithmName: hc256
+securityStrength: '256'
 keywords:
     - hc256_generate
     - hc256_setkey

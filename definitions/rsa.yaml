@@ -1,5 +1,6 @@
-algorithm: rsa
-strength: '128'
+algorithmId:
+algorithmName: rsa
+securityStrength: '128'
 keywords:
     - forge.pki.rsa.
     - "require('node-rsa')"

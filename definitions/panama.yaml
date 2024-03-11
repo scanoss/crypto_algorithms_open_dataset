@@ -1,5 +1,6 @@
-algorithm: panama
-strength: '128'
+algorithmId:
+algorithmName: panama
+securityStrength: '128'
 keywords:
     - panama.h
     - panama_LTX__

@@ -1,5 +1,6 @@
-algorithm: wake
-strength: '64'
+algorithmId:
+algorithmName: wake
+securityStrength: '64'
 keywords:
     - WAKE.h
     - WAKE_TestInstantiations

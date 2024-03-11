@@ -1,5 +1,6 @@
-algorithm: rsa-oaep
-strength: '128'
+algorithmId:
+algorithmName: rsa-oaep
+securityStrength: '128'
 keywords:
     - encryptRSAWithOAEP
     - decryptRSAWithOAEP

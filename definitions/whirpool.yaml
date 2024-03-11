@@ -1,5 +1,6 @@
-algorithm: whirpool
-strength: '128'
+algorithmId:
+algorithmName: whirpool
+securityStrength: '128'
 keywords:
     - whirlpool.New
     - whirpool.go

@@ -1,5 +1,6 @@
-algorithm: multi2
-strength: '128'
+algorithmId:
+algorithmName: multi2
+securityStrength: '128'
 keywords:
     - multi2.h
     - LTC_MULTI2

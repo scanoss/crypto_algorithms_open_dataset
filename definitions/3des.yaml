@@ -1,5 +1,6 @@
-algorithm: 3des
-strength: '128'
+algorithmId:
+algorithmName: 3des
+securityStrength: '128'
 keywords:
     - botan-3.dll
     - botan.dll

@@ -1,5 +1,6 @@
-algorithm: yarrow
-strength: '160'
+algorithmId:
+algorithmName: yarrow
+securityStrength: '160'
 keywords:
     - yarrow_start
     - yarrow_desc

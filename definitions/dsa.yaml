@@ -1,5 +1,6 @@
-algorithm: dsa
-strength: '128'
+algorithmId:
+algorithmName: dsa
+securityStrength: '128'
 keywords:
     - ossl_dsa_generate_ffc_parameters
     - DSA_set_method

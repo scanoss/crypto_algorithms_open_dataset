@@ -1,5 +1,6 @@
-algorithm: ntruencrypt
-strength: '128'
+algorithmId:
+algorithmName: ntruencrypt
+securityStrength: '128'
 keywords:
     - NTRU_NTRU_H
     - ntru.h
