@@ -1,0 +1,13 @@
+algorithmId:
+algorithmName: X509
+securityStrength: '128'
+keywords:
+    - '#include <openssl/x509.h>'
+    - PEM_read_X509
+    - 'import java.security.cert.X509Certificate'
+    - '.getInstance("X.509")'
+    - crypto/x509
+    - x509.ParseCertificate
+    - openssl_x509_free
+    - 'from cryptography import x509'
+    - x509.load_pem_x509_certificate

@@ -1,0 +1,8 @@
+algorithmId:
+algorithmName: sapphire
+securityStrength: '256'
+keywords:
+    - sapphire.h
+    - 'sapphire::keyrand'
+    - 'sapphire::initialize'
+    - 'sapphire::init_hash'

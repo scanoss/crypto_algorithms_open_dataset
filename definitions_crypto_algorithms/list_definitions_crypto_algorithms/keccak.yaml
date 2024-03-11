@@ -1,0 +1,7 @@
+algorithmId:
+algorithmName: keccak
+securityStrength: '256'
+keywords:
+    - KeccakHash.h
+    - Keccak_HashFinal
+    - KeccakSum

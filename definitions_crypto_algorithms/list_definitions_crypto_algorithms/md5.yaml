@@ -1,0 +1,12 @@
+algorithmId:
+algorithmName: md5
+securityStrength: '128'
+keywords:
+    - md5_file
+    - md5
+    - md5crypt
+    - aprcrypt
+    - md5_encrypt
+    - md5_block_data_order
+    - ossl_md5_sha1_
+    - MD5_Init

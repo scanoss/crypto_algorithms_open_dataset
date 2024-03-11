@@ -1,0 +1,11 @@
+algorithmId:
+algorithmName: mdc2
+securityStrength: '128'
+keywords:
+    - MDC2.h
+    - mdc2
+    - mdc2_with_aes.py
+    - MDC2_Init
+    - MDC2_Update
+    - MDC2_Final
+    - mdc2_body

@@ -1,0 +1,8 @@
+algorithmId:
+algorithmName: hc256
+securityStrength: '256'
+keywords:
+    - hc256_generate
+    - hc256_setkey
+    - hc256_crypt
+    - CRYPTOPP_HC256_H

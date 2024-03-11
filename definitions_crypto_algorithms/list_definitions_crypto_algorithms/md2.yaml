@@ -1,0 +1,9 @@
+algorithmId:
+algorithmName: md2
+securityStrength: '256'
+keywords:
+    - MD2.py
+    - md2_block
+    - MD2_Init
+    - MD2_Update
+    - MD2_Final

@@ -1,0 +1,14 @@
+algorithmId:
+algorithmName: tdes
+securityStrength: '128'
+keywords:
+    - TDES_FLAGS_ENCRYPT
+    - TDES_FLAGS_OPMODE_MASK
+    - TDES_FLAGS_ECB
+    - TDES_FLAGS_CBC
+    - TDES_FLAGS_OFB
+    - TDES_FLAGS_CFB64
+    - TDES_FLAGS_CFB32
+    - TDES_FLAGS_CFB16
+    - TDES_FLAGS_CFB8
+    - DES_ecb3_encrypt

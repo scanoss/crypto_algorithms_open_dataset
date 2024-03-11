@@ -1,0 +1,15 @@
+algorithmId:
+algorithmName: shacal
+securityStrength: '128'
+keywords:
+    - Shacal
+    - isShacal1
+    - CRYPTOPP_SHACAL2_H
+    - SHACAL2Encryption
+    - SHACAL2
+    - '#include "shacal.h"'
+    - '.getInstance("Shacal2");'
+    - "require('shacal')"
+    - crypto/shacal2
+    - 'from Crypto.Cipher import SHACAL2'
+    - SHACAL2.new

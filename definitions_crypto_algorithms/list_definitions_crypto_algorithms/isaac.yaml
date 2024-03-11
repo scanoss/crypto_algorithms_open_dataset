@@ -1,0 +1,6 @@
+algorithmId:
+algorithmName: isaac
+securityStrength: '256'
+keywords:
+    - isaacCSPRNG
+    - isaacRandomPool.h

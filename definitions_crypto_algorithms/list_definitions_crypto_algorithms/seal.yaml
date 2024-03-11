@@ -1,0 +1,9 @@
+algorithmId:
+algorithmName: seal
+securityStrength: '128'
+keywords:
+    - SEALContext
+    - seal.h
+    - SEALWrapper
+    - toSealObject
+    - fromSealObject

@@ -1,0 +1,7 @@
+algorithmId:
+algorithmName: salsa10
+securityStrength: '64'
+keywords:
+    - salsa10
+    - salsa10-src.bin
+    - salsa10-nonce.bin

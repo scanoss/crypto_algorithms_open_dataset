@@ -1,0 +1,23 @@
+algorithmId:
+algorithmName: ripemd
+securityStrength: '128'
+keywords:
+    - RIPEMD160_DIGEST_LENGTH
+    - RIPEMD160_CTX
+    - ripemd160_Init
+    - ripemd160_process
+    - ripemd160_Update
+    - RIPEMD160_Init
+    - ripemd160_block_data_order
+    - ripemd160_block_x86
+    - ripemd160_block
+    - '#include <openssl/ripemd.h>'
+    - RIPEMD160_Init
+    - RIPEMD160_Update
+    - RIPEMD160_Final
+    - '.getInstance("RIPEMD160")'
+    - "crypto.createHash('ripemd160')"
+    - golang.org/x/crypto/ripemd160
+    - ripemd160.New()
+    - "hash('ripemd160'"
+    - "hashlib.new('ripemd160'"

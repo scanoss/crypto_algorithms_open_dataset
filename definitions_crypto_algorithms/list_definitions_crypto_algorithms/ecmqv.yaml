@@ -1,0 +1,14 @@
+algorithmId:
+algorithmName: ecmqv
+securityStrength: '128'
+keywords:
+    - ECMQV
+    - IEEEP1363
+    - '#include <openssl/ecdh.h>'
+    - EC_KEY_generate_key
+    - '.getInstance("EC"'
+    - 'import org.bouncycastle.jce.ECNamedCurveTable'
+    - "require('elliptic').ec"
+    - crypto/elliptic
+    - crypto/ecdsa
+    - secp256r1

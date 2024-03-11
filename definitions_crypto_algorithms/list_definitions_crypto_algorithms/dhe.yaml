@@ -1,0 +1,8 @@
+algorithmId:
+algorithmName: dhe
+securityStrength: '128'
+keywords:
+    - ECDHE-RSA-AES
+    - DHE-RSA-AES
+    - DHE-RSA-CAMELLIA256-SHA
+    - DHE-RSA-CAMELLIA128-SHA

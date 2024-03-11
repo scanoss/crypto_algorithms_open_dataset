@@ -1,0 +1,26 @@
+algorithmId:
+algorithmName: chacha(salsa)
+securityStrength: '256'
+keywords:
+    - TLS_RSA_WITH_CHACHA20_SHA
+    - TLS_ECDHE_RSA_WITH_CHACHA20_SHA
+    - TLS_ECDHE_ECDSA_WITH_CHACHA20_SHA
+    - TLS_RSA_WITH_CHACHA20_POLY1305
+    - 'TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305 '
+    - TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305
+    - TLS_DHE_RSA_WITH_CHACHA20_POLY1305
+    - TLS_DHE_PSK_WITH_CHACHA20_POLY1305
+    - TLS_PSK_WITH_CHACHA20_POLY1305
+    - TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305
+    - TLS_RSA_PSK_WITH_CHACHA20_POLY1305
+    - chacha20_core
+    - ChaCha20_ctr32
+    - '#include <openssl/chacha.h>'
+    - '.getInstance("ChaCha20")'
+    - "createCipheriv('chacha20'"
+    - golang.org/x/crypto/chacha20poly1305
+    - chacha20poly1305
+    - sodium_crypto_stream_xchacha20_xor
+    - 'from cryptography.hazmat.primitives.ciphers import ChaCha20'
+    - ChaCha20Poly1305
+    - chacha_encrypt

@@ -1,0 +1,9 @@
+algorithmId:
+algorithmName: xtea
+securityStrength: '128'
+keywords:
+    - xtea_setkey
+    - xtea.h
+    - xtea_encodeecb
+    - xtea_decodecbc
+    - xtea_declen

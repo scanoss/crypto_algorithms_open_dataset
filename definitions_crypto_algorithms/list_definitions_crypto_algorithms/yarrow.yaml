@@ -1,0 +1,19 @@
+algorithmId:
+algorithmName: yarrow
+securityStrength: '160'
+keywords:
+    - yarrow_start
+    - yarrow_desc
+    - yarrow_start
+    - yarrow_add_entropy
+    - yarrow_ready
+    - yarrow_read
+    - yarrow_done
+    - yarrow_export
+    - yarrow_import
+    - yarrow_test
+    - LTC_YARROW
+    - LTC_YARROW_AES
+    - '#include <yarrow.h>'
+    - yarrow256_done
+    - yarrow256_context

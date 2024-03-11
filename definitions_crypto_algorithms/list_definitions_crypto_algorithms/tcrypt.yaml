@@ -1,0 +1,9 @@
+algorithmId:
+algorithmName: tcrypt
+securityStrength: '128'
+keywords:
+    - tcrypt.h
+    - tcrypt_encrypt
+    - tcrypt_decrypt
+    - tcrypt_init
+    - _CRYPTO_TCRYPT_H

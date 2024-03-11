@@ -1,0 +1,5 @@
+algorithmId:
+algorithmName: dhies
+securityStrength: '128'
+keywords:
+    - DHIES

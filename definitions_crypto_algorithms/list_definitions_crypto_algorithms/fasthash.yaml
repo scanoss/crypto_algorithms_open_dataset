@@ -1,0 +1,5 @@
+algorithmId:
+algorithmName: fasthash
+securityStrength: '256'
+keywords:
+    - AQUAHASH_H

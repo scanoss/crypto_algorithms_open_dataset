@@ -1,0 +1,34 @@
+algorithmId:
+algorithmName: aes
+securityStrength: '256'
+keywords:
+    - GibberishAES
+    - aes.h
+    - tiny-AES-c
+    - AES_set_encrypt_key
+    - AES_set_decrypt_key
+    - AES_ige_encrypt
+    - AES_ofb128_encrypt
+    - AES_ecb_encrypt
+    - AES_cbc_encrypt
+    - AES_cfb8_encrypt
+    - AES_cfb128_encrypt
+    - AES_wrap_key
+    - AES_cfb1_encrypt
+    - AES_unwrap_key
+    - aes.js
+    - "require('aes-js')"
+    - "require('sjcl')"
+    - "require('crypto-js');"
+    - CryptoJS.AES.encrypt
+    - CryptoJS.AES.decryp
+    - '<openssl/aes.h>'
+    - '.getInstance("AES");'
+    - 'module.exports = AES'
+    - AES.prototype
+    - aes.AES
+    - AES/CBC/NoPadding
+    - 'AES/CBC/PKCS5Padding '
+    - AES/ECB/NoPadding
+    - AES/ECB/PKCS5Padding
+    - AES/GCM/NoPadding

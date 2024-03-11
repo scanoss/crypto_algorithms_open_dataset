@@ -1,0 +1,7 @@
+algorithmId:
+algorithmName: desede
+securityStrength: '168'
+keywords:
+    - javax.crypto.spec.DESedeKeySpec
+    - DESedeKeySpec
+    - DES_EDE_KEY_LEN

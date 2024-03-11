@@ -1,0 +1,6 @@
+algorithmId:
+algorithmName: serpent
+securityStrength: '128'
+keywords:
+    - serpent_subkey_t
+    - serpent_blk

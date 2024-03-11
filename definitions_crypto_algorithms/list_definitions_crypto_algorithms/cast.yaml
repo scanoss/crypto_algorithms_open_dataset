@@ -1,0 +1,12 @@
+algorithmId:
+algorithmName: cast
+securityStrength: '320'
+keywords:
+    - CAST_ecb_encrypt
+    - CAST_encrypt
+    - CAST_decrypt
+    - CAST_cbc_encrypt
+    - CAST_set_key
+    - CAST3.h
+    - cast5.h
+    - pyCast6

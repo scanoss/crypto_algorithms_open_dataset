@@ -1,0 +1,43 @@
+algorithmId:
+algorithmName: rsa
+securityStrength: '128'
+keywords:
+    - forge.pki.rsa.
+    - "require('node-rsa')"
+    - RSACRYPT_H
+    - RSAcrypt
+    - RSAdecrypt
+    - JSEncryptRSAKey
+    - ossl_rsa_acvp_
+    - RSA_size
+    - rsa_priv_print
+    - RSA_verify_PKCS1_PSS
+    - RSA_get0_crt_params
+    - RSA_meth_set_
+    - RSA_meth_free
+    - RSA_padding_check_none
+    - pkey_rsa_ctrl_str
+    - ossl_rsa_check_
+    - ossl_rsa_pss_get_param_unverified
+    - rsa_pkey_dirty_cnt
+    - rsa_int_import_from
+    - rsa_pkey_import_from
+    - ossl_rsa_dup
+    - rsa_new_intern
+    - RSA_set_method
+    - RSA_sign_ASN1_OCTET_STRIN
+    - rsa_validate_rng_strength
+    - rsa_validate_keypair_multiprime
+    - RSA_meth_new
+    - RSA_verify_ASN1_OCTET_STRING
+    - RSA_X931_generate_key_ex
+    - RSA_generate_multi_prime_key
+    - RSA_get_ex_data
+    - RSA_padding_add_PKCS1_type_2
+    - rsa_pub_encode
+    - rsa_item_sign
+    - EVP_PKEY_CTX_set_rsa_keygen_primes
+    - RSA_padding_add_PKCS1_OAEP
+    - RSA/ECB/
+    - RSAES-PKCS1-V1_5-ENCRYPT
+    - RSAES-PKCS1-V1_5

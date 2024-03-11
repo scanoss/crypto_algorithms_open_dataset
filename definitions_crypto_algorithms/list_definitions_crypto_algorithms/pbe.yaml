@@ -1,0 +1,7 @@
+algorithmId:
+algorithmName: pbe
+securityStrength: '128'
+keywords:
+    - org.xeustechnologies.crypto.kpbe
+    - PBE
+    - KPBE

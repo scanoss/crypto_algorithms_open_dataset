@@ -1,0 +1,22 @@
+algorithmId:
+algorithmName: whirpool
+securityStrength: '128'
+keywords:
+    - whirlpool.New
+    - whirpool.go
+    - rhash_whirlpool_init
+    - rhash_whirlpool_sbox
+    - rhash_whirlpool_process_block
+    - WHIRLPOOL_OP
+    - WHIRLPOOL_Update
+    - WHIRLPOOL_BitUpdate
+    - WHIRLPOOL_Final
+    - whirlpool_block_mmx
+    - whirlpool_block
+    - WHIRLPOOL_Init
+    - '#include <whirlpool.h>'
+    - '#include "whirlpool.h"'
+    - 'import org.bouncycastle.crypto.digests.WhirlpoolDigest'
+    - "crypto.createHash('whirlpool')"
+    - github.com/jzelinskie/whirlpool
+    - "hashlib.new('whirlpool')"
