@@ -3,13 +3,19 @@
 This data set, which includes a list of cryptography algorithms with an open source implementation, was originally the output of SCANOSS mining efforts across its entire data base, which includes all relevant open source software published. Today, the intention is to turn this repository into a collaborative project to enrich and maintain this data set, not just for export control, the original target activity, but for other purposes as well, like quantum safe.
 
 ## Folder Structure
-There are two main folders in this repo:
-* [definitions](definitions)
+There are two main folders in this repo and several subfolders:
+* [definitions_crypto_algorithms](definitions_crypto_algorithms)
+   * [list_definitions_crypto_algorithms](definitions_crypto_algorithms/list_definitions_crypto_algorithms)
+   * [spec_crypto_algorithms](definitions_crypto_algorithms/spec_crypto_algorithms)
 * [utilities](utilities)
 
-### Definitions
-The [definitions](definitions) folder contains a set of YAML files which define all
-the available cryptographic algorithms to be used when searching for hints inside source files.
+### Definitions_crypto_algorithms
+
+The [definitions_crypto_algorithms](definitions_crypto_algorithms) folder contains the current definitions list together the information to create new ones or enrich the existing ones
+
+#### list_definitions_crypto_algorithms
+
+The [list_definitions_crypto_algorithms](definitions_crypto_algorithms folder contains a set of YAML files which define all the available cryptographic algorithms to be used when searching for hints inside source files.
 
 Each YAML file defines one algorithm with the following:
 ```yaml
@@ -22,9 +28,14 @@ keywords:
     - search-for
 ```
 
-An example can be found in [camellia.yml](definitions/camellia.yaml)
+An example can be found in [camellia.yml](definitions/camellia.yaml). Yo can also check the [definitions template](definitions_crypto_algorithms/list_definitions_crypto_algorithms/description_definition_template_crypto_algorithm.md)
+
+#### spec_crypto_algorithms
+
+The [spec_crypto_algorithms](definitions_crypto_algorithms/spec_crypto_algorithms) contains the information to create new definitions or to enrich the existing ones as well as a description of the syntax followed on each definition.
 
 ### Utilities
+
 The [utilities](utilities) folder contains some helper utility scripts written in Python to
 illustrate how these definitions can be leveraged.
 
