@@ -1,13 +1,14 @@
 # Cryptographic Algorithms Open Dataset
 
-This data set, which includes a list of cryptography algorithms with an open source implementation, was originally the output of SCANOSS mining efforts across its entire data base, which includes all relevant open source software published. Today, the intention is to turn this repository into a collaborative project to enrich and maintain this data set, not just for export control, the original target activity, but for other purposes as well, like quantum safe.
+This data set, which includes a list of cryptography algorithms with an open source implementation, was originally the output of SCANOSS mining efforts across its entire data base, which includes all relevant open source software published. Today, the intention is to turn this repository into a collaborative project to enrich and maintain this data set, not just for export control, the original target activity, but for other purposes as well, like quantum safe or compliance with a variety of regulations.
 
 ## Folder Structure
 There are two main folders in this repo and several subfolders:
 * [definitions_crypto_algorithms](definitions_crypto_algorithms)
-   * [list_definitions_crypto_algorithms](definitions_crypto_algorithms/list_definitions_crypto_algorithms)
-   * [spec_crypto_algorithms](definitions_crypto_algorithms/spec_crypto_algorithms)
+    * [list_definitions_crypto_algorithms](definitions_crypto_algorithms/list_definitions_crypto_algorithms)
+    * [spec_crypto_algorithms](definitions_crypto_algorithms/spec_crypto_algorithms)
 * [utilities](utilities)
+* [docs_crypto_algorithms](docs_crypto_algorithms)
 
 ### Definitions_crypto_algorithms
 
@@ -41,6 +42,10 @@ illustrate how these definitions can be leveraged.
 
 The primary example is [crypto_detect.py](utilities/crypto_detect.py).
 More details on how to use it can be found [here](utilities/README.md)
+
+### docs_crypto_algorithms
+
+The [docs_crypto_algorithms](docs_crypto_algorithms) folder contains documents that are relevant for maintainers, contributors and users
 
 ## Contributing New Cryptographic Data
 If you find a missing/invalid keyword, please do the following:
