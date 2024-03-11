@@ -83,5 +83,5 @@ Values format might vary depending on the software package
 
 #### keywords
 
-* Description:
-* Values:
+* Description: these keywords can be used to identify a certain algorithm. Any one match will indicate the cryptographic implementations found. It's important not to repeat keywords between definitions.
+* Values: list of unique strings (with or without spaces).
