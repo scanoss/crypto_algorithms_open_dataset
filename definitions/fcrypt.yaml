@@ -1,5 +1,6 @@
-algorithm: fcrypt
-strength: '128'
+algorithmId:
+algorithmName: fcrypt
+securityStrength: '128'
 keywords:
     - fcrypt.encrypt
     - fcrypt.decrypt

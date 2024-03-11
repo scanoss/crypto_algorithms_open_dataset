@@ -1,5 +1,6 @@
-algorithm: des
-strength: '168'
+algorithmId:
+algorithmName: des
+securityStrength: '168'
 keywords:
     - des_setparity
     - DESERR_NONE

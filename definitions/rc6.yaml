@@ -1,5 +1,6 @@
-algorithm: rc6
-strength: '128'
+algorithmId:
+algorithmName: rc6
+securityStrength: '128'
 keywords:
     - AlgorithmRC6
     - RC6.encrypt

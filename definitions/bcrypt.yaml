@@ -1,5 +1,6 @@
-algorithm: bcrypt
-strength: '320'
+algorithmId:
+algorithmName: bcrypt
+securityStrength: '320'
 keywords:
     - bcrypt
     - pycabcrypt.h

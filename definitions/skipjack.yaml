@@ -1,5 +1,6 @@
-algorithm: skipjack
-strength: '32'
+algorithmId:
+algorithmName: skipjack
+securityStrength: '32'
 keywords:
     - FastSkipJack
     - SkipJack

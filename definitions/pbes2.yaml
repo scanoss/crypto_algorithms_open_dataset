@@ -1,5 +1,6 @@
-algorithm: pbes2
-strength: '256'
+algorithmId:
+algorithmName: pbes2
+securityStrength: '256'
 keywords:
     - getPBES2EncryptionObject
     - id-PBES2

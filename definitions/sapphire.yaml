@@ -1,5 +1,6 @@
-algorithm: sapphire
-strength: '256'
+algorithmId:
+algorithmName: sapphire
+securityStrength: '256'
 keywords:
     - sapphire.h
     - 'sapphire::keyrand'

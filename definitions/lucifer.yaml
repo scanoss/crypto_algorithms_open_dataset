@@ -1,4 +1,5 @@
-algorithm: lucifer
-strength: '128'
+algorithmId:
+algorithmName: lucifer
+securityStrength: '128'
 keywords:
     - lucifer.h

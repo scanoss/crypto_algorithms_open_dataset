@@ -1,5 +1,6 @@
-algorithm: elgamal
-strength: '128'
+algorithmId:
+algorithmName: elgamal
+securityStrength: '128'
 keywords:
     - egKey
     - elgamal.py

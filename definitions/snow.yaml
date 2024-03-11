@@ -1,5 +1,6 @@
-algorithm: snow
-strength: '128'
+algorithmId:
+algorithmName: snow
+securityStrength: '128'
 keywords:
     - snow5_aes_round
     - snow-3g.h

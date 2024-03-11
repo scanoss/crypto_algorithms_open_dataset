@@ -1,5 +1,6 @@
-algorithm: diffiehellman
-strength: '128'
+algorithmId:
+algorithmName: diffiehellman
+securityStrength: '128'
 keywords:
     - getDhObjectFromEvent
     - RSA_DH.cpp

@@ -1,5 +1,6 @@
-algorithm: srp
-strength: '128'
+algorithmId:
+algorithmName: srp
+securityStrength: '128'
 keywords:
     - SRP_VBASE_get1_by_user
     - SRP_create_verifier_BN_ex

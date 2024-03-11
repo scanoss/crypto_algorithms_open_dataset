@@ -1,4 +1,5 @@
-algorithm: dcc
-strength: '64'
+algorithmId:
+algorithmName: dcc
+securityStrength: '64'
 keywords:
     - DCC.py

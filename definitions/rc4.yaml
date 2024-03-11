@@ -1,5 +1,6 @@
-algorithm: rc4
-strength: '2048'
+algorithmId:
+algorithmName: rc4
+securityStrength: '2048'
 keywords:
     - RC4_H
     - RC4_KEY_S

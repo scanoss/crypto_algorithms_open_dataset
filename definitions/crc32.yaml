@@ -1,5 +1,6 @@
-algorithm: crc32
-strength: '32'
+algorithmId:
+algorithmName: crc32
+securityStrength: '32'
 keywords:
     - crc32h.h
     - crc32.c

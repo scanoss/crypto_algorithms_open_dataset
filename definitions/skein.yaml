@@ -1,5 +1,6 @@
-algorithm: skein
-strength: '256'
+algorithmId:
+algorithmName: skein
+securityStrength: '256'
 keywords:
     - skeincrypto.h
     - skein

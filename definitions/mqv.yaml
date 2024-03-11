@@ -1,5 +1,6 @@
-algorithm: mqv
-strength: '512'
+algorithmId:
+algorithmName: mqv
+securityStrength: '512'
 keywords:
     - mqv.h
     - hmqv.h

@@ -1,5 +1,6 @@
-algorithm: pkcs12
-strength: '128'
+algorithmId:
+algorithmName: pkcs12
+securityStrength: '128'
 keywords:
     - PKCS7_digest_from_attributes
     - PKCS7_set_content

@@ -1,4 +1,5 @@
-algorithm: snerfu
-strength: '256'
+algorithmId:
+algorithmName: snerfu
+securityStrength: '256'
 keywords:
     - Snefru

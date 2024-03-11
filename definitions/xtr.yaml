@@ -1,5 +1,6 @@
-algorithm: xtr
-strength: '64'
+algorithmId:
+algorithmName: xtr
+securityStrength: '64'
 keywords:
     - CRYPTOPP_XTR_H
     - XTR_FindPrimesAndGenerator

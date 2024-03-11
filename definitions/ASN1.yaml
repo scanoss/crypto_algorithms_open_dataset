@@ -1,5 +1,6 @@
-algorithm: ASN1
-strength: '256'
+algorithmId:
+algorithmName: ASN1
+securityStrength: '256'
 keywords:
     - '#include <openssl/asn1.h>'
     - ASN1_INTEGER_new

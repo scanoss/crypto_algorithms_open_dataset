@@ -1,5 +1,6 @@
-algorithm: md4
-strength: '128'
+algorithmId:
+algorithmName: md4
+securityStrength: '128'
 keywords:
     - MD4.h
     - MD4_HMAC_BLOCK_SIZE

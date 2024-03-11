@@ -1,5 +1,6 @@
-algorithm: sms4
-strength: '128'
+algorithmId:
+algorithmName: sms4
+securityStrength: '128'
 keywords:
     - sm4_encdec
     - CRYPTOPP_SM4_H

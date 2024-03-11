@@ -1,5 +1,6 @@
-algorithm: xtea
-strength: '128'
+algorithmId:
+algorithmName: xtea
+securityStrength: '128'
 keywords:
     - xtea_setkey
     - xtea.h

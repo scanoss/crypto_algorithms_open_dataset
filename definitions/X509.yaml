@@ -1,5 +1,6 @@
-algorithm: X509
-strength: '128'
+algorithmId:
+algorithmName: X509
+securityStrength: '128'
 keywords:
     - '#include <openssl/x509.h>'
     - PEM_read_X509

@@ -1,5 +1,6 @@
-algorithm: ssha
-strength: '128'
+algorithmId:
+algorithmName: ssha
+securityStrength: '128'
 keywords:
     - checkssha
     - SSHA

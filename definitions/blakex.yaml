@@ -1,5 +1,6 @@
-algorithm: blakex
-strength: 256/512
+algorithmId:
+algorithmName: blakex
+securityStrength: 256/512
 keywords:
     - blake3.h
     - blake3_hasher_update

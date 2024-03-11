@@ -1,5 +1,6 @@
-algorithm: kazumi
-strength: '64'
+algorithmId:
+algorithmName: kazumi
+securityStrength: '64'
 keywords:
     - __KASUMI_H__
     - kasumi.h

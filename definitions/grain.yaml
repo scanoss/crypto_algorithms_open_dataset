@@ -1,5 +1,6 @@
-algorithm: grain
-strength: '128'
+algorithmId:
+algorithmName: grain
+securityStrength: '128'
 keywords:
     - grain128aead.h
     - Grain-128AEAD

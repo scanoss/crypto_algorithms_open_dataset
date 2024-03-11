@@ -1,5 +1,6 @@
-algorithm: tnepres
-strength: '256'
+algorithmId:
+algorithmName: tnepres
+securityStrength: '256'
 keywords:
     - TnepresEngine
     - Cipher.Tnepres

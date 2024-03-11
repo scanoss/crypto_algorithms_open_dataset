@@ -1,5 +1,6 @@
-algorithm: blum-goldwasser
-strength: '320'
+algorithmId:
+algorithmName: blum-goldwasser
+securityStrength: '320'
 keywords:
     - blumgoldwasser.py
     - BlumGoldwasser

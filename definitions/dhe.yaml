@@ -1,5 +1,6 @@
-algorithm: dhe
-strength: '128'
+algorithmId:
+algorithmName: dhe
+securityStrength: '128'
 keywords:
     - ECDHE-RSA-AES
     - DHE-RSA-AES

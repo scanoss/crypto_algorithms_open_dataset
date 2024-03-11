@@ -1,5 +1,6 @@
-algorithm: idea
-strength: '64'
+algorithmId:
+algorithmName: idea
+securityStrength: '64'
 keywords:
     - IdeaMode_h
     - IdeaEncryptStreamStatus

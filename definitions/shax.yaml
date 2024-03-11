@@ -1,5 +1,6 @@
-algorithm: shax
-strength: 128-512
+algorithmId:
+algorithmName: shax
+securityStrength: 128-512
 keywords:
     - SHA-1
     - SHA-224

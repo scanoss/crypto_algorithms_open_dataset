@@ -1,5 +1,6 @@
-algorithm: threefish
-strength: '1024'
+algorithmId:
+algorithmName: threefish
+securityStrength: '1024'
 keywords:
     - Crypto.Threefish.Common
     - newThreefish256

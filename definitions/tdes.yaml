@@ -1,5 +1,6 @@
-algorithm: tdes
-strength: '128'
+algorithmId:
+algorithmName: tdes
+securityStrength: '128'
 keywords:
     - TDES_FLAGS_ENCRYPT
     - TDES_FLAGS_OPMODE_MASK

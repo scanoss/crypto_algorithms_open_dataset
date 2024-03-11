@@ -1,5 +1,6 @@
-algorithm: twofish
-strength: '64'
+algorithmId:
+algorithmName: twofish
+securityStrength: '64'
 keywords:
     - twofish.h
     - Twofish_fatal

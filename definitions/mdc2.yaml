@@ -1,5 +1,6 @@
-algorithm: mdc2
-strength: '128'
+algorithmId:
+algorithmName: mdc2
+securityStrength: '128'
 keywords:
     - MDC2.h
     - mdc2

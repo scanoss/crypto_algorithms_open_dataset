@@ -1,5 +1,6 @@
-algorithm: aria
-strength: '128'
+algorithmId:
+algorithmName: aria
+securityStrength: '128'
 keywords:
     - aria.cpp
     - aria.h

@@ -1,5 +1,6 @@
-algorithm: shark
-strength: '64'
+algorithmId:
+algorithmName: shark
+securityStrength: '64'
 keywords:
     - voipshark
     - shark.h
