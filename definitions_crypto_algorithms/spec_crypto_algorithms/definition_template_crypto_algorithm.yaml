@@ -1,0 +1,22 @@
+# Cryptographic algorithm definition in YAML
+
+listVersion:
+
+section1:
+    title: cryptography algorithm definition
+    algorithmId:
+    securityStrength:
+    securityLifetime:
+    algorithmName:
+section2:
+    title: algorithm implementations
+    subsection1:
+        name:
+        version:
+        swhid:
+        purl:
+        description:
+section3:
+    title: references and keywords
+    crossRef:
+    keywords:

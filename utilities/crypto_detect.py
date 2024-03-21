@@ -1,5 +1,5 @@
 """
- SPDX-License-Identifier: CC0-1.0
+ SPDX-License-Identifier: MIT
    Copyright (c) 2024, SCANOSS
 """
 import os
@@ -114,8 +114,8 @@ def load_definitions(definitions_dir: str) -> dict:
                 print_trace(f'Loading definition: {file}')
                 with open(os.path.join(root, file), 'r') as yaml_file:
                     data = yaml.safe_load(yaml_file)
-                    if 'keywords' in data:
-                        for keyword in data['keywords']:
+                    if 'section3' in data and 'keywords' in data['section3']:
+                        for keyword in data['section3']['keywords']:
                             definitions[keyword].append(file)
     return definitions
 
