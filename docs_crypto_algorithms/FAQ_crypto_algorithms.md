@@ -30,11 +30,3 @@ crypto_algorithms_open_dataset was released under CC0 licenses (open data). The 
 ### What is the governance model of the project?
 
 Until the donation to a vendor neutral organization is done, the project is a company driven project where contributing to it is extremely easy, as in any other open source or open data project created and maintained by SCANOSS.
-
-## About the cryptography cryptography algorithms
-
-### Who do you expect to use this set of definitions?
-
-### Am I required to use the definitions?
-
-### Are these definitions related with published algorithms with open source implementations only or can I use it with other algorithms and implementations?
