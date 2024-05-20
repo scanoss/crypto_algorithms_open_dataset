@@ -34,6 +34,11 @@ This second part is structured in 3 sections
 * Description: security strength provided by an algorithm with a particular key length is a measure of the difficulty of subverting the cryptographic protection that is provided by the algorithm and key
 * Values: bbbb, where bbbb is an integer, provided in bits
 
+#### securityLifetime:
+
+* Description: the estimated time period during which data protected by a specific cryptographic algorithm (and key size) remains secure
+* Values: YYYY, where YYYY is the year.
+
 #### algorithmName
 
 * Description: name provided by the author of the algorithm, widely accepted or the corresponding standardization body and its acronym
