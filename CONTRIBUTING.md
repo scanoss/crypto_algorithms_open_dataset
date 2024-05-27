@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2024 2024 SCAN Open Source Software SL (scanoss.com)
+SPDX-FileContributor: [Author Name(s)] <[Optional: Email Address(es)]>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 # Contributing
 Thank you for considering contributing. Feel welcome and read the following sections
 in order to know how to get involved, ask questions and more importantly how to work on something.

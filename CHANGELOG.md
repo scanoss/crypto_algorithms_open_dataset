@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2024 2024 SCAN Open Source Software SL (scanoss.com)
+SPDX-FileContributor: [Author Name(s)] <[Optional: Email Address(es)]>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 # CHANGELOG
 
 Timeline including key events related with the crypto_algorithm_open_dataset project

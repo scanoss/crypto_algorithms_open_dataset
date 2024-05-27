@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2024 2024 SCAN Open Source Software SL (scanoss.com)
+SPDX-FileContributor: [Author Name(s)] <[Optional: Email Address(es)]>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 # crypto_algorithms_open_dataset project FAQ
 
 This is the Frequently Asked Questions (FAQ) document
