@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2024 2024 SCAN Open Source Software SL (scanoss.com)
+SPDX-FileContributor: [Author Name(s)] <[Optional: Email Address(es)]>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 This is the index of the cryptography algorithms definitions including the algorithmId and the link to the definition of each algorithm.
 
 * Date: 2024-03-14

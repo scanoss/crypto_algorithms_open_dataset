@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2024 2024 SCAN Open Source Software SL (scanoss.com)
+SPDX-FileContributor: [Author Name(s)] <[Optional: Email Address(es)]>
+
+SPDX-License-Identifier: MIT
+-->
+
 # Introduction
 This folder contains utility/helper scripts to best leverage the cryptographic algorithms project.
 
