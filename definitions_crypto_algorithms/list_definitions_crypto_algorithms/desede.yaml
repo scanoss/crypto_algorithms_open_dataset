@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: desede
+algorithmId: desede
+algorithmName: 
 securityStrength: '168'
 keywords:
     - javax.crypto.spec.DESedeKeySpec

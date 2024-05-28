@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: lucifer
+algorithmId: lucifer
+algorithmName:
 securityStrength: '128'
 keywords:
     - lucifer.h

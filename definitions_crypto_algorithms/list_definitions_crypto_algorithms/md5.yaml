@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: md5
+algorithmId: md5
+algorithmName:
 securityStrength: '128'
 keywords:
     - md5_file

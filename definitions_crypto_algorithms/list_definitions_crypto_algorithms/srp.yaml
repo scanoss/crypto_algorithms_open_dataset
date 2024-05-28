@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: srp
+algorithmId: srp
+algorithmName:
 securityStrength: '128'
 keywords:
     - SRP_VBASE_get1_by_user

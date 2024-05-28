@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: md160
+algorithmId: md160
+algorithmName:
 securityStrength: '64'
 keywords:
     - ripemd160.h

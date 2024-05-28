@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: gost
+algorithmId: gost
+algorithmName: 
 securityStrength: '64'
 keywords:
     - gost_28147_89

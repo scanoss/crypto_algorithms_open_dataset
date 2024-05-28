@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: mscash2
+algorithmId: mscash2
+algorithmName:
 securityStrength: '128'
 keywords:
     - mascash2

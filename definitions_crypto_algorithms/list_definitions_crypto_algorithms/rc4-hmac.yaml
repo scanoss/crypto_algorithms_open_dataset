@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: rc4-hmac
+algorithmId: rc4-hmac
+algorithmName:
 securityStrength: '2048'
 keywords:
     - RC4-HMAC-MD5

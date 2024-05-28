@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: vmpc
+algorithmId: vmpc
+algorithmName:
 securityStrength: ''
 keywords:
     - 'VMPCEngine.java '

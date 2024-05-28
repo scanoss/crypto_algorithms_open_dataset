@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: yarrow
+algorithmId: yarrow
+algorithmName:
 securityStrength: '160'
 keywords:
     - yarrow_start
