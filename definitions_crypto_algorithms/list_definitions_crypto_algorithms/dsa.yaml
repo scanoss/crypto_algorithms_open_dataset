@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: dsa
+algorithmId: dsa
+algorithmName: 
 securityStrength: '128'
 keywords:
     - ossl_dsa_generate_ffc_parameters

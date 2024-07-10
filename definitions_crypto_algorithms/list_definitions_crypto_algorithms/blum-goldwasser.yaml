@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: blum-goldwasser
+algorithmId: blum-goldwasser
+algorithmName: 
 securityStrength: '320'
 keywords:
     - blumgoldwasser.py

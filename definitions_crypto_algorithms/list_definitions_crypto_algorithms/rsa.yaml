@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: rsa
+algorithmId: rsa
+algorithmName:
 securityStrength: '128'
 keywords:
     - forge.pki.rsa.

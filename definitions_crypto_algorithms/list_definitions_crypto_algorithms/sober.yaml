@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: sober
+algorithmId: sober
+algorithmName:
 securityStrength: '128'
 keywords:
     - LTC_SOBER128

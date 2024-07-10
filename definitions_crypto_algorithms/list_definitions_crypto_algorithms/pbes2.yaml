@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: pbes2
+algorithmId: pbes2
+algorithmName:
 securityStrength: '256'
 keywords:
     - getPBES2EncryptionObject
