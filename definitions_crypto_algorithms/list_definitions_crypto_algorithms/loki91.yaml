@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: loki91
+algorithmId: loki91
+algorithmName:
 securityStrength: '64'
 keywords:
     - loki.h

@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: snow
+algorithmId: snow
+algorithmName:
 securityStrength: '128'
 keywords:
     - snow5_aes_round

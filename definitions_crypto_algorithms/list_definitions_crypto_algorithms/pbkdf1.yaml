@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: pbkdf1
+algorithmId: pbkdf1
+algorithmName:
 securityStrength: '128'
 keywords:
     - pbkdf1.js

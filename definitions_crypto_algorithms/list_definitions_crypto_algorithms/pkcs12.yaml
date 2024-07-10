@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: pkcs12
+algorithmId: pkcs12
+algorithmName:
 securityStrength: '128'
 keywords:
     - PKCS7_digest_from_attributes

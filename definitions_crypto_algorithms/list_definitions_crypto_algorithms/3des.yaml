@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: 3des
+algorithmId: 3des
+algorithmName: 
 securityStrength: '128'
 keywords:
     - botan-3.dll

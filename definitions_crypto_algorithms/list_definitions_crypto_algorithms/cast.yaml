@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: cast
+algorithmId: cast
+algorithmName: 
 securityStrength: '320'
 keywords:
     - CAST_ecb_encrypt

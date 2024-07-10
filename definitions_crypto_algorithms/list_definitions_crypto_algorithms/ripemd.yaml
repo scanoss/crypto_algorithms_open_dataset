@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: ripemd
+algorithmId: ripemd
+algorithmName:
 securityStrength: '128'
 keywords:
     - RIPEMD160_DIGEST_LENGTH

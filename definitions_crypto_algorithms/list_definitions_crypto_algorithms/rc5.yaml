@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: rc5
+algorithmId: rc5
+algorithmName:
 securityStrength: '128'
 keywords:
     - RC5.new

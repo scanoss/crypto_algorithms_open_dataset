@@ -3,8 +3,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId:
-algorithmName: misty1
+algorithmId: misty1
+algorithmName:
 securityStrength: '32'
 keywords:
     - misty1_keyinit
