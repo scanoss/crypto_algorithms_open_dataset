@@ -10,6 +10,10 @@ keywords:
     - botan.dll
     - libbotan-3.dylib
     - libbotan-2.dylib
-    - libbotan-3.so
-    - libbotan-2.so
+    - libbotan-3.s
     - libbotan-2.s
+    - tripledes
+    - triple_des
+    - 3DES
+    - DES3-KD
+    

@@ -6,4 +6,4 @@ algorithmId: pbkdf1
 algorithmName:
 securityStrength: '128'
 keywords:
-    - pbkdf1.js
+    - pbkdf1

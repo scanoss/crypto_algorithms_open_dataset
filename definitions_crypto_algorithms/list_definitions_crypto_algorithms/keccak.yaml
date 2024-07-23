@@ -3,9 +3,12 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: keccak
-algorithmName:
+algorithmName: Keecak
 securityStrength: '256'
 keywords:
     - KeccakHash.h
     - Keccak_HashFinal
     - KeccakSum
+    - keccak256
+    - keccak512
+    - KECCAK_

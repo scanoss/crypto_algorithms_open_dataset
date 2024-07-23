@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: shax
-algorithmName:
+algorithmName: Secure Hash Algorithm
 securityStrength: 128-512
 keywords:
     - SHA-1
@@ -21,24 +21,21 @@ keywords:
     - jsSHA3
     - sha3.sha3_256
     - sha.ts
-    - SHA512_Update
-    - SHA512_Init
-    - sha512_block_data_order
-    - SHA512_Transform
-    - sha512_block_p8
-    - SHA512_Final
-    - SHA256_Init
-    - SHA224_Update
-    - SHA224_Final
-    - sha512_256_init
-    - sha512_block_ppc
+    - SHA512_
+    - SHA256_
+    - SHA224_
+    - SHA384_
+    - SHA3_224_
+    - SHA3_384
+    - openssl sha384
+    - hashlib.sha384
+    - CryptoJS.SHA384
     - 'import org.bouncycastle.crypto.digests.SHA256Digest'
     - 'import org.bouncycastle.crypto.digests.SHA512Digest'
     - forge.md.sha256.
     - "createHash('sha256')"
     - CryptoJS.SHA256
     - DigestUtils.sha256Hex
-    - '.getInstance("SHA-256")'
     - "'sha512'"
     - openssl/sha.h
     - cryptopp/sha.h
@@ -47,3 +44,6 @@ keywords:
     - crypto/sha512
     - "hash('sha256'"
     - sha256(
+    - CryptoJS.SHA512
+    - hashlib.sha3_384
+    - CryptoJS.SHA3_384

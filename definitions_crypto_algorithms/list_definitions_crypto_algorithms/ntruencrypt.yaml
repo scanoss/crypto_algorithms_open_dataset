@@ -3,14 +3,22 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: ntruencrypt
-algorithmName:
+algorithmName: NTRUEncrypt
 securityStrength: '128'
 keywords:
-    - NTRU_NTRU_H
+    - NTRU_
     - ntru.h
     - ntruprime_gen_key_pair
-    - ntru_gen_key_pair_multi
-    - ntru_gen_pub
-    - ntru_encrypt
-    - ntru_decrypt
     - net.sf.ntru.util
+    - generateNTRUKeyPair
+    - ntruGenerateKeyPair
+    - ntruDec
+    - generateNTRUKeys
+    - encryptWithNTRU
+    - decryptWithNTRU
+    - generateNTRUKeyPair
+    - encryptNTRU
+    - decryptNTRU
+    - ntruGenerateKeyPair
+    - ntruEnc
+

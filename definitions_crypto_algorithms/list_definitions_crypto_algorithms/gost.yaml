@@ -8,7 +8,9 @@ securityStrength: '64'
 keywords:
     - gost_28147_89
     - gost.hpp
-    - GOST28147_COMPRESSED_SBOX
-    - GOST28147EncryptCycle
-    - GOST28147EncryptBlock
-    - GOST28147SBoxTransformation
+    - GOST28147
+    - GOST_28147
+    - GOST_34_11_94_
+    - GOST_34_11_2012_
+    - GOST_34_12_2015_
+    - libgost

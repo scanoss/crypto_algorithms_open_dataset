@@ -3,19 +3,20 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: mqv
-algorithmName:
+algorithmName: Menezes-Qu-Vanstone
 securityStrength: '512'
 keywords:
     - mqv.h
     - hmqv.h
     - ECMQV
     - EQV_Domain
-    - ECHMQV512
-    - ECHMQV384
-    - ECHMQV256
-    - ECHMQV128
     - FHMQV
     - FHMQV512
     - FHMQV384
     - FHMQV256
     - FHMQV128
+    - Menezes-Qu-Vanstone
+    - MQV_key_agreement
+    - MQV_key_exchange"
+    - MQV_signing
+    - MQV_verification"

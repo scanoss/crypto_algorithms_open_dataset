@@ -8,31 +8,37 @@ securityStrength: '256'
 keywords:
     - GibberishAES
     - aes.h
+    - aes.js
     - tiny-AES-c
     - AES_set_encrypt_key
     - AES_set_decrypt_key
     - AES_ige_encrypt
-    - AES_ofb128_encrypt
-    - AES_ecb_encrypt
-    - AES_cbc_encrypt
-    - AES_cfb8_encrypt
-    - AES_cfb128_encrypt
+    - AES_ofb128_
+    - AES_ecb_
+    - AES_cbc_
+    - AES_cfb8_
+    - AES_cfb128_
     - AES_wrap_key
-    - AES_cfb1_encrypt
+    - AES_cfb1_
     - AES_unwrap_key
-    - aes.js
-    - "require('aes-js')"
-    - "require('sjcl')"
-    - "require('crypto-js');"
+    - require('aes-js')
+    - require('sjcl')
+    - <openssl/aes.h>
+    - .getInstance("AES");
     - CryptoJS.AES.encrypt
-    - CryptoJS.AES.decryp
-    - '<openssl/aes.h>'
-    - '.getInstance("AES");'
-    - 'module.exports = AES'
+    - CryptoJS.AES.decryp 
+    - module.exports = AES
     - AES.prototype
     - aes.AES
     - AES/CBC/NoPadding
-    - 'AES/CBC/PKCS5Padding '
+    - AES/CBC/PKCS5Padding 
     - AES/ECB/NoPadding
     - AES/ECB/PKCS5Padding
     - AES/GCM/NoPadding
+    - Advanced Encryption Standard"
+    - _AES
+    - AES128
+    - AES256
+    - rijndael
+    - BMGL
+    - aesKey

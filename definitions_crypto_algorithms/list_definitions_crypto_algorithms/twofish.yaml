@@ -12,3 +12,6 @@ keywords:
     - exp_Twofish_prepare_key
     - Twofish_prepare_key
     - twofish.h
+    - Twofish_prepare_key
+	- 0xA9, 0x67, 0xB3, 0xE8
+	- 0xBCBC3275

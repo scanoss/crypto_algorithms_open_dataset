@@ -11,3 +11,4 @@ keywords:
     - fcrypt_ctx
     - fcrypt_mod_init
     - F_ENCRYPT
+    - crypt_gensalt

@@ -3,8 +3,15 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: panama
-algorithmName:
+algorithmName: PANAMA
 securityStrength: '128'
 keywords:
     - panama.h
     - panama_LTX__
+    - panama_
+    - PanamaInit
+    - PanamaUpdate
+    - PanamaFinal  
+    - PanamaEncrypt
+    - PanamaContext
+    - PanamaKeySetup

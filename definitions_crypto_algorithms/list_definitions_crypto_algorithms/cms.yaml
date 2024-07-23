@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: cms
-algorithmName: 
+algorithmName: Count-Min Sketch
 securityStrength: '64'
 keywords:
     - '#include <openssl/cms.h>'
@@ -11,3 +11,5 @@ keywords:
     - CMS_encrypt
     - 'import org.bouncycastle.cms.'
     - CMSEnvelopedDataGenerator
+    - countminsketch
+    - 'cm-sketch'

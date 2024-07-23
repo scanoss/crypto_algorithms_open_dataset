@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: mceliece
-algorithmName:
+algorithmName: McEliece
 securityStrength: '64'
 keywords:
     - MCELIECE_H
@@ -11,3 +11,8 @@ keywords:
     - mceliece_init
     - delete_mceliece
     - mceliececipher.py
+    - mceliece_keygen"
+    - mceliece_enc
+    - mceliece_dec
+    - mceliece_g
+    

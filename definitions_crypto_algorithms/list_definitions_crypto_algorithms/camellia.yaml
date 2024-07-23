@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: camellia
-algorithmName: 
+algorithmName: Camellia
 securityStrength: '256'
 keywords:
     - camellia.core
@@ -12,15 +12,33 @@ keywords:
     - Camellia_cfb8_encrypt
     - Camellia_ctr128_encrypt
     - Camellia_set_key
-    - Camellia_EncryptBlock_Rounds
-    - Camellia_DecryptBlock
-    - Camellia_decrypt
-    - Camellia_DecryptBlock_Rounds
     - Camellia_cfb128_encrypt
     - Camellia_Ekeygen
-    - Camellia_EncryptBlock
     - Camellia_cbc_encrypt
     - Camellia_cfb1_encrypt
     - Camellia_ecb_encrypt
+    - Camellia_ecb_decrypt
     - Camellia_encrypt
     - Camellia_ofb128_encrypt
+    - camellia_set_key
+    - camellia_decrypt
+    - Crypto.Cipher.Camellia.MODE_ECB
+    - Crypto.Cipher.Camellia.MODE_CBC
+    - Crypto.Cipher.Camellia.MODE_CFB
+    - Crypto.Cipher.Camellia.MODE_OFB
+    - Crypto.Cipher.Camellia.MODE_CTR
+    - javax.crypto.Cipher
+    - javax.crypto.spec.SecretKeySpec
+    - EVP_camellia_128_cbc
+    - EVP_camellia_192_cbc
+    - EVP_camellia_256_cbc
+    - camellia.NewCipher
+    - camellia.Encrypt
+    - camellia.Decrypt
+    - camellia::Camellia::new
+    - camellia::Camellia::encrypt
+    - camellia::Camellia::decrypt
+    - camellia.createCipher
+    - camellia.createDecipher
+    - camellia.update
+    - camellia.final

@@ -7,11 +7,15 @@ algorithmName:
 securityStrength: '128'
 keywords:
     - LTC_SOBER128
-    - sober128_start
-    - sober128_add_entropy
-    - sober128_ready
-    - sober128_read
-    - sober128_done
-    - sober128_export
-    - sober128_import
-    - sober128_test
+    - sober128_
+    - SOBER32_
+    - SOBER64_
+    - sober_generate_key
+    - sober_generate_iv
+    - sober_set_key
+    - sober_set_iv
+    - sober_process
+    - sober_finalize
+    - sober_enc
+    - sober_dec
+    

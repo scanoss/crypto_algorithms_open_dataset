@@ -1,11 +1,44 @@
-# SPDX-FileContributor: [Author Name(s)] <[Optional: Email Address(es)]>
+# SPDX-FileContributor: [Author Names] <[Optional: Email Addresses]>
 #
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: ecdh
-algorithmName: 
+algorithmName: Elliptic Curve Diffie-Hellman
 securityStrength: '128'
 keywords:
     - ecdh_generate_keys
     - ecdh_shared_secret
     - ECC_PRV_KEY_SIZE
+    - crypto.createECDH
+    - ecdh.setPrivateKey
+    - ecdh.computeSecret
+    - ecdh.getPublicKey
+    - ecdh.getPrivateKey
+    - CryptoPP::EC
+    - CryptoPP::DL_GroupParameters_EC
+    - ECDiffieHellman
+    - OpenSSL::PKey::EC
+    - crypto/ecdsa
+    - crypto/elliptic
+    - SECP256K1
+    - SECP384R1
+    - SECP521R1
+    - NIST_P192
+    - SECP256K1
+    - SECP384R1
+    - SECP521R1
+    - NIST_P192
+    - CryptoPP::SECP256K1
+    - CryptoPP::SECP384R1
+    - CryptoPP::SECP521R1
+    - ECDsaPublicKey
+    - ECDsaPrivateKey
+    - ECCurve
+    - ECCurve.NamedCurves
+    - OpenSSL::PKey::EC
+    - elliptic.P256
+    - elliptic.P384
+    - elliptic.P521
+ 
+
+

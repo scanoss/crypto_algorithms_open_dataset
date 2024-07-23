@@ -9,3 +9,5 @@ keywords:
     - __KASUMI_H__
     - kasumi.h
     - kasumi_desc
+    - kazumiEncrypt
+    - kazumiDecrypt

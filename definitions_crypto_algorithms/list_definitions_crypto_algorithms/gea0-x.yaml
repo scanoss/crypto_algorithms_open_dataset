@@ -3,8 +3,10 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: gea0-x
-algorithmName: 
+algorithmName: GSM Encryption Algorithm
 securityStrength: 64-128
 keywords:
     - LL_GEA
     - hf_nas_eps_emm_gea
+    - gea0_x_
+    - libgea0_x-

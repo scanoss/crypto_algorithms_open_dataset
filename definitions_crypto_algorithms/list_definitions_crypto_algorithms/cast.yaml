@@ -6,11 +6,32 @@ algorithmId: cast
 algorithmName: 
 securityStrength: '320'
 keywords:
-    - CAST_ecb_encrypt
-    - CAST_encrypt
-    - CAST_decrypt
-    - CAST_cbc_encrypt
     - CAST_set_key
+    - cast_encrypt
+    - cast_decrypt
+    - cast6_set_key
+    - cast6_encrypt
+    - cast6_decrypt
+    - CAST_KEY_LENGTH
+    - CAST_BLOCK_SIZE
+    - CAST_ROUNDS
+    - CAST_SBOX
+    - CAST6_KEY_LENGTH
+    - CAST6_BLOCK_SIZE
+    - CAST6_ROUNDS
+    - CAST128
+    - CAST256
     - CAST3.h
     - cast5.h
     - pyCast6
+    -  CAST5
+    -  CAST128
+    -  CAST-128
+    -  CAST_128
+    - 0x30fb40d4
+    - 0x7EC90C04
+    -  CAST6 
+    - CAST256
+    - CAST-256
+    - CAST_256
+    - 0x0F1946B8

@@ -3,10 +3,17 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: crc32
-algorithmName: 
+algorithmName: CRC32
 securityStrength: '32'
 keywords:
     - crc32h.h
     - crc32.c
     - crc32_table
     - xcrc32
+    - "java.util.zip.CRC32"
+    - CRC32_POLY
+    - CRC32_INIT
+    - "crc32.IEEE"
+    - CRC32_
+    - CRC_32_
+

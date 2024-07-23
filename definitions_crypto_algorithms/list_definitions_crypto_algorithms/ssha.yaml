@@ -3,12 +3,10 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: ssha
-algorithmName:
+algorithmName: Salted SHA
 securityStrength: '128'
 keywords:
     - checkssha
-    - SSHA
-    - SSHA224PasswordEncoder
-    - SSHA224PasswordDecoder
-    - SSHA256PasswordEncoder
-    - SSHA256PasswordDecoder
+    - SSHA_
+    - SSHA224Password
+    

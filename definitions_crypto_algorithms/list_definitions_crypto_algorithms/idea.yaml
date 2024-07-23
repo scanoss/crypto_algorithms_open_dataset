@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: idea
-algorithmName: 
+algorithmName: International Data Encryption Algorithm
 securityStrength: '64'
 keywords:
     - IdeaMode_h
@@ -13,3 +13,16 @@ keywords:
     - IdeaStreamCTRRandomAccessInit
     - IdeaStreamPCB
     - IdeaStreamCFB
+    - idea_encrypt
+    - idea_decrypt
+    - idea_key_schedule
+    - idea_cbc_
+    - idea_cfb
+    - idea_ofb_
+    - idea_ecb
+    - IDEA_BLOCK_SIZE"
+    - IDEA_KEY_SIZE"
+    - IDEA_NUM_ROUNDS"
+    - IDEA_ENCRYPT"
+    - IDEA_DECRYPT"
+    - IDEA_KEY

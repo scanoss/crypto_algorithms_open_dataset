@@ -9,9 +9,33 @@ keywords:
     - rc2_LTX__mcrypt_
     - RC2_encrypt
     - RC2_decrypt
-    - RC2_ecb_encrypt
+   
     - RC2_set_key
-    - RC2_cfb64_encrypt
-    - RC2_ofb64_encrypt
-    - RC2_cbc_encrypt
+    - RC2_cfb
+   
+    - RC2_cbc_
     - '#include <openssl/rc2.h>'
+    - RC2.block_size
+    - RC2.key_size
+    - RC2.encrypt
+    - RC2.decrypt
+    - RC2Engine.
+    - RC2.block_size
+    - Cipher::RC2
+    - rc2.New
+    - rc2.NewCipher
+    - createCipheriv('rc2'
+    - createDecipheriv('rc2'
+    - RC2_128
+    - RC2Context
+    - RC2_set_key
+    - rc2_ecb
+    - rc2_ofb
+    - rc2-cbc
+    - rc2-cfb
+    - rc2-ecb
+    - rc2-ofb
+    - RC2_BLOCK_SIZE
+    - RC2_KEY
+    - RC2 algorithm
+

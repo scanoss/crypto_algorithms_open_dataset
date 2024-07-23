@@ -3,9 +3,13 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: fletcher
-algorithmName: 
+algorithmName: Fletcher
 securityStrength: '64'
 keywords:
     - fletcher64
     - fletcher32
     - fletcher16
+    - fletcher_checksum
+    - fletcher_hash
+    - fletcher_update
+    - fletcher_finaliz

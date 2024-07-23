@@ -3,10 +3,17 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: hc128
-algorithmName: 
+algorithmName: HC-128
 securityStrength: '128'
 keywords:
     - CRYPTOPP_HC128_H
     - HC-128
     - HC128Info
     - Hc128Rng
+    - HC128_KEY_SIZE
+    - HC128_IV_SIZE
+    - HC128_BLOCK_SIZE
+    - HC128_STATE_SIZE
+    - HC128_P
+    - HC128_Q
+    - HC128_R

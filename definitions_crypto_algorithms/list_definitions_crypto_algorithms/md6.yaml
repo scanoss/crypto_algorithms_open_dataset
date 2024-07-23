@@ -6,7 +6,10 @@ algorithmId: md6
 algorithmName:
 securityStrength: '512'
 keywords:
-    - MD6.py
     - md6_encrypt
     - CatMD6Crypto
     - md6Crypto.hash
+    - md6.
+    - md6_
+    - md6:: 
+    

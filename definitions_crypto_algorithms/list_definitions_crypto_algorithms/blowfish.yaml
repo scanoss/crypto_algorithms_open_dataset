@@ -8,3 +8,19 @@ securityStrength: '320'
 keywords:
     - egoroof-blowfish
     - blowfish
+    - Blowfish_Init
+    - Blowfish_Encrypt
+    - Blowfish_Decrypt
+    - BLOWFISH_BLOCK_SIZE
+    - Blowfish.new(
+    - pycryptodome
+    - Blowfish_encipher
+    - Blowfish_decipher
+    - Blowfish_F
+    - Blowfish_P_array
+    - Blowfish_S_boxes
+    - Blowfish_generate_subkeys
+    - BLOWFISH_KEY_SIZE
+    - BLOWFISH_MAX_KEY_SIZE
+
+

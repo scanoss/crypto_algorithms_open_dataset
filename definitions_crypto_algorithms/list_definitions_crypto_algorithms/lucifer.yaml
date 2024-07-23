@@ -7,3 +7,12 @@ algorithmName:
 securityStrength: '128'
 keywords:
     - lucifer.h
+    - lucifer_encrypt
+    - lucifer_decrypt
+    - lucifer_key_schedule
+    - lucifer_round_function
+    - lucifer_setup
+    - lucifer_permute
+    - LUCIFER_BLOCK_SIZE
+    - LUCIFER_KEY_SIZE
+    - LUCIFER_NUM_ROUNDS

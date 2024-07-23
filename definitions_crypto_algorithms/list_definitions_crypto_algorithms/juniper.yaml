@@ -3,8 +3,22 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: juniper
-algorithmName: 
+algorithmName: Juniper
 securityStrength: ''
 keywords:
     - mod_Juniper_Decrypt
     - juniper_decrypt
+    - juniper_init
+    - juniper_encrypt
+    - juniper_set_key
+    - JUNIPER_BLOCK_SIZE
+    - JUNIPER_KEY_SIZE
+    - Juniper::init
+    - Juniper::encrypt
+    - Juniper::decrypt
+    - Juniper::setKey
+    - Juniper::generateKey
+    - Juniper::BLOCK_SIZE
+    - Juniper::KEY_SIZE
+    - juniperEncrypt
+    - juniperDecrypt

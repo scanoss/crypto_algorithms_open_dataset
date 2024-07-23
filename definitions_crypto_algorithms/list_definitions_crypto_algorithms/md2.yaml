@@ -11,3 +11,11 @@ keywords:
     - MD2_Init
     - MD2_Update
     - MD2_Final
+    - _MD2_
+    - .createHash('md2')
+    - hashlib.new('md2')
+    - md2::Md2
+    - Digest::MD2
+    - Insecure.MD2
+    - md2sum
+    

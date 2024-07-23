@@ -3,9 +3,14 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: rabin
-algorithmName:
+algorithmName: Rabin
 securityStrength: '128'
 keywords:
     - Rabin.genKey
     - Rabin.encrypt
     - Rabin.decrypt
+    - rabin_enc
+    - rabin_dec
+    - rabin_generate_key
+    - rabin_compute_signature
+    - rabin_validate_signature

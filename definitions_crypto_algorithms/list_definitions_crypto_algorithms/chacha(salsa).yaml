@@ -3,28 +3,20 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: chacha(salsa)
-algorithmName: 
+algorithmName: ChaCha 
 securityStrength: '256'
 keywords:
-    - TLS_RSA_WITH_CHACHA20_SHA
-    - TLS_ECDHE_RSA_WITH_CHACHA20_SHA
-    - TLS_ECDHE_ECDSA_WITH_CHACHA20_SHA
-    - TLS_RSA_WITH_CHACHA20_POLY1305
-    - 'TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305 '
-    - TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305
-    - TLS_DHE_RSA_WITH_CHACHA20_POLY1305
-    - TLS_DHE_PSK_WITH_CHACHA20_POLY1305
-    - TLS_PSK_WITH_CHACHA20_POLY1305
-    - TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305
-    - TLS_RSA_PSK_WITH_CHACHA20_POLY1305
+    - _WITH_CHACHA20_
     - chacha20_core
     - ChaCha20_ctr32
     - '#include <openssl/chacha.h>'
     - '.getInstance("ChaCha20")'
     - "createCipheriv('chacha20'"
-    - golang.org/x/crypto/chacha20poly1305
     - chacha20poly1305
     - sodium_crypto_stream_xchacha20_xor
     - 'from cryptography.hazmat.primitives.ciphers import ChaCha20'
-    - ChaCha20Poly1305
     - chacha_encrypt
+    - chacha20_block
+    - chacha20_encrypt
+    - chacha20_keysetup
+    - chacha20_ivsetup

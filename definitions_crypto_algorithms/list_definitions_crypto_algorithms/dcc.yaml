@@ -3,7 +3,10 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: dcc
-algorithmName: 
+algorithmName: Dynamic Contrastive Clustering
 securityStrength: '64'
 keywords:
     - DCC.py
+    - recompute_centroids
+    - compute_dissimilarity
+    - check_convergence

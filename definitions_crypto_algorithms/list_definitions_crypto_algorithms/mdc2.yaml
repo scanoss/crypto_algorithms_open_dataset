@@ -3,8 +3,8 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: mdc2
-algorithmName:
-securityStrength: '128'
+algorithmName: MDC-2
+securityStrength: "128"
 keywords:
     - MDC2.h
     - mdc2
@@ -13,3 +13,7 @@ keywords:
     - MDC2_Update
     - MDC2_Final
     - mdc2_body
+    - getInstance("MDC2")
+    - mdc2.New
+    - crypto.createHash('mdc2')
+    - ::MD2

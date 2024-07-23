@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: diffiehellman
-algorithmName: 
+algorithmName:  Diffie-Hellman 
 securityStrength: '128'
 keywords:
     - getDhObjectFromEvent
@@ -23,3 +23,16 @@ keywords:
     - DH_set_default_method
     - DH_get0_
     - dh_public_print
+    - Diffie Hellman
+    - Diffie-Hellman
+    - Diffie_Hellman
+    - Diffie.Hellman
+    - DiffieHellman
+    - DHParameterSpec
+    - 0xFFFFFFFFFFFFFFFFC90FDAA22168C234C4C6628B80DC1CD1
+    - DHPublicKey
+    - DHPubKey
+    - DHPrivateKey
+    - DHPrivKey
+    - DH_generate_key
+    - DH_compute_key

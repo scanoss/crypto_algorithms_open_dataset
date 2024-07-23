@@ -11,3 +11,22 @@ keywords:
     - xtea_encodeecb
     - xtea_decodecbc
     - xtea_declen
+    - xtea_initialize
+    - xtea_encrypt
+    - xtea_decrypt
+    - XTEA::Encrypt
+    - XTEA::Decrypt
+    - XTEA::SetKey
+    - XTEA::Initialize
+    - XTEA::EncryptBlock
+    - XTEA::DecryptBlock
+    - XTEA.encrypt
+    - XTEA.decrypt
+    - XTEA.setKey
+    - XTEA.initialize
+    - XTEA.encryptBlock
+    - XTEA.decryptBlock
+    - xteaEncrypt
+    - xteaDecrypt
+    - setXTEAKey
+    - initializeXTEA

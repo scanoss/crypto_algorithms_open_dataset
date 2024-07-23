@@ -3,9 +3,23 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: CMAC
-algorithmName: 
+algorithmName: Cipher-based Message Authentication Code
 securityStrength: '128'
 keywords:
     - '#include <openssl/cmac.h>'
     - '.getInstance("AESCMAC");'
     - 'from Crypto.Hash import CMAC'
+    - cmac_init
+    - cmac_update
+    - cmac_final
+    - cmac_generate
+    - cmac_verify
+    - CMAC_CTX_new
+    - CMAC_CTX_free
+    - CMAC_CTX_reset
+    - CMAC.new
+    - CMAC.update
+    - CMAC.digest
+    - CMAC.hexdigest
+    - CMAC.verify
+    - CMAC.copy

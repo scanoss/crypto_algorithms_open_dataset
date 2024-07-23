@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: des
-algorithmName: 
+algorithmName: Data Encryption Standard
 securityStrength: '168'
 keywords:
     - des_setparity
@@ -28,5 +28,26 @@ keywords:
     - DES_xcbc_
     - DES_string_to_2keys
     - DES_fcrypt
+    - DES_key
     - DESede/CBC
     - DESede/ECB
+    - Data Encryption Standard
+    - DES algorithm
+    - des_feistel
+    - des_initial_permutation
+    - des_final_permutation
+    - DES_BLOCK_SIZE
+    - DES_KEY_SIZE
+    - DES_NUM_ROUNDS
+    - DES_IP
+    - DES_FP
+    - DES_E 
+    - DES__P
+    - DES_SBOX
+    - DES_PC
+    - DES_ROUND_SHIFT
+    - DESX
+    - 0x01010400
+    - RawDES
+
+

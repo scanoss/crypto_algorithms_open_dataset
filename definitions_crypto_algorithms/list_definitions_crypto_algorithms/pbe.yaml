@@ -3,9 +3,13 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: pbe
-algorithmName:
+algorithmName: Password-Based Encryption
 securityStrength: '128'
 keywords:
     - org.xeustechnologies.crypto.kpbe
     - PBE
     - KPBE
+    - PBEWith
+    - PBEKeySpec
+    - PBEParameterSpec
+    - PBES2Parameters

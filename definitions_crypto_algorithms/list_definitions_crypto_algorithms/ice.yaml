@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: ice
-algorithmName: 
+algorithmName: Indispensable Cryptographic Engine
 securityStrength: '128'
 keywords:
     - node-ice
@@ -11,3 +11,24 @@ keywords:
     - __RUBY_ICE_KEY_H
     - ice_cipher_
     - IceSubkey
+    - ice_encrypt
+    - ice_decrypt
+    - ice_key_schedule
+    - ice_init
+    - ice_set_key
+    - ICE_BLOCK_SIZE
+    - ICE_KEY_SIZE
+    - ICE_ROUNDS
+    - ICE_MAX_KEY_SIZE
+    - ICE_MIN_KEY_SIZE
+    - ICE_ENCRYPT_MODE
+    - ICE_DECRYPT_MODE
+    - ICE_CBC_MODE
+    - ICE_ECB_MODE
+    - ICE_CTR_MODE
+    - ICE_OFB_MODE
+    - ICE_CFB_MODE
+    - ICE_PADDING
+    - ICE_NO_PADDING
+    - ICE_PKCS5_PADDING
+    - ICE_ISO10126_PADDING

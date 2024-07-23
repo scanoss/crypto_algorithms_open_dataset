@@ -10,3 +10,6 @@ keywords:
     - ripemd160_Init
     - ripemd160_process
     - ripemd160_update
+    - MD160.
+    - md160_
+    - md160-

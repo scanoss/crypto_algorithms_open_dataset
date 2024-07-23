@@ -3,7 +3,26 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: fortuna
-algorithmName: 
+algorithmName: Fortuna
 securityStrength: '64'
 keywords:
-    - fortuna
+    - FORTUNA_POOL_SIZE
+    - FORTUNA_SEED_SIZE
+    - FORTUNA_STATE_SIZE
+    - FORTUNA_BLOCK_SIZE
+    - FORTUNA_PERIODICITY
+    - fortuna_init
+    - fortuna_add_entropy
+    - fortuna_generate
+    - fortuna_update
+    - fortuna_reseed
+    - fortuna_get_state
+    - fortuna_set_state
+    - fortuna_entropy_pool
+    - fortuna_mix
+    - fortuna_process
+    - fortuna_seed
+    - fortuna_random
+    - fortuna_next_bytes
+    - fortuna_update_pool
+    - fortuna_reset

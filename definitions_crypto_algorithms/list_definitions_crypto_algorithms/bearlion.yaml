@@ -1,0 +1,17 @@
+# SPDX-FileContributor: [Author Name(s)] <[Optional: Email Address(es)]>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+algorithmId: bearlion
+algorithmName: BearLion
+securityStrength: '128'
+keywords:
+    - bbearlion
+    - bear-lion
+    - bear_lion
+    - bear-lion
+    - bearLionEncrypt
+    - bearLionDecrypt
+    - bearLionHash
+    - bearLionKeyDerive
+    - bearLionKeyExchange
