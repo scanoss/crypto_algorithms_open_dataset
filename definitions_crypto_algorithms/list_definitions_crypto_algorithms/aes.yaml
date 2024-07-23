@@ -42,3 +42,5 @@ keywords:
     - rijndael
     - BMGL
     - aesKey
+    - AES_BLOCK_SIZE
+    - AES_KEY_SIZE_

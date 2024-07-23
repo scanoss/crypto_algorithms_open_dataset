@@ -39,6 +39,8 @@ keywords:
     - elliptic.P256
     - elliptic.P384
     - elliptic.P521
+    - ec.ECDH
+    - EC_KEY_new_by_curve_name
  
 
 

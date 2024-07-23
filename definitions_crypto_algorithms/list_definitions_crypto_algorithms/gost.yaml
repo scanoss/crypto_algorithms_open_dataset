@@ -6,10 +6,10 @@ algorithmId: gost
 algorithmName: 
 securityStrength: '64'
 keywords:
-    - gost_28147_89
     - gost.hpp
     - GOST28147
     - GOST_28147
+    - GOST-28147
     - GOST_34_11_94_
     - GOST_34_11_2012_
     - GOST_34_12_2015_

@@ -20,3 +20,4 @@ keywords:
     - chacha20_encrypt
     - chacha20_keysetup
     - chacha20_ivsetup
+    - chacha20_poly1305_
