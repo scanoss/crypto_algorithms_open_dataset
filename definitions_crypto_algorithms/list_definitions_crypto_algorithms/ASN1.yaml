@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: ASN1
-algorithmName: 
+algorithmName: Abstract Syntax Notation One
 securityStrength: '256'
 keywords:
     - '#include <openssl/asn1.h>'
