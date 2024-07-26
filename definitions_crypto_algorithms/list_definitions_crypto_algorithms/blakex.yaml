@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: blakex
-algorithmName: 
+algorithmName: BLAKE Hash Function
 securityStrength: 256/512
 keywords:
     - blake3.h

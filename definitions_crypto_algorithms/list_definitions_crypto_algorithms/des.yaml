@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: des
-algorithmName: 
+algorithmName: Data Encryption Standard
 securityStrength: '168'
 keywords:
     - des_setparity

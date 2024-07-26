@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: serpent
-algorithmName:
+algorithmName: Serpent Block Cipher
 securityStrength: '128'
 keywords:
     - serpent_subkey_t

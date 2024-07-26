@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: ntruencrypt
-algorithmName:
+algorithmName: NTRUEncrypt
 securityStrength: '128'
 keywords:
     - NTRU_NTRU_H

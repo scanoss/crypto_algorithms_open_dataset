@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: crc32
-algorithmName: 
+algorithmName: Cyclic Redundancy Check 32
 securityStrength: '32'
 keywords:
     - crc32h.h

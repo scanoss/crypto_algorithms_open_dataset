@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: mscash
-algorithmName:
+algorithmName: MSCash Password Hashing
 securityStrength: '256'
 keywords:
     - mscash.x.gz

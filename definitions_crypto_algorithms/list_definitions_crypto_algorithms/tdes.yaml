@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: tdes
-algorithmName:
+algorithmName: Triple Data Encryption Standard
 securityStrength: '128'
 keywords:
     - TDES_FLAGS_ENCRYPT

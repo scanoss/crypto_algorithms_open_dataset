@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: wake
-algorithmName:
+algorithmName: WAKE Stream Cipher
 securityStrength: '64'
 keywords:
     - WAKE.h

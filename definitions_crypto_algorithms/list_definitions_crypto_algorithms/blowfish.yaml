@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: blowfish
-algorithmName: 
+algorithmName: Blowfish Cipher
 securityStrength: '320'
 keywords:
     - egoroof-blowfish

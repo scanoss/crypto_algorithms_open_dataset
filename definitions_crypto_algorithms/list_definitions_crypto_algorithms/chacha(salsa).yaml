@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: chacha(salsa)
-algorithmName: 
+algorithmName: ChaCha/Salsa Stream Cipher
 securityStrength: '256'
 keywords:
     - TLS_RSA_WITH_CHACHA20_SHA

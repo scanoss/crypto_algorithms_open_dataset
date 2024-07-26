@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: salsa20
-algorithmName:
+algorithmName: Salsa20 Stream Cipher
 securityStrength: '128'
 keywords:
     - ESTREAM_SALSA20

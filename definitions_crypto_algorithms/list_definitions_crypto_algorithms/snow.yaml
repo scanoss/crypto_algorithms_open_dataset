@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: snow
-algorithmName:
+algorithmName: SNOW Stream Cipher
 securityStrength: '128'
 keywords:
     - snow5_aes_round

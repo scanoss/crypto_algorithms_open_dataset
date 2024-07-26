@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: mceliece
-algorithmName:
+algorithmName: McEliece Cryptosystem
 securityStrength: '64'
 keywords:
     - MCELIECE_H

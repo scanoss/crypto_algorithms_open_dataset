@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: dsa
-algorithmName: 
+algorithmName: Digital Signature Algorithm
 securityStrength: '128'
 keywords:
     - ossl_dsa_generate_ffc_parameters

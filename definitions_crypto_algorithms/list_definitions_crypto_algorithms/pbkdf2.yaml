@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: pbkdf2
-algorithmName:
+algorithmName: Password-Based Key Derivation Function 2
 securityStrength: '128'
 keywords:
     - pbkdf2.js

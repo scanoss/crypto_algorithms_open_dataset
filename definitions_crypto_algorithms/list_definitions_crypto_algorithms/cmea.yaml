@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: cmea
-algorithmName: 
+algorithmName: Cellular Message Encryption Algorithm
 securityStrength: '64'
 keywords:
     - startCMEA

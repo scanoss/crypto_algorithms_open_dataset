@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: dhies
-algorithmName: 
+algorithmName: Diffie-Hellman Integrated Encryption Scheme
 securityStrength: '128'
 keywords:
     - DHIES
