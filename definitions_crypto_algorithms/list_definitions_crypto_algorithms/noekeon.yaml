@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: noekeon
-algorithmName:
+algorithmName: NOEKEON Block Cipher
 securityStrength: '128'
 keywords:
     - NoekeonIndirectRef

@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: CMAC
-algorithmName: 
+algorithmName: Cipher-based Message Authentication Code
 securityStrength: '128'
 keywords:
     - '#include <openssl/cmac.h>'

@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: quad
-algorithmName:
+algorithmName: Quad Cipher
 securityStrength: '128'
 keywords:
     - QUAD.pack

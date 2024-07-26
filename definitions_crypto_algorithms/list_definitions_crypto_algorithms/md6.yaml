@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: md6
-algorithmName:
+algorithmName: MD6 Hash Function
 securityStrength: '512'
 keywords:
     - MD6.py

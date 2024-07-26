@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: ecdh
-algorithmName: 
+algorithmName: Elliptic-Curve Diffie-Hellman
 securityStrength: '128'
 keywords:
     - ecdh_generate_keys

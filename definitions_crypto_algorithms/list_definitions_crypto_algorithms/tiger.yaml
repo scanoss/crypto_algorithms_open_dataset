@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: tiger
-algorithmName:
+algorithmName: Tiger Hash Function
 securityStrength: '256'
 keywords:
     - tiger_compress_macro

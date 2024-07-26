@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: shs
-algorithmName:
+algorithmName: Secure Hash Standard
 securityStrength: '128'
 keywords:
     - secret-handshake

@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: idea
-algorithmName: 
+algorithmName: International Data Encryption Algorithm
 securityStrength: '64'
 keywords:
     - IdeaMode_h

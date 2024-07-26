@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: md5
-algorithmName:
+algorithmName: MD5 Hash Function
 securityStrength: '128'
 keywords:
     - md5_file

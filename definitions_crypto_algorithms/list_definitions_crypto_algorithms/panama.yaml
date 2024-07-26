@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: panama
-algorithmName:
+algorithmName: PANAMA Hash and Stream Cipher
 securityStrength: '128'
 keywords:
     - panama.h

@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: f8
-algorithmName: 
+algorithmName: F8 Mode of Operation
 securityStrength: '128'
 keywords:
     - SrtpCipherF8
