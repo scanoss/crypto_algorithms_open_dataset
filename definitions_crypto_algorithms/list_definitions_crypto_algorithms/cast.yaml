@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: cast
-algorithmName: CAST Block Cipher
+algorithmName: Carlisle Adams and Stafford Tavares (CAST)
 securityStrength: '320'
 keywords:
     - CAST_ecb_encrypt
