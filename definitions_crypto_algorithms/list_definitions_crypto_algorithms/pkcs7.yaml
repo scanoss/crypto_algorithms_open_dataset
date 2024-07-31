@@ -7,12 +7,11 @@ algorithmName:
 securityStrength: '128'
 keywords:
     - PKCS7_
-     - ossl_x509_add_cert_new
-    - ASN1_INTEGER_cmp
+    - ossl_x509_add_cert_new
     - SMIME_write_PKCS7
     - SMIME_write_ASN1_ex
-     - PKCS7Padding
-     - PKCS7Data
+    - PKCS7Padding
+    - PKCS7Data
     - PKCS7Signature
     - PKCS7ContentInfo
     - PKCS7ContentType

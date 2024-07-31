@@ -8,7 +8,6 @@ securityStrength: '2048'
 keywords:
     - RC4_H
     - RC4_key
-    - RC4
     - RC4_set_key
     - crypto/rc4
     - ::Cipher::RC4
@@ -34,5 +33,6 @@ keywords:
     - rc4_pseudo_random
     - rc4_gen
     - rc4_key_setup
+    - _RC4
 
   

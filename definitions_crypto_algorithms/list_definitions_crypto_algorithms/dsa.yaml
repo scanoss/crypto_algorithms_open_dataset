@@ -53,3 +53,4 @@ keywords:
     - dsa.verify
     - KeyPairGenerator.generateKeyPair
     - java.security.spec.DSAParameterSpec
+    - dsa.h

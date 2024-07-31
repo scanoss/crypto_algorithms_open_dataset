@@ -1,0 +1,9 @@
+# SPDX-FileContributor: [Author Names] <[Optional: Email Addresses]>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+algorithmId: ecdsa
+algorithmName: Elliptic Curve Digital Signature Algorithm
+securityStrength: '128'
+keywords:
+    - ECDSA

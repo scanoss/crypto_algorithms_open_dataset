@@ -6,30 +6,9 @@ algorithmId: pkcs12
 algorithmName:
 securityStrength: '128'
 keywords:
-    
-    - PKCS12_get0_mac
-    - PKCS12_pack_p7encdata
-    - PKCS12_add_
-    - PKCS12_PBE_
-    - PKCS12_item_i2d_encrypt
-    - PKCS12_init
-    - PKCS12_gen_mac
-    - PKCS12_decrypt_skey
-    - PKCS12_add1_attr_by_NID
-    - PKCS12_key_gen_utf8_ex
-    - PKCS12_get_attr
-    - PKCS8_get_attr
-    - PKCS12_SAFEBAG_create0_pkcs8
-    - PKCS12_init_ex
+    - PKCS8_
+    - PKCS12_
     - parse_pk12
-    - PKCS12_pack_
-    - PKCS12_item_i2d_encrypt_ex
-    - PKCS12_verify_mac
-    - PKCS12_SAFEBAG_get_nid
     - OPENSSL_asc2uni
-    - PKCS12_SAFEBAG_create_pkcs8_encrypt
-    - PKCS8_decrypt_ex
-    - PKCS12_key_gen_asc_ex
-    - pkcs12_gen_mac
-    - PKCS8_decrypt
-    - PKCS12_decrypt_skey_ex
+   
+ 

@@ -27,7 +27,6 @@ keywords:
     - Crypto.Cipher.Camellia.MODE_CFB
     - Crypto.Cipher.Camellia.MODE_OFB
     - Crypto.Cipher.Camellia.MODE_CTR
-    - javax.crypto.Cipher
     - javax.crypto.spec.SecretKeySpec
     - EVP_camellia_128_cbc
     - EVP_camellia_192_cbc

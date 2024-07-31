@@ -11,7 +11,8 @@ keywords:
     - MD2_Init
     - MD2_Update
     - MD2_Final
-    - _MD2_
+    - _MD2
+    - _MD2
     - .createHash('md2')
     - hashlib.new('md2')
     - md2::Md2

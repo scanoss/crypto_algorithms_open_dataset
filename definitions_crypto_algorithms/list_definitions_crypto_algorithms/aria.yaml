@@ -21,3 +21,4 @@ keywords:
     - ARIA-128-ECB
     - 'from Cryptodome.Cipher import ARIA'
     - ARIA.new(
+    - ossl_aria

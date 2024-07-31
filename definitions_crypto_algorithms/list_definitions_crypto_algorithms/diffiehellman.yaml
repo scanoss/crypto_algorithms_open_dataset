@@ -36,3 +36,4 @@ keywords:
     - DHPrivKey
     - DH_generate_key
     - DH_compute_key
+    - cryptopp/dh.h

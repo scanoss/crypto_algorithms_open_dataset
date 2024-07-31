@@ -2,11 +2,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId: nimbus
-algorithmName: Nimbus
+algorithmId: chacha20
+algorithmName: ChaCha 
 securityStrength: '256'
 keywords:
-    - nimbusds.jose
-    - 'JOSEObjectType '
-    - nimbus_
-    - nimbus.
+    - chacha20

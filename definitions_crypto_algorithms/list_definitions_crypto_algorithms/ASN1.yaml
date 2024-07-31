@@ -12,3 +12,4 @@ keywords:
     - ASN1Integer
     - forge.asn1.Class.UNIVERSAL
     - 'from pyasn1.codec.der import encoder'
+    - asn1_tag
