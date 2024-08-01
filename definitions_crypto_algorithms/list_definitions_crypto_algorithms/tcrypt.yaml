@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: tcrypt
-algorithmName:
+algorithmName: TCRYPT Encryption
 securityStrength: '128'
 keywords:
     - tcrypt.h

@@ -3,8 +3,8 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: mdc2
-algorithmName: MDC-2
-securityStrength: "128"
+algorithmName: MDC-2 Hash Function
+securityStrength: '128'
 keywords:
     - MDC2.h
     - mdc2

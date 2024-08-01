@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: X509
-algorithmName:
+algorithmName: X.509 Public Key Infrastructure
 securityStrength: '128'
 keywords:
     - x509.h

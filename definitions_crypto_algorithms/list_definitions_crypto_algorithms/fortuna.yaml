@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: fortuna
-algorithmName: Fortuna
+algorithmName: Fortuna Random Number Generator
 securityStrength: '64'
 keywords:
     - FORTUNA_POOL_SIZE

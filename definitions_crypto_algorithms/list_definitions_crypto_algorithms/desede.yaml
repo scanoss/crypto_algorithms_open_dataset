@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: desede
-algorithmName: 
+algorithmName: Triple Data Encryption Algorithm (3DES)
 securityStrength: '168'
 keywords:
     - javax.crypto.spec.DESedeKeySpec

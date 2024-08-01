@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: multi2
-algorithmName: Multi2
+algorithmName: MULTI2 Cipher
 securityStrength: '128'
 keywords:
     - multi2.h

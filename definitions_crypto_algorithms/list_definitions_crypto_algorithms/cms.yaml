@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: cms
-algorithmName: Count-Min Sketch
+algorithmName: Cryptographic Message Syntax
 securityStrength: '64'
 keywords:
     - '#include <openssl/cms.h>'

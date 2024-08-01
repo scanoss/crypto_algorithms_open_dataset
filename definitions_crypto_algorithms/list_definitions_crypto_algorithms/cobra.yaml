@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: cobra
-algorithmName: 
+algorithmName: Cobra Cipher
 securityStrength: '128'
 keywords:
     - Cobra_algorithm

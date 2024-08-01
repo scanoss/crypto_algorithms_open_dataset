@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: gea0-x
-algorithmName: GSM Encryption Algorithm
+algorithmName: GPRS Encryption Algorithm
 securityStrength: 64-128
 keywords:
     - LL_GEA

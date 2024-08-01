@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: ripemd
-algorithmName:
+algorithmName: RIPEMD Hash Function
 securityStrength: '128'
 keywords:
     - RIPEMD160

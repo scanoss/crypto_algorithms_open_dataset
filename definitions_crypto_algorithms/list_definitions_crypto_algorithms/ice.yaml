@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: ice
-algorithmName: Indispensable Cryptographic Engine
+algorithmName: ICE (block cipher)
 securityStrength: '128'
 keywords:
     - node-ice

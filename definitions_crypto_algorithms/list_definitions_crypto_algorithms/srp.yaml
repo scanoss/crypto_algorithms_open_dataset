@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: srp
-algorithmName: Secure Remote Password
+algorithmName: Secure Remote Password Protocol
 securityStrength: '128'
 keywords:
     - SRP_VBASE_

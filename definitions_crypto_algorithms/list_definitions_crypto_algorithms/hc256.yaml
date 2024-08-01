@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: hc256
-algorithmName: HC-256
+algorithmName: HC-256 Stream Cipher
 securityStrength: '256'
 keywords:
     - hc256_generate

@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: rc2
-algorithmName:
+algorithmName: RC2 Block Cipher
 securityStrength: '128'
 keywords:
     - rc2_LTX__mcrypt_

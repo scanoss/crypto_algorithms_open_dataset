@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: fnv1
-algorithmName: Fowler–Noll–Vo
+algorithmName: Fowler-Noll-Vo Hash Function
 securityStrength: '1024'
 keywords:
     - Fnv1a1024

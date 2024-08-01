@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: cast
-algorithmName: 
+algorithmName: CAST Block Cipher
 securityStrength: '320'
 keywords:
     - CAST_set_key

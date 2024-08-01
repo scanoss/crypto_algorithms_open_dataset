@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: vmpc
-algorithmName:
+algorithmName: VMPC Stream Cipher
 securityStrength: ''
 keywords:
     - 'VMPCEngine.java '

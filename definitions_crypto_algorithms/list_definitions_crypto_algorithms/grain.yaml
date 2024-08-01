@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: grain
-algorithmName: Grain
+algorithmName: Grain Stream Cipher
 securityStrength: '128'
 keywords:
     - grain128aead.h

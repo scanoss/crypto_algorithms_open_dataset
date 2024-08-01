@@ -3,8 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: fasthash
-algorithmName: FastHash
-securityStrength: '256'
+algorithmName: FastHash Algorithm
 keywords:
     - AQUAHASH_H
     - FNV_OFFSET_BASIS

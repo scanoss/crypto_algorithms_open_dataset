@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: haval
-algorithmName: 
+algorithmName: HAVAL Hash Function
 securityStrength: '128'
 keywords:
     - haval.h

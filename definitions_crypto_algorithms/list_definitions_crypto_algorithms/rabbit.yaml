@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: rabbit
-algorithmName: Rabbit
+algorithmName: Rabbit Stream Cipher 
 securityStrength: '128'
 keywords:
     - Rabbit_Util

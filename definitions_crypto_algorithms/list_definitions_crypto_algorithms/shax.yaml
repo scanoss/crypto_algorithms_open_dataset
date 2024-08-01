@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 algorithmId: shax
-algorithmName: Secure Hash Algorithm
+algorithmName: SHA-x (SHA-1, SHA-256, etc.)
 securityStrength: 128-512
 keywords:
     - SHA-1
