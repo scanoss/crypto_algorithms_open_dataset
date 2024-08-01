@@ -15,7 +15,7 @@ keywords:
     - DES_ecb_
     - DES_pcbc_
     - DES_cfb
-    - DES_cbc_
+    - DES_cbc
     - DES_random_key
     - DES_ecb3_
     - DES_ofb

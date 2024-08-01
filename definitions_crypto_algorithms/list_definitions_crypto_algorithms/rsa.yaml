@@ -8,15 +8,16 @@ securityStrength: '128'
 keywords:
     - forge.pki.rsa.
     - "require('node-rsa')"
-
+    - .getInstance("RSA
+    - RSA_public_encrypt
     - RSAcrypt
     - RSAdecrypt
     - ossl_rsa_
     - RSA_size
-    - rsa_priv_print
+    - rsa_priv_
     - RSA_verify_
     - RSA_get0_crt_params
-    - RSA_meth_free
+    - RSA_meth
     - RSA_padding_
     - pkey_rsa_ctrl_str
     - rsa_pkey_dirty_cnt
@@ -26,7 +27,9 @@ keywords:
     - RSA_sign_
     - rsa_validate_
     - RSA_X931_generate_key_ex
-    - RSA_generate_multi_prime_key
+    - RSA_private_
+    - rsa.newkeys
+    - RSA_generate_
     - RSA_get_ex_data
     - rsa_pub_encode
     - rsa_item_sign
@@ -51,9 +54,9 @@ keywords:
     - RSA_PUBLIC_EXPONENT
     - RSA_PRIVATE_EXPONENT
     - RSA_MODULUS
-    - RSA_PUBLIC_KEY
-    - RSA_PRIVATE_KEY
-    - RSA_SIGNATURE
+    - RSA_PUBLIC_
+    - RSA_PUBLIC_
+    - RSA_PRIVATE_
     - RSA_ENCRYPTION
     - RSA_DECRYPTION
     - RSA_PADDING
@@ -73,4 +76,14 @@ keywords:
     - RSAPrivKey
     - RSAPubKey
     - RSAKey
+    - rsa.Private
+    - cryptopp/rsa.h
+    - openssl/rsa.h
+    - ossl_rsa
+    - _RSA_
+    - PK_RSA
+    - " RSA PRIVATE KEY"
+    - RSAZ
+    - "RSA key"
+
     

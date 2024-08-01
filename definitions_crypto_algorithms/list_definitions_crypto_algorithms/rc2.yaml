@@ -13,7 +13,7 @@ keywords:
     - RC2_set_key
     - RC2_cfb
    
-    - RC2_cbc_
+    - RC2_cbc
     - '#include <openssl/rc2.h>'
     - RC2.block_size
     - RC2.key_size

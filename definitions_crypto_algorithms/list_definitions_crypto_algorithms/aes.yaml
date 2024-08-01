@@ -24,7 +24,7 @@ keywords:
     - require('aes-js')
     - require('sjcl')
     - <openssl/aes.h>
-    - .getInstance("AES");
+    - .getInstance("AES
     - CryptoJS.AES.encrypt
     - CryptoJS.AES.decryp 
     - module.exports = AES
@@ -37,10 +37,15 @@ keywords:
     - AES/GCM/NoPadding
     - Advanced Encryption Standard"
     - _AES
+    - AES_
     - AES128
     - AES256
     - rijndael
     - BMGL
     - aesKey
     - AES_BLOCK_SIZE
-    - AES_KEY_SIZE_
+    - AES_KEY
+    - AES_Encrypt
+    - AES_Decrypt
+    - _AES_CTR
+

@@ -7,25 +7,22 @@ algorithmName: Secure Hash Algorithm
 securityStrength: 128-512
 keywords:
     - SHA-1
-    - SHA-224
-    - SHA-256
-    - SHA-384
+    - SHA-1
+    - SHA-2
+    - SHA-3 
     - SHA-512
     - SHA3-224
-    - SHA3-256
-    - SHA3-384
-    - SHA3-512
     - jsSHA1
     - jsSHA256
     - jsSHA512
     - jsSHA3
     - sha3.sha3_256
     - sha.ts
-    - SHA512_
-    - SHA256_
-    - SHA224_
-    - SHA384_
-    - SHA3_224_
+    - SHA512
+    - SHA256
+    - SHA224
+    - SHA384
+    - SHA3_224
     - SHA3_384
     - openssl sha384
     - hashlib.sha384
@@ -47,3 +44,5 @@ keywords:
     - CryptoJS.SHA512
     - hashlib.sha3_384
     - CryptoJS.SHA3_384
+    - _SHA2
+    - _SHA3

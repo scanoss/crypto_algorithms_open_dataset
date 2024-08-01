@@ -6,14 +6,9 @@ algorithmId: ripemd
 algorithmName:
 securityStrength: '128'
 keywords:
-    - RIPEMD160_
+    - RIPEMD160
     - '#include <openssl/ripemd.h>'
-    - '.getInstance("RIPEMD160")'
-    - "crypto.createHash('ripemd160')"
-    - golang.org/x/crypto/ripemd160
-    - ripemd160.New()
-    - "hash('ripemd160'"
-    - "hashlib.new('ripemd160'"
     - "RIPEMD128"
     - "RIPEMD256"
     - "RIPEMD320"
+    

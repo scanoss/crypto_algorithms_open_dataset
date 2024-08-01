@@ -22,5 +22,8 @@ keywords:
     - Blowfish_generate_subkeys
     - BLOWFISH_KEY_SIZE
     - BLOWFISH_MAX_KEY_SIZE
+    - BF_set_key
+    - BF_cbc
+    - BF_cfb
 
 

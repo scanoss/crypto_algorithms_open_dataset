@@ -2,11 +2,11 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId: nimbus
-algorithmName: Nimbus
+algorithmId: salsa20
+algorithmName: Salsa20 
 securityStrength: '256'
 keywords:
-    - nimbusds.jose
-    - 'JOSEObjectType '
-    - nimbus_
-    - nimbus.
+    - salsa20
+    - S20_BLOCK
+    - S20_KEY
+    - S20_IV

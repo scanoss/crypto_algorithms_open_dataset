@@ -9,6 +9,7 @@ keywords:
     - CAST_set_key
     - cast_encrypt
     - cast_decrypt
+    - cast_ecb
     - cast6_set_key
     - cast6_encrypt
     - cast6_decrypt
