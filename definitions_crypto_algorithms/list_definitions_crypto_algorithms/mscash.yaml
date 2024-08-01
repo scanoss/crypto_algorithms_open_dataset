@@ -7,4 +7,5 @@ algorithmName: MSCash Password Hashing
 securityStrength: '256'
 keywords:
     - mscash.x.gz
-    - mscash
+    - mscash_
+    - mscash.

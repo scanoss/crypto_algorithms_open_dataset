@@ -1,0 +1,18 @@
+# SPDX-FileContributor: [Author Name(s)] <[Optional: Email Address(es)]>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+algorithmId: safer
+algorithmName:
+securityStrength: '128'
+keywords:
+  - SAFERSK
+  - SAFER_SK
+  - SAFER-SK
+  - SAFERK
+  - SAFER-K
+  - SAFER_K
+  - SAFER_MODE_ECB
+  - SAFER_MODE_CBC
+  - SAFER_MODE_CFB
+  - SAFER_MODE_OFB

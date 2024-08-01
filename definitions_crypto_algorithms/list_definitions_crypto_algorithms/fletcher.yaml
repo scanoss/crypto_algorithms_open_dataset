@@ -9,3 +9,7 @@ keywords:
     - fletcher64
     - fletcher32
     - fletcher16
+    - fletcher_checksum
+    - fletcher_hash
+    - fletcher_update
+    - fletcher_finaliz

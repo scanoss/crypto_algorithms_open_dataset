@@ -11,3 +11,5 @@ keywords:
     - CMS_encrypt
     - 'import org.bouncycastle.cms.'
     - CMSEnvelopedDataGenerator
+    - countminsketch
+    - 'cm-sketch'

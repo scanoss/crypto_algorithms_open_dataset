@@ -1,0 +1,22 @@
+# SPDX-FileContributor: [Author Name(s)] <[Optional: Email Address(es)]>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+algorithmId: pgp
+algorithmName: Pretty Good Privacy
+securityStrength: '128'
+keywords:
+  - GnuPG 
+  - PGP_PUBLIC_KEY
+  - PGP_PRIVATE_KEY
+  - PGP_SIGNATURE
+  - PGP_HASH_
+  - _PGP
+  - GPG_
+  - libpgp"
+  - PGP_CIPHER
+  - PGP_MATERIAL
+  - PGP_CRC
+  - PGP_FORMAT
+  - PGP_FILE_HEADER
+  - PGP_FILE_TRAILER

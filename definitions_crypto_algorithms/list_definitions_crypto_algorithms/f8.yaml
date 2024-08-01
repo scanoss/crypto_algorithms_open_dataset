@@ -9,3 +9,11 @@ keywords:
     - SrtpCipherF8
     - F8Context
     - processPacketAesF8
+    - F8_BLOCK_SIZE  
+    - F8_KEY_SIZE    
+    - F8_IV_SIZE     
+    - f8_encrypt  
+    - f8_decrypt   
+    - f8_init      
+    - f8_update  
+    - f8_finalize   

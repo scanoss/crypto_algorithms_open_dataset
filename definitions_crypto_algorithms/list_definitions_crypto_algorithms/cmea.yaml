@@ -8,3 +8,14 @@ securityStrength: '64'
 keywords:
     - startCMEA
     - CmeaSys
+    - cmea_encrypt
+    - cmea_decrypt
+    - cmea_key_schedule
+    - cmea_feistel_round
+    - cmea_initialize
+    - cmea_process_block
+    - CMEA_KEY_SIZE
+    - CMEA_BLOCK_SIZE
+    - CMEA_NUM_ROUNDS
+    - CMEA_SBOX
+    - CMEA_INIT_VECTOR

@@ -10,3 +10,11 @@ keywords:
     - RC6.encrypt
     - RC6.decript
     - RC6_HPP__
+    - rc6_enc
+    - rc6_dec
+    - rc6_key
+    - rc6_set_key
+    - rc6_initialize
+    - rc6_finalize
+    - rc6_rounds
+    - rc6_block_size

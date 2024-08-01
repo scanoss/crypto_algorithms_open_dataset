@@ -8,3 +8,5 @@ securityStrength: '64'
 keywords:
     - zipcloak
     - zipbare
+    - zip_crypto_
+    - libzip

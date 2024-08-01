@@ -10,5 +10,6 @@ keywords:
     - LTC_MULTI2
     - multi2_desc
     - multi2_setup
-    - multi2_ecb_encrypt
-    - multi2_ecb_decrypt
+    - multi2_ecb
+    - multi2_enc
+    - multi2_dec

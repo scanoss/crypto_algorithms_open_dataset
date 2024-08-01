@@ -1,0 +1,10 @@
+# SPDX-FileContributor: [Author Name(s)] <[Optional: Email Address(es)]>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+algorithmId: adler32
+algorithmName:
+securityStrength: '32'
+keywords:
+    - Adler-32
+    - Adler32

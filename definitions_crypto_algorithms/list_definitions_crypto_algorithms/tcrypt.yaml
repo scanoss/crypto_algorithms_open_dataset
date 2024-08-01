@@ -9,5 +9,20 @@ keywords:
     - tcrypt.h
     - tcrypt_encrypt
     - tcrypt_decrypt
-    - tcrypt_init
     - _CRYPTO_TCRYPT_H
+    - tcrypt_init
+    - tcrypt_final
+    - tcrypt_set_key
+    - tcrypt_set_iv
+    - tcrypt_update
+    - tcrypt_hash
+    - tcrypt_keygen
+    - tcrypt_verify
+    - tcrypt_generate_key
+    - tcrypt_process
+    - TCRYPT_BLOCK_SIZE
+    - TCRYPT_KEY_LENGTH
+    - TCRYPT_ERROR_
+    - TCRYPT_MODE_
+    - TCRYPT_SUCCESS
+    - TCRYPT_FAILURE

@@ -11,3 +11,8 @@ keywords:
     - mceliece_init
     - delete_mceliece
     - mceliececipher.py
+    - mceliece_keygen"
+    - mceliece_enc
+    - mceliece_dec
+    - mceliece_g
+    

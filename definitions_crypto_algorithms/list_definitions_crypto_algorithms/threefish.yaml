@@ -15,3 +15,7 @@ keywords:
     - threefish_round
     - threefish_roundinv
     - threefish_encrypt_generic
+    - ThreefishEncrypt
+    - ThreefishDecrypt
+    - threefish_encrypt
+    - threefish_decrypt

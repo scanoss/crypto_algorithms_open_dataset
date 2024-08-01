@@ -8,3 +8,15 @@ securityStrength: '256'
 keywords:
     - isaacCSPRNG
     - isaacRandomPool.h
+    - isaac32
+    - isaac64
+    - ISAAC_CONSTANT
+    - ISAAC_STATE_SIZE
+    - ISAAC_OUTPUT_SIZE
+    - ISAAC_KEY_SIZE
+    - ISAAC_IV_SIZE
+    - ISAAC_ROUNDS
+    - ISAAC_MIX_CONSTANT
+    - ISAAC_INITIAL_SEED
+    - ISAAC_SEED_ARRAY
+    - ISAAC_PRNG_SEED

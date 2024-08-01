@@ -7,3 +7,6 @@ algorithmName: Direct Code Construction
 securityStrength: '64'
 keywords:
     - DCC.py
+    - recompute_centroids
+    - compute_dissimilarity
+    - check_convergence

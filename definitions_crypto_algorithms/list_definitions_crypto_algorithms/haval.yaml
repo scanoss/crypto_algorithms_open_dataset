@@ -13,3 +13,11 @@ keywords:
     - Haval-224
     - Haval-256
     - Haval-128
+    - haval_256
+    - haval_128
+    - haval_160
+    - haval_192
+    - haval_224
+    - HAVAL_BLOCK_SIZE
+    - HAVAL_HASH_SIZE
+    - HAVAL_VERSION

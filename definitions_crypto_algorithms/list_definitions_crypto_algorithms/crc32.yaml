@@ -10,3 +10,10 @@ keywords:
     - crc32.c
     - crc32_table
     - xcrc32
+    - "java.util.zip.CRC32"
+    - CRC32_POLY
+    - CRC32_INIT
+    - "crc32.IEEE"
+    - CRC32_
+    - CRC_32_
+

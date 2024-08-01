@@ -9,3 +9,6 @@ keywords:
     - KeccakHash.h
     - Keccak_HashFinal
     - KeccakSum
+    - keccak256
+    - keccak512
+    - KECCAK_

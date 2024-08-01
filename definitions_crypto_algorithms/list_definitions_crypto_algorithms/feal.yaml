@@ -9,3 +9,7 @@ keywords:
     - lmhashConstant
     - unKnownLMHashes
     - createLMHash
+    - FEAL_ROUNDS
+    - FEAL_BLOCK_SIZE
+    - FEAL_KEY_SIZE
+    - FEAL_SBOX

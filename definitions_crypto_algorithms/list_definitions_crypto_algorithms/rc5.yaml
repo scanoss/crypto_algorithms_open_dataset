@@ -23,7 +23,22 @@ keywords:
     - "require('rc5-cipher')"
     - rc5.encrypt(
     - github.com/inge6/gorc5
+    - RC5_enc
+    - RC5_dec
+    - RC5Context
+    - rc5_cbc
+    - rc5_cfb
+    - rc5_ecb
+    - rc5_ofb
+    - rc5-cbc
+    - rc5-cfb
+    - rc5-ecb
+    - rc5-ofb
+    - RC5_KEY 
     - gorc5.NewCipher
     - "require 'RC5.php'"
     - 'RC5::encrypt'
     - 'from rc5 import RC5'
+    - RC5_BLOCK_SIZE
+    - rc5_initialize
+    - rc5_finalize

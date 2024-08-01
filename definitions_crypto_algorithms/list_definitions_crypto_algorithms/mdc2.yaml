@@ -13,3 +13,7 @@ keywords:
     - MDC2_Update
     - MDC2_Final
     - mdc2_body
+    - getInstance("MDC2")
+    - mdc2.New
+    - crypto.createHash('mdc2')
+    - ::MD2

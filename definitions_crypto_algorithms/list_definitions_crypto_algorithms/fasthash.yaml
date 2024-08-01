@@ -4,6 +4,8 @@
 
 algorithmId: fasthash
 algorithmName: FastHash Algorithm
-securityStrength: '256'
 keywords:
     - AQUAHASH_H
+    - FNV_OFFSET_BASIS
+    - FNV_32_PRIME
+    - FNV_64_PRIME

@@ -9,3 +9,5 @@ keywords:
     - RC4-HMAC-MD5
     - RC4HMAC
     - RC4-HMAC.go
+    - CryptoPP::RC4
+    - Crypto.Hash.HMAC

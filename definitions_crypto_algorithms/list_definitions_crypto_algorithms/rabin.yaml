@@ -9,3 +9,8 @@ keywords:
     - Rabin.genKey
     - Rabin.encrypt
     - Rabin.decrypt
+    - rabin_enc
+    - rabin_dec
+    - rabin_generate_key
+    - rabin_compute_signature
+    - rabin_validate_signature

@@ -10,3 +10,8 @@ keywords:
     - SkipJack
     - skipjackCipher
     - skipjack.go
+    - skipjack_encrypt
+    - skipjack_decrypt
+    - skipjack_init
+    - skipjack_key
+    - SKIPJACK_NUM_
