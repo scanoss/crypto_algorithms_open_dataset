@@ -6,10 +6,6 @@ algorithmId: sosemanuk
 algorithmName: SOSEMANUK Stream Cipher
 securityStrength: '128'
 keywords:
-    - SOSEMANUK_H__
-    - sosemanuk_key_context
-    - sosemanuk_schedule
-    - sosemanuk_init
-    - sosemanuk_encrypt
+    - sosemanuk_
     - SosemanukSlow
     - SosemanukFast

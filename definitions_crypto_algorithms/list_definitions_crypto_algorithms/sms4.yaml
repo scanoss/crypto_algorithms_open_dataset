@@ -12,3 +12,20 @@ keywords:
     - sms4.h
     - SMS4CROL
     - SMS4MASK
+    - sms4_encrypt
+    - sms4_decrypt
+    - sms4_set_key
+    - sms4_init
+    - sms4_update
+    - sms4_final
+    - sms4_cipher
+    - sms4_ecb_
+    - sms4_cbc_e
+    - sms4_ctr_
+    - sms4_ofb_
+    - sms4_cfb_
+    - SMS4_MODE
+    - SMS4_SBOX
+    - SMS4_PCK
+    - SMS4_RK
+    
