@@ -6,4 +6,8 @@ algorithmId: dhies
 algorithmName: Diffie-Hellman Integrated Encryption Scheme
 securityStrength: '128'
 keywords:
-    - DHIES
+    - DHIES_
+    - dhies_encrypt
+    - dhies_decrypt
+    - dhiesEncrypt
+    - dhiesDecrypt
