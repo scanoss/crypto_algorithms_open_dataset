@@ -8,3 +8,17 @@ securityStrength: '256'
 keywords:
     - Rijndael.h
     - Rijndael256
+    - rijndaelEncrypt
+    - rijndaelDecrypt
+    - rijndaelKey
+    - rijndaelS
+    - rijndaelI
+    - rijndaelUpdate
+    - rijndaelFinal
+    - rijndaelGenerateKey
+    - rijndaelExpandKey
+    - rijndaelRound
+    - rijndaelAddRoundKey
+    - rijndaelMixColumns
+    - rijndaelCipher
+    
