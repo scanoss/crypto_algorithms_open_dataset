@@ -9,3 +9,7 @@ keywords:
     - org.xeustechnologies.crypto.kpbe
     - PBE
     - KPBE
+    - PBEWith
+    - PBEKeySpec
+    - PBEParameterSpec
+    - PBES2Parameters
