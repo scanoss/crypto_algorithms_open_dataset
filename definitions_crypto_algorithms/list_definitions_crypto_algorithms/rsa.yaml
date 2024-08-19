@@ -8,40 +8,80 @@ securityStrength: '128'
 keywords:
     - forge.pki.rsa.
     - "require('node-rsa')"
-    - RSACRYPT_H
+    - .getInstance("RSA
+    - RSA_public_encrypt
     - RSAcrypt
     - RSAdecrypt
-    - JSEncryptRSAKey
-    - ossl_rsa_acvp_
+    - ossl_rsa_
     - RSA_size
-    - rsa_priv_print
-    - RSA_verify_PKCS1_PSS
+    - rsa_priv_
+    - RSA_verify_
     - RSA_get0_crt_params
-    - RSA_meth_set_
-    - RSA_meth_free
-    - RSA_padding_check_none
+    - RSA_meth
+    - RSA_padding_
     - pkey_rsa_ctrl_str
-    - ossl_rsa_check_
-    - ossl_rsa_pss_get_param_unverified
     - rsa_pkey_dirty_cnt
     - rsa_int_import_from
-    - rsa_pkey_import_from
-    - ossl_rsa_dup
     - rsa_new_intern
     - RSA_set_method
-    - RSA_sign_ASN1_OCTET_STRIN
-    - rsa_validate_rng_strength
-    - rsa_validate_keypair_multiprime
-    - RSA_meth_new
-    - RSA_verify_ASN1_OCTET_STRING
+    - RSA_sign_
+    - rsa_validate_
     - RSA_X931_generate_key_ex
-    - RSA_generate_multi_prime_key
+    - RSA_private_
+    - rsa.newkeys
+    - RSA_generate_
     - RSA_get_ex_data
-    - RSA_padding_add_PKCS1_type_2
     - rsa_pub_encode
     - rsa_item_sign
     - EVP_PKEY_CTX_set_rsa_keygen_primes
-    - RSA_padding_add_PKCS1_OAEP
     - RSA/ECB/
     - RSAES-PKCS1-V1_5-ENCRYPT
     - RSAES-PKCS1-V1_5
+    - rsa_gen_keypair
+    - rsa_verify_signature
+    - rsa_encrypt
+    - rsa_decrypt
+    - rsa_set_padding
+    - rsa_get_padding
+    - rsa_compute_signature
+    - rsa_verify_signature
+    - RSA_PKCS1_
+    - RSA_NO_PADDING
+    - RSA_F4
+    - RSA_KEY_S
+    - RSA_MIN_KEY_SIZE
+    - RSA_MAX_KEY_SIZE
+    - RSA_PUBLIC_EXPONENT
+    - RSA_PRIVATE_EXPONENT
+    - RSA_MODULUS
+    - RSA_PUBLIC_
+    - RSA_PUBLIC_
+    - RSA_PRIVATE_
+    - RSA_ENCRYPTION
+    - RSA_DECRYPTION
+    - RSA_PADDING
+    - RSA_ALGORITHM
+    - RSA_SHA256
+    - RSA_SHA1
+    - RSA_SHA512
+    - RSA_OAEP
+    - RSA_PKCS1
+    - RSA_PKCS1_V1_5
+    - RSA_ENCRYPTION_PADDING
+    - RSA_SIGNING_PADDING
+    - RSA_OAEP_PADDING
+    - RSA_PKCS1_PADDING
+    - RSAPrivateKey
+    - RSAPublicKey
+    - RSAPrivKey
+    - RSAPubKey
+    - RSAKey
+    - rsa.Private
+    - cryptopp/rsa.h
+    - openssl/rsa.h
+    - ossl_rsa
+    - _RSA_
+    - PK_RSA
+    - " RSA PRIVATE KEY"
+    - RSAZ
+    - "RSA key"
