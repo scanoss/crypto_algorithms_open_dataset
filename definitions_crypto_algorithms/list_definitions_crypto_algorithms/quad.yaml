@@ -8,3 +8,7 @@ securityStrength: '128'
 keywords:
     - QUAD.pack
     - QUAD.unpack
+    - quad_encrypt
+    - quad_decrypt
+    - quad_block_
+    - QUAD_KEY_

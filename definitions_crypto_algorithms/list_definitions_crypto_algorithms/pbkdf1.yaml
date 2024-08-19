@@ -6,4 +6,4 @@ algorithmId: pbkdf1
 algorithmName: Password-Based Key Derivation Function 1
 securityStrength: '128'
 keywords:
-    - pbkdf1.js
+    - pbkdf1
