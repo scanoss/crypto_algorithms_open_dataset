@@ -11,3 +11,8 @@ keywords:
     - zuc.asm
     - _zuc_init
     - _zuc_generate_keystream
+    - zuc_enc
+    - zuc_dec
+    - zuc_gen
+    - zuc_set_key
+    - zuc_next

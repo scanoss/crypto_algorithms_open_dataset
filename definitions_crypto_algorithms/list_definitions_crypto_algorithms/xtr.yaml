@@ -9,3 +9,10 @@ keywords:
     - CRYPTOPP_XTR_H
     - XTR_FindPrimesAndGenerator
     - XTR_Exponentiate
+    - libxtr
+    - xtrlib
+    - xtrcrypt
+    - XTR_MODULUS
+    - XTR_PRIME
+    - XTR_ORDER
+    - XTR_CURVE
