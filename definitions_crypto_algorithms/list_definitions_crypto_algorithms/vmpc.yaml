@@ -16,3 +16,9 @@ keywords:
     - VmpcEncryptMAC
     - VmpcDecryptMAC
     - VmpcOutputMAC
+    - vmpc_init
+    - vmpc_encrypt
+    - vmpc_decrypt
+    - vmpc_keysetup
+    - vmpc_ivsetup
+    - vmpc_process
