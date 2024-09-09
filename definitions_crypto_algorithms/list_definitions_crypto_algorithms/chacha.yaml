@@ -1,9 +1,10 @@
-# SPDX-FileContributor: [Author Name(s)] <[Optional: Email Address(es)]>
+# SPDX-FileContributor: Quique Goñi <quique.goni@scanoss.com>
+# SPDX-FileContributor: Agustín Benito Bethencourt <contact@toscalix.com>
 #
 # SPDX-License-Identifier: CC0-1.0
 
-algorithmId: chacha(salsa)
-algorithmName: ChaCha/Salsa Stream Cipher
+algorithmId: chacha
+algorithmName: ChaCha Stream Cipher
 securityStrength: '256'
 keywords:
     - TLS_RSA_WITH_CHACHA20_SHA
