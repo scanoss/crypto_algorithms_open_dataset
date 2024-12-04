@@ -46,7 +46,7 @@ The [docs_crypto_algorithms](docs_crypto_algorithms) folder contains documents t
 
 If you find a missing/invalid keyword, please do the following:
 - Fork the [repo](https://github.com/scanoss/crypto_algorithms_open_dataset)
-- Update or Add the affected YAML files inside the [definitions](definitions) folder
+- Update or Add the affected YAML files inside the [definitions](definitions_crypto_algorithms) folder
 - Create a Pull Request with the details of the update
 
 The team will review these requests and accept them into repo for everyone to benefit from.

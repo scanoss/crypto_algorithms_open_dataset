@@ -30,14 +30,14 @@ python3 crypto_detect.py --help
 
 To process the current `.` folder in its entirety, please use the following command:
 ```shell
-python3 sqlite_loader.py -c ../definitions .
+python3 crypto_detect.py -c <your-custom-definitions\> .
 ```
 
 From the [root](../.) of the project, simply run:
 ```shell
-python3 sqlite_loader.py <src-folder>
+python3 crypto_detect.py <src-folder>
 ```
 
-The [definitions](../definitions) are loaded by default, and the `<src-folder>` is whatever you want to analyse.
+The [definitions](../definitions_crypto_algorithms) are loaded by default, and the `<src-folder>` is whatever you want to analyse.
 
 To run in quiet mode, simply add `--quiet`.
