@@ -119,9 +119,9 @@ def load_definitions(definitions_dir: str) -> dict:
                 print_trace(f'Loading definition: {file}')
                 with open(os.path.join(root, file), 'r') as yaml_file:
                     data = yaml.safe_load(yaml_file)
-                    if 'section3' in data and 'keywords' in data['section3']:
-                        for keyword in data['section3']['keywords']:
-                            definitions[keyword].append(file)
+                    if 'keywords' in data:
+                        for keyword in data['keywords']:
+                            definitions[str(keyword)].append(file)
     return definitions
 
 
@@ -148,11 +148,12 @@ def analyse_file(file_path: str, definitions: dict) -> dict:
         content_str = contents.decode('utf-8', 'ignore')
         if len(content_str) > 0:
             for keyword, yaml_files in definitions.items():
-                if keyword in content_str:
+                keyword_str = str(keyword)
+                if keyword_str in content_str:
                     match_files = []
                     for yaml_file in yaml_files:
                         match_files.append({'def_file': yaml_file})
-                    detections.append({'keyword': keyword, 'def_files': match_files})
+                    detections.append({'keyword': keyword_str, 'def_files': match_files})
     return detections
 
 
@@ -259,8 +260,8 @@ def setup_args():
     parser = argparse.ArgumentParser(description=f'SCANOSS Keyword Analyser. Ver: {__version__}, License: MIT')
     parser.add_argument('--version', '-v', action='store_true', help='Display version details')
     parser.add_argument('target_dir', metavar='TARGET-DIR', type=str, nargs='?', help='Folder to scan')
-    parser.add_argument('--definitions', '-c', type=str, default='definitions',
-                        help='The directory containing cryptography definitions (default: definitions)')
+    parser.add_argument('--definitions', '-c', type=str, default='definitions_crypto_algorithms',
+                        help='The directory containing cryptography definitions (default: definitions_crypto_algorithms/)')
     parser.add_argument('--output', '-o', type=str, default='crypto-detect.json',
                         help='The output JSON file (default: crypto-detect.json).')
     parser.add_argument('--all-hidden', action='store_true', help='Scan all hidden files/folders')
