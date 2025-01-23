@@ -4,20 +4,22 @@
 # SPDX-License-Identifier: MIT
 
 """
- SPDX-License-Identifier: MIT
-   Copyright (c) 2024, SCANOSS
+SPDX-License-Identifier: MIT
+  Copyright (c) 2024, SCANOSS
 """
-import os
-import yaml
-import json
-import sys
-import argparse
-import binaryornot.check
-from collections import defaultdict
-from progress.spinner import Spinner
-from progress.bar import Bar
 
-__version__ = '0.0.1'
+import argparse
+import json
+import os
+import sys
+from collections import defaultdict
+
+import binaryornot.check
+import yaml
+from progress.bar import Bar
+from progress.spinner import Spinner
+
+__version__ = "0.0.1"
 debug = False
 quiet = False
 trace = False
@@ -65,7 +67,7 @@ def is_binary(path: str):
     if path:
         binary_path = binaryornot.check.is_binary(path)
         if binary_path:
-            print_trace(f'Detected binary file: {path}')
+            print_trace(f"Detected binary file: {path}")
         return binary_path
     return False
 
@@ -79,7 +81,9 @@ def filter_dirs(dirs: list) -> list:
     dir_list = []
     for d in dirs:
         ignore = False
-        if d.startswith(".") and not all_hidden:  # Ignore all . folders unless requested
+        if (
+            d.startswith(".") and not all_hidden
+        ):  # Ignore all . folders unless requested
             ignore = True
         if not ignore:
             dir_list.append(d)
@@ -110,17 +114,19 @@ def load_definitions(definitions_dir: str) -> dict:
     :return: definition dictionary
     """
     if not definitions_dir or not os.path.exists(definitions_dir):
-        print_stderr(f'Error: No definition folder specified, or it does not exist: {definitions_dir}')
+        print_stderr(
+            f"Error: No definition folder specified, or it does not exist: {definitions_dir}"
+        )
         return None
     definitions = defaultdict(list)
     for root, dirs, files in os.walk(definitions_dir):
         for file in files:
-            if file.endswith('.yaml') or file.endswith('.yml'):
-                print_trace(f'Loading definition: {file}')
-                with open(os.path.join(root, file), 'r') as yaml_file:
+            if file.endswith(".yaml") or file.endswith(".yml"):
+                print_trace(f"Loading definition: {file}")
+                with open(os.path.join(root, file), "r") as yaml_file:
                     data = yaml.safe_load(yaml_file)
-                    if 'keywords' in data:
-                        for keyword in data['keywords']:
+                    if "keywords" in data:
+                        for keyword in data["keywords"]:
                             definitions[str(keyword)].append(file)
     return definitions
 
@@ -134,26 +140,28 @@ def analyse_file(file_path: str, definitions: dict) -> dict:
     :return: Dictionary of matching keywords
     """
     if not definitions:
-        print_stderr(f'Error: No definitions specified.')
+        print_stderr("Error: No definitions specified.")
         return None
     if not os.path.exists(file_path):
-        print_stderr(f'Error: File does not exist: {file_path}')
+        print_stderr(f"Error: File does not exist: {file_path}")
         return None
     if is_binary(file_path):
         return {}  # Skip binary files
     detections = []
-    with open(file_path, 'rb') as file:
-        print_debug(f'Analysing {file_path}...')
+    with open(file_path, "rb") as file:
+        print_debug(f"Analysing {file_path}...")
         contents = file.read()
-        content_str = contents.decode('utf-8', 'ignore')
+        content_str = contents.decode("utf-8", "ignore")
         if len(content_str) > 0:
             for keyword, yaml_files in definitions.items():
                 keyword_str = str(keyword)
                 if keyword_str in content_str:
                     match_files = []
                     for yaml_file in yaml_files:
-                        match_files.append({'def_file': yaml_file})
-                    detections.append({'keyword': keyword_str, 'def_files': match_files})
+                        match_files.append({"def_file": yaml_file})
+                    detections.append(
+                        {"keyword": keyword_str, "def_files": match_files}
+                    )
     return detections
 
 
@@ -166,15 +174,19 @@ def analyse_directory(target_dir: str, definitions: dict) -> list:
     :return: Detection dictionary
     """
     if not target_dir or not os.path.exists(target_dir):
-        print_stderr(f'Error: No target folder specified, or it does not exist: {target_dir}')
+        print_stderr(
+            f"Error: No target folder specified, or it does not exist: {target_dir}"
+        )
         return None
     if not definitions:
-        print_stderr(f'No definitions specified to search for.')
+        print_stderr("No definitions specified to search for.")
         return None
-    progress_enabled = True if not quiet and not debug and not trace and sys.stderr.isatty() else False
+    progress_enabled = (
+        True if not quiet and not debug and not trace and sys.stderr.isatty() else False
+    )
     spinner = None
     if progress_enabled:
-        spinner = Spinner('Detecting files ')
+        spinner = Spinner("Detecting files ")
     file_list = []
     # Walk the directory tree looking for file to analyse
     for root, dirs, files in os.walk(target_dir):
@@ -187,7 +199,8 @@ def analyse_directory(target_dir: str, definitions: dict) -> list:
                 f_size = os.stat(file_path).st_size
             except Exception as e:
                 print_trace(
-                    f'Ignoring missing symlink file: {file_path} ({e})')  # Can fail if there is a broken symlink
+                    f"Ignoring missing symlink file: {file_path} ({e})"
+                )  # Can fail if there is a broken symlink
             if f_size > 0:  # skip empty files
                 if spinner:
                     spinner.next()
@@ -199,14 +212,14 @@ def analyse_directory(target_dir: str, definitions: dict) -> list:
     if file_list:
         bar = None
         if progress_enabled:
-            bar = Bar('Analysing', max=len(file_list))
+            bar = Bar("Analysing", max=len(file_list))
             bar.next(0)
         for file_path in file_list:
             if bar:
                 bar.next(1)
             detections = analyse_file(file_path, definitions)
             if detections:
-                all_detections.append({'file': file_path, 'crypto': detections})
+                all_detections.append({"file": file_path, "crypto": detections})
         if bar:
             bar.finish()
     return all_detections
@@ -222,32 +235,32 @@ def run_scan(target_dir: str, def_dir: str, output: str) -> bool:
     :return: True on success, False otherwise
     """
     if not target_dir:
-        print_stderr(f'Error: No target folder/directory specified.')
+        print_stderr("Error: No target folder/directory specified.")
         return False
     if not os.path.exists(target_dir):
-        print_stderr(f'Error: Target folder does not exist: {target_dir}.')
+        print_stderr(f"Error: Target folder does not exist: {target_dir}.")
         return False
     if not def_dir:
-        print_stderr(f'Error: No definition folder/directory specified.')
+        print_stderr("Error: No definition folder/directory specified.")
         return False
     if not os.path.exists(def_dir):
-        print_stderr(f'Error: Definitions folder does not exist: {def_dir}.')
+        print_stderr(f"Error: Definitions folder does not exist: {def_dir}.")
         return False
     if output:
-        open(output, 'w').close()
+        open(output, "w").close()
     # Load the crypt definitions into memory for processing
     definitions = load_definitions(def_dir)
     if not definitions:
-        print_stderr(f'Error: Failed to load definitions for: {def_dir}')
+        print_stderr(f"Error: Failed to load definitions for: {def_dir}")
         return False
     detections = analyse_directory(target_dir, definitions)
     if detections:
-        print_msg(f'Writing output to: {output}')
-        results = {'files': detections}
-        with open(output, 'w') as json_file:
+        print_msg(f"Writing output to: {output}")
+        results = {"files": detections}
+        with open(output, "w") as json_file:
             json.dump(results, json_file, indent=2)
     else:
-        print_msg(f'No cryptography found in {target_dir}')
+        print_msg(f"No cryptography found in {target_dir}")
     return True
 
 
@@ -257,23 +270,43 @@ def setup_args():
     :return: arguments object
     """
     global debug, quiet, trace, all_hidden
-    parser = argparse.ArgumentParser(description=f'SCANOSS Keyword Analyser. Ver: {__version__}, License: MIT')
-    parser.add_argument('--version', '-v', action='store_true', help='Display version details')
-    parser.add_argument('target_dir', metavar='TARGET-DIR', type=str, nargs='?', help='Folder to scan')
-    parser.add_argument('--definitions', '-c', type=str, default='definitions_crypto_algorithms',
-                        help='The directory containing cryptography definitions (default: definitions_crypto_algorithms/)')
-    parser.add_argument('--output', '-o', type=str, default='crypto-detect.json',
-                        help='The output JSON file (default: crypto-detect.json).')
-    parser.add_argument('--all-hidden', action='store_true', help='Scan all hidden files/folders')
-    parser.add_argument('--debug', '-d', action='store_true', help='Enable debug messages')
-    parser.add_argument('--quiet', '-q', action='store_true', help='Enable quiet mode')
-    parser.add_argument('--trace', '-t', action='store_true', help='Enable trace mode')
+    parser = argparse.ArgumentParser(
+        description=f"SCANOSS Keyword Analyser. Ver: {__version__}, License: MIT"
+    )
+    parser.add_argument(
+        "--version", "-v", action="store_true", help="Display version details"
+    )
+    parser.add_argument(
+        "target_dir", metavar="TARGET-DIR", type=str, nargs="?", help="Folder to scan"
+    )
+    parser.add_argument(
+        "--definitions",
+        "-c",
+        type=str,
+        default="definitions_crypto_algorithms",
+        help="The directory containing cryptography definitions (default: definitions_crypto_algorithms/)",
+    )
+    parser.add_argument(
+        "--output",
+        "-o",
+        type=str,
+        default="crypto-detect.json",
+        help="The output JSON file (default: crypto-detect.json).",
+    )
+    parser.add_argument(
+        "--all-hidden", action="store_true", help="Scan all hidden files/folders"
+    )
+    parser.add_argument(
+        "--debug", "-d", action="store_true", help="Enable debug messages"
+    )
+    parser.add_argument("--quiet", "-q", action="store_true", help="Enable quiet mode")
+    parser.add_argument("--trace", "-t", action="store_true", help="Enable trace mode")
     args = parser.parse_args()
     if args.version:
         ver()
         exit(0)
     if not args.target_dir:
-        print_stderr('Error: Need to specify target directory to process.')
+        print_stderr("Error: Need to specify target directory to process.")
         parser.print_help()
         exit(1)
     debug = args.debug
@@ -287,7 +320,7 @@ def ver():
     """
     Print version information
     """
-    print(f'Version: {__version__}')
+    print(f"Version: {__version__}")
 
 
 def main():
@@ -303,4 +336,5 @@ def main():
 
 
 if __name__ == "__main__":
+    main()
     main()
