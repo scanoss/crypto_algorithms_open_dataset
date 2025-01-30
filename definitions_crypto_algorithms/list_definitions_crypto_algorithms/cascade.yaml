@@ -1,0 +1,23 @@
+# SPDX-FileContributor: Oscar Enrique Goni <oegoni@labset.exa.unicen.edu.ar>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+algorithmId: cascade
+algorithmName: Cascade Cipher
+securityStrength: '112-256'
+keywords:
+    - cascade_cipher
+    - CascadeCipher
+    - cascaded_encryption
+    - CascadedEncryption
+    - encrypt_cascade
+    - encryptCascade
+    - decrypt_cascade
+    - decryptCascade
+    - cascade_encrypt
+    - cascade_decrypt
+    - CascadeDecryption
+    - import cascade.cipher
+    - crypto.cascade
+    - Crypto::Cascade
+
