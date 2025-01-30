@@ -1,0 +1,9 @@
+# SPDX-FileContributor: Oscar Enrique Goni <oegoni@labset.exa.unicen.edu.ar>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+algorithmId: secp256k1
+algorithmName: Standards for Efficient Cryptography Prime 256-bit Koblitz Curve
+securityStrength: '256'
+keywords:
+    - secp256k1
