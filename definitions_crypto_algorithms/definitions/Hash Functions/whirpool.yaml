@@ -1,0 +1,20 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: whirpool
+keywords:
+    - whirpool.go
+    - whirlpool_op
+    - whirlpool.new
+    - whirlpool_init
+    - whirlpool_block
+    - whirlpool_final
+    - whirlpool_update
+    - whirlpool_bitupdate
+    - whirlpool_block_mmx
+    - rhash_whirlpool_init
+    - rhash_whirlpool_sbox
+    - '#include "whirlpool.h"'
+    - '#include <whirlpool.h>'
+    - hashlib.new('whirlpool')
+    - rhash_whirlpool_process_block
+    - crypto.createhash('whirlpool')
+    - github.com/jzelinskie/whirlpool
+    - import org.bouncycastle.crypto.digests.whirlpooldigest

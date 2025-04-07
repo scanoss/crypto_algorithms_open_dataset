@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: RC4 Stream Cipher
+algorithmId: rc4
+category: Symmetric Encryption
+strength: "2048"

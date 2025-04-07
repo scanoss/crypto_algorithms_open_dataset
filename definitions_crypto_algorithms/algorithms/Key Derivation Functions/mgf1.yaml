@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Mask Generation Function 1
+algorithmId: mgf1
+category: Key Derivation Functions
+strength: 128-512

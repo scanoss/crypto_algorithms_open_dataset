@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Edwards-curve Digital Signature Algorithm
+algorithmId: ed25519
+category: Asymmetric Encryption
+strength: ""

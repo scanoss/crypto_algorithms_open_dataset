@@ -1,0 +1,9 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: cms
+keywords:
+    - cm-sketch
+    - cms_encrypt
+    - openssl/cms.h
+    - countminsketch
+    - cms_contentinfo_new
+    - cmsenvelopeddatagenerator
+    - import org.bouncycastle.cms.

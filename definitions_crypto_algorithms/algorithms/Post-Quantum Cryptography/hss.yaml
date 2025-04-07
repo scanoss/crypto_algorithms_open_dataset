@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Hierarchical Signature Scheme
+algorithmId: hss
+category: Post-Quantum Cryptography
+strength: 128-256

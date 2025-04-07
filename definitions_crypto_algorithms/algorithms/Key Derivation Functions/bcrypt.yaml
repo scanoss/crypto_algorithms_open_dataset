@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Bcrypt Password Hashing Function
+algorithmId: bcrypt
+category: Key Derivation Functions
+strength: "320"

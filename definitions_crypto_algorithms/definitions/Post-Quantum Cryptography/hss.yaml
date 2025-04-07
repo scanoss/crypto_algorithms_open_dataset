@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: hss
+keywords:
+    - Hierarchical Signature Scheme
+    - LMS/HSS
+    - HSSSigner
+    - HSS_sign
+    - HSS_verify
+    - HSSPrivateKey
+    - HSSPublicKey
+    - HSSKeyPairGenerator
+    - Hierarchical LMS

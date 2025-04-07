@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: ARIA Block Cipher
+algorithmId: aria
+category: Symmetric Encryption
+strength: 128-256

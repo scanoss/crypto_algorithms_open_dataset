@@ -1,0 +1,13 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: hc128
+keywords:
+    - hc-128
+    - hc128_p
+    - hc128_q
+    - hc128_r
+    - hc128rng
+    - hc128info
+    - hc128_iv_size
+    - hc128_key_size
+    - cryptopp_hc128_h
+    - hc128_block_size
+    - hc128_state_size

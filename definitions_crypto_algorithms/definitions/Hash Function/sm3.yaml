@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: sm3
+keywords:
+    - SM3Digest
+    - SM3_hash
+    - SM3_digest
+    - SM3_update
+    - SM3_finalize
+    - Chinese hash
+    - ShangMi3
+    - SM3WithSM2
+    - GmSSL SM3

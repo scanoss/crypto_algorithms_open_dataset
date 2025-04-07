@@ -1,0 +1,33 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: blake2
+keywords:
+    - blake2.h
+    - blake256
+    - 'blake2::'
+    - blake2b.
+    - blake2b_
+    - blake2s.
+    - blake2s_
+    - blake2sp
+    - blake2xb
+    - blake2xs
+    - blake512
+    - '''blake2b'''
+    - '''blake2s'''
+    - blake 512
+    - blake-256
+    - blake-512
+    - 'blake2b::'
+    - blake2bp_
+    - 'blake2s::'
+    - blake_256
+    - blake_512
+    - blake2b256
+    - blake2b384
+    - blake2b512
+    - blake2s128
+    - blake2s256
+    - blake2bdigest
+    - blake2sdigest
+    - crypto/blake2
+    - digest/blake2
+    - import blake2b, blake2s

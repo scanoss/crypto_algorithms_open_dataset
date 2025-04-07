@@ -1,0 +1,14 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: sober
+keywords:
+    - sober32_
+    - sober64_
+    - sober128_
+    - sober_dec
+    - sober_enc
+    - ltc_sober128
+    - sober_set_iv
+    - sober_process
+    - sober_set_key
+    - sober_finalize
+    - sober_generate_iv
+    - sober_generate_key

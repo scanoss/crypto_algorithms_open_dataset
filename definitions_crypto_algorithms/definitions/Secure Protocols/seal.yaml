@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: seal
+keywords:
+    - seal.h
+    - sealcontext
+    - sealwrapper
+    - tosealobject
+    - fromsealobject

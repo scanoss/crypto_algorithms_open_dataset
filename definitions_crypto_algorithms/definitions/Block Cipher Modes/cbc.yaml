@@ -1,0 +1,32 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: cbc
+keywords:
+    - bf_cbc
+    - aes-cbc
+    - aes/cbc
+    - des_cbc
+    - rc2-cbc
+    - rc2_cbc
+    - rc4-cbc
+    - rc4_cbc
+    - rc5-cbc
+    - rc5_cbc
+    - aes/cbc/
+    - aes_cbc_
+    - cast_cbc
+    - cast3_cbc
+    - cast5_cbc
+    - idea_cbc_
+    - desede/cbc
+    - sms4_cbc_e
+    - ice_cbc_mode
+    - tea_cbc_mode
+    - safer_mode_cbc
+    - tdes_flags_cbc
+    - xtea_decodecbc
+    - camellia-256-cbc
+    - rc5_32_cbc_encrypt
+    - camellia_cbc_encrypt
+    - evp_camellia_128_cbc
+    - evp_camellia_192_cbc
+    - evp_camellia_256_cbc
+    - crypto.cipher.camellia.mode_cbc

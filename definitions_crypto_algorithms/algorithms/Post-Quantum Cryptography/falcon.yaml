@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Fast-Fourier Lattice-based Compact Signatures
+algorithmId: falcon
+category: Post-Quantum Cryptography
+strength: 128-256

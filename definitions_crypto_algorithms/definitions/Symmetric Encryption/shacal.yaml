@@ -1,0 +1,13 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: shacal
+keywords:
+    - shacal
+    - shacal2
+    - isshacal1
+    - shacal2.new
+    - crypto/shacal2
+    - require('shacal')
+    - shacal2encryption
+    - cryptopp_shacal2_h
+    - '#include "shacal.h"'
+    - .getinstance("shacal2");
+    - from crypto.cipher import shacal2

@@ -1,0 +1,35 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: gcm
+keywords:
+    - aesgcm
+    - gcm_iv
+    - newgcm
+    - 128-gcm
+    - 128_gcm
+    - 192-gcm
+    - 256-gcm
+    - 256_gcm
+    - 256_gcm
+    - aes-gcm
+    - aes/gcm
+    - aes_gcm
+    - gcm_tag
+    - aes_gcm_
+    - gcm(aes)
+    - gcm.init
+    - gcm_mode
+    - mode_gcm
+    - gcm_mode.
+    - _ctrl_gcm_
+    - botan::gcm
+    - 'gcm<aes>::'
+    - gcm.process
+    - mbedtls_gcm
+    - gcm.aadappend
+    - gcmparameters
+    - gcmblockcipher
+    - gcm.setkeywithiv
+    - gcm.truncatedfinal
+    - copymbedtls_gcm_init
+    - '#include <botan/gcm.h>'
+    - gcm.specifydatalengths
+    - '#include <mbedtls/gcm.h>'

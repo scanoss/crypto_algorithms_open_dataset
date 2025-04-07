@@ -1,0 +1,18 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: ecb
+keywords:
+    - rc2-ecb
+    - rc2_ecb
+    - rc4-ecb
+    - rc5-ecb
+    - rc5_ecb
+    - des_ecb_
+    - idea_ecb
+    - rsa/ecb/
+    - sms4_ecb_
+    - desede/ecb
+    - multi2_ecb
+    - ice_ecb_mode
+    - safer_mode_ecb
+    - tdes_flags_ecb
+    - xtea_encodeecb
+    - rc5_32_ecb_encrypt

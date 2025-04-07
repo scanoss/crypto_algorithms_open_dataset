@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: hkdf
+keywords:
+    - HMAC-based KDF
+    - HMAC_KDF
+    - HKDFBytesGenerator
+    - HKDF_extract
+    - HKDF_expand
+    - RFC5869
+    - HMAC-based Extract-and-Expand
+    - HKDFParameters

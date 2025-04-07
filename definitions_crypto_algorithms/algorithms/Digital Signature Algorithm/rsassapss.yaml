@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: RSA Signature Scheme with Appendix - Probabilistic Signature Scheme
+algorithmId: rsassapss
+category: Digital Signature Algorithm
+strength: 1024-4096

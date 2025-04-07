@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: dss
+keywords:
+    - Digital Signature Algorithm Standard
+    - FIPS 186
+    - DSS_SIGN
+    - DSSSigner
+    - DSS_VERIFY
+    - DSSSHASigner

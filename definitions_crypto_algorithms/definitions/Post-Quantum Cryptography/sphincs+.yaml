@@ -1,0 +1,33 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: sphincs+
+keywords:
+    - sphincs.h
+    - sphincs+.h
+    - sphincs_pk
+    - sphincs_sk
+    - sphincs_ctx
+    - sphincs_sha
+    - sphincsplus
+    - sign.sphincs
+    - sphincs_hash
+    - sphincs_plus
+    - sphincs_sign
+    - sphincs_tree
+    - sphincs/api.h
+    - sphincs_bytes
+    - sphincsplus.h
+    - crypto.sphincs
+    - sphincs_crypto
+    - sphincs_haraka
+    - sphincs_height
+    - sphincs_keygen
+    - sphincs_verify
+    - pqclean_sphincs
+    - sphincs_max_rounds
+    - crypto_sign/sphincs
+    - crypto_sign_sphincs
+    - sphincs_full_height
+    - sphincs_tree_height
+    - sphincs_publickeybytes
+    - sphincs_secretkeybytes
+    - sphincs_signaturebytes
+    - sphincs_generate_keypair

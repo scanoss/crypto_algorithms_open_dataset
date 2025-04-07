@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: lms
+keywords:
+    - Leighton-Micali Signature
+    - LMSSigner
+    - LMS_sign
+    - LMS_verify
+    - LMSPrivateKey
+    - LMSPublicKey
+    - LMOTS
+    - LM-OTS
+    - LMS-HSS
+    - RFC8554

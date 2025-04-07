@@ -1,0 +1,9 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: fletcher
+keywords:
+    - fletcher16
+    - fletcher32
+    - fletcher64
+    - fletcher_hash
+    - fletcher_update
+    - fletcher_finaliz
+    - fletcher_checksum

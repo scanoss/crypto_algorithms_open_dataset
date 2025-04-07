@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Bit Flipping Key Encapsulation
+algorithmId: bike
+category: Post-Quantum Cryptography
+strength: 128-256

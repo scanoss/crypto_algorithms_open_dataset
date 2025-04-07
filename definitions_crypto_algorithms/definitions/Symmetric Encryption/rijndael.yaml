@@ -1,0 +1,17 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: rijndael
+keywords:
+    - rijndaeli
+    - rijndaels
+    - rijndael.h
+    - rijndael256
+    - rijndaelkey
+    - rijndaelfinal
+    - rijndaelround
+    - rijndaelcipher
+    - rijndaelupdate
+    - rijndaeldecrypt
+    - rijndaelencrypt
+    - rijndaelexpandkey
+    - rijndaelmixcolumns
+    - rijndaeladdroundkey
+    - rijndaelgeneratekey

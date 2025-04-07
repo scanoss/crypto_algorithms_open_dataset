@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: siphash
+keywords:
+    - SipHash
+    - SipHash-2-4
+    - SipHash24
+    - SipHasher
+    - SipHash_2_4
+    - SipHash_4_8
+    - SipHash_MAC
+    - SipHashDigest
+    - SipHashFunction
+    - SIP-HASH

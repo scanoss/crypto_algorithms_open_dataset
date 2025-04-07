@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: wake
+keywords:
+    - wake.h
+    - wake_base
+    - wake_output
+    - wake_policy
+    - wake_testinstantiations

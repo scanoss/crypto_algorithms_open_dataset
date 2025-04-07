@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Counter Mode Key Derivation Functions
+algorithmId: kdfcounter
+category: Key Derivation Functions
+strength: 128-512

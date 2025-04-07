@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: ANSI X9.31 Random Number Generator
+algorithmId: ansix931
+category: Random Number Generation
+strength: 128-256

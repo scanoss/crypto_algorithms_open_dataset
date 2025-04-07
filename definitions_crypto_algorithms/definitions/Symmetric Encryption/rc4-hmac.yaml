@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: rc4-hmac
+keywords:
+    - rc4hmac
+    - rc4-hmac.go
+    - rc4-hmac-md5
+    - cryptopp::rc4
+    - crypto.hash.hmac

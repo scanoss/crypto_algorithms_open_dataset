@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Haraka v2 Hash Function
+algorithmId: harakav2
+category: Hash Function
+strength: 256-512

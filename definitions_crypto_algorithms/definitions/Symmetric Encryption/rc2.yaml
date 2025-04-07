@@ -1,0 +1,32 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: rc2
+keywords:
+    - rc2-cbc
+    - rc2-cfb
+    - rc2-ecb
+    - rc2-ofb
+    - rc2.new
+    - rc2_128
+    - rc2_cbc
+    - rc2_cfb
+    - rc2_ecb
+    - rc2_key
+    - rc2_ofb
+    - rc2context
+    - rc2engine.
+    - cipher::rc2
+    - rc2.decrypt
+    - rc2.encrypt
+    - rc2_decrypt
+    - rc2_encrypt
+    - rc2_set_key
+    - rc2_set_key
+    - rc2.key_size
+    - rc2 algorithm
+    - rc2.newcipher
+    - rc2.block_size
+    - rc2.block_size
+    - rc2_block_size
+    - rc2_ltx__mcrypt_
+    - createcipheriv('rc2'
+    - createdecipheriv('rc2'
+    - '#include <openssl/rc2.h>'

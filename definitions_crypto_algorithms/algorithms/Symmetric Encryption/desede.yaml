@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Triple Data Encryption Standard (DESede)
+algorithmId: desede
+category: Symmetric Encryption
+strength: "168"

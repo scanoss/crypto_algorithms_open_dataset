@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: tea
+keywords:
+    - tea_decrypt
+    - tea_encrypt
+    - tea_cbc_mode
+    - tea_ofb_mode

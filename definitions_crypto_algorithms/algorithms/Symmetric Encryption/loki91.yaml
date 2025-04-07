@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: LOKI-91 Block Cipher
+algorithmId: loki91
+category: Symmetric Encryption
+strength: "64"

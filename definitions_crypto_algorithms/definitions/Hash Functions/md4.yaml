@@ -1,0 +1,19 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: md4
+keywords:
+    - 'md4 '
+    - md4.h
+    - md4_hash
+    - md4_init
+    - md4_final
+    - md4_magic
+    - crypto/md4
+    - md4_digest
+    - md4_update
+    - md4_padding
+    - md4_transform
+    - hashlib.new('md4'
+    - .createhash('md4')
+    - md4_hmac_block_size
+    - md4_block_data_order
+    - '#include <openssl/md4.h>'
+    - md4_block_words - md4_hash_

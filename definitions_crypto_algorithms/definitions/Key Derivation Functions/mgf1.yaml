@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: mgf1
+keywords:
+    - Mask Generation Function 1
+    - MGF1BytesGenerator
+    - MGF1_generate
+    - MGF1Parameters
+    - PKCS1MGF
+    - RSA-MGF1
+    - MGF1MaskGenerator
+    - MGF1_mask

@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: GOST Block Cipher
+algorithmId: gost
+category: Symmetric Encryption
+strength: "64"

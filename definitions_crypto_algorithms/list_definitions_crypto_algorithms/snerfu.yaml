@@ -1,9 +1,0 @@
-# SPDX-FileContributor: [Author Name(s)] <[Optional: Email Address(es)]>
-#
-# SPDX-License-Identifier: CC0-1.0
-
-algorithmId: snerfu
-algorithmName: SNERFU Hash Function
-securityStrength: '256'
-keywords:
-    - Snefru

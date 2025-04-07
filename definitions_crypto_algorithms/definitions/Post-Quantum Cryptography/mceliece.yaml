@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: mceliece
+keywords:
+    - mceliece.h
+    - mceliece_g
+    - mceliece_h
+    - mceliece_dec
+    - mceliece_enc
+    - mceliece_init
+    - delete_mceliece
+    - mceliece_keygen"
+    - mceliececipher.py

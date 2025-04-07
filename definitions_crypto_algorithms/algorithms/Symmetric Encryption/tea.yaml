@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Tiny Encryption Algorithm
+algorithmId: tea
+category: Symmetric Encryption
+strength: "128"

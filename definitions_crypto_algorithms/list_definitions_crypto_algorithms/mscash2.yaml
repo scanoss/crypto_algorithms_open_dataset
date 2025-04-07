@@ -1,9 +1,0 @@
-# SPDX-FileContributor: [Author Name(s)] <[Optional: Email Address(es)]>
-#
-# SPDX-License-Identifier: CC0-1.0
-
-algorithmId: mscash2
-algorithmName: MSCash2 Password Hashing
-securityStrength: '128'
-keywords:
-    - mascash2

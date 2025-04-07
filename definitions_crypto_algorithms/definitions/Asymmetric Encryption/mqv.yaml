@@ -1,0 +1,16 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: mqv
+keywords:
+    - ecmqv
+    - fhmqv
+    - mqv.h
+    - hmqv.h
+    - fhmqv128
+    - fhmqv256
+    - fhmqv384
+    - fhmqv512
+    - eqv_domain
+    - mqv_signing
+    - mqv_key_agreement
+    - mqv_key_exchange"
+    - mqv_verification"
+    - menezes-qu-vanstone

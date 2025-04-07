@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Secure Hash Standard
+algorithmId: shs
+category: Hash Functions
+strength: "128"

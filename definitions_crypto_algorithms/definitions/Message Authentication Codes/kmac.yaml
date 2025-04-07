@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: kmac
+keywords:
+    - KMAC128
+    - KMAC256
+    - Keccak MAC
+    - KMAC_update
+    - KMAC_finalize
+    - KMACDigest
+    - NIST-KMAC
+    - KMAC_128
+    - KMAC_256
+    - KMACParameters

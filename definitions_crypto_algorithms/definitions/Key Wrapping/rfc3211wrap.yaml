@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: rfc3211wrap
+keywords:
+    - RFC3211Wrap
+    - RFC3211
+    - RFC3211Wrapper
+    - RFC3211_wrap
+    - RFC3211_unwrap
+    - PKCS5Scheme2
+    - RFC3211WrapEngine
+    - CMS-KeyWrap
+    - Password Based Key Wrapping

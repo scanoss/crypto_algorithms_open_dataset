@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: grain
+keywords:
+    - grain.h
+    - grainhash
+    - graininit
+    - grain_data
+    - grainfinal
+    - grain_state
+    - grainupdate
+    - grain-128aead
+    - grain128aead.h
+    - grain128engine

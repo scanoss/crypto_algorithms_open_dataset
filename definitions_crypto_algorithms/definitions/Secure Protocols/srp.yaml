@@ -1,0 +1,17 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: srp
+keywords:
+    - _ctsrp
+    - _pysrp
+    - libsrp
+    - srp_gn_
+    - srp_calc_
+    - srpclient
+    - srpserver
+    - srp_vbase_
+    - srp_verify_
+    - srp_user_pwd_
+    - srp_calc_client_
+    - srp_get_gn_by_id
+    - srp_get_default_gn
+    - srp_create_verifier_
+    - srp_check_known_gn_param

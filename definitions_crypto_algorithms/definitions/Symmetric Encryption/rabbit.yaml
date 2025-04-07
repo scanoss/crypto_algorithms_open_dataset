@@ -1,0 +1,20 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: rabbit
+keywords:
+    - rabbit_ctx
+    - rabbit_util
+    - rabbit_state
+    - rabbit_cipher
+    - rabbit_crypto
+    - rabbit_cypher
+    - rabbit_set_iv
+    - rabbit_decrypt
+    - rabbit_encrypt
+    - rabbit_encrypt
+    - rabbit_set_key
+    - rabbit_key_setup
+    - rabbit_crypt_bytes
+    - '#include "rabbit.h"'
+    - rabbit_process_bytes
+    - createcipheriv('rabbit'
+    - secretkeyspec(key, "rabbit")
+    - from crypto.cipher import rabbit

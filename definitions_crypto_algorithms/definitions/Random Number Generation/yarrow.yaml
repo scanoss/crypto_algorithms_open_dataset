@@ -1,0 +1,33 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: yarrow
+keywords:
+    - yarrow256
+    - yarrow512
+    - ltc_yarrow
+    - yarrowinit
+    - yarrow.init
+    - yarrow_desc
+    - yarrow_done
+    - yarrow_read
+    - yarrow_test
+    - yarrowstate
+    - yarrow.state
+    - yarrow::init
+    - yarrow_ready
+    - yarrow_start
+    - yarrowreseed
+    - yarrowupdate
+    - yarrow.reseed
+    - yarrow.update
+    - yarrow::state
+    - yarrow_export
+    - yarrow_import
+    - yarrowentropy
+    - yarrow.entropy
+    - yarrow::reseed
+    - yarrow::update
+    - yarrowgenerate
+    - yarrow.generate
+    - yarrow::entropy
+    - yarrow::generate
+    - yarrow_add_entropy
+    - '#include <yarrow.h>'

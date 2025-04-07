@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: tdes
+keywords:
+    - tdes_flags_cbc
+    - tdes_flags_ecb
+    - tdes_flags_ofb
+    - tdes_flags_cfb8
+    - des_ecb3_encrypt
+    - tdes_flags_cfb16
+    - tdes_flags_cfb32
+    - tdes_flags_cfb64
+    - tdes_flags_encrypt
+    - tdes_flags_opmode_mask

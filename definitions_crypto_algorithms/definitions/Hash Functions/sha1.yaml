@@ -1,0 +1,33 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: sha1
+keywords:
+    - sha1_
+    - sha1.h
+    - '''sha-1'''
+    - ::sha1.
+    - sha1::{
+    - ("sha1")
+    - sha1.hex
+    - sha1_ctx
+    - sha1hash
+    - sha1hex(
+    - ("sha-1")
+    - sha1.new(
+    - sha1.sum(
+    - sha1_hash
+    - sha1state
+    - .sha1digest
+    - crypto.sha1
+    - digest/sha1
+    - hash('sha1'
+    - import sha1
+    - digest::sha1
+    - sha1.create(
+    - sha1_context
+    - sha1managed(
+    - cryptojs.sha1
+    - hashlib.sha1(
+    - openssl/sha.h
+    - sha1($string)
+    - sha1.computehash(
+    - crypto.createhash('sha1')
+    - sha1cryptoserviceprovider(

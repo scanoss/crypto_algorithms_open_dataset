@@ -1,0 +1,38 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: aes
+keywords:
+    - _aes
+    - aes.h
+    - aes.js
+    - aes128
+    - aes256
+    - aeskey
+    - aes.aes
+    - aes_cfb
+    - aes_key
+    - aescmac
+    - _aes_ctr
+    - aes/cbc/
+    - aes_cbc_
+    - aes_ecb_
+    - tiny-aes-c
+    - aes_decrypt
+    - aes_encrypt
+    - aes_ofb128_
+    - aes_wrap_key
+    - gibberishaes
+    - aes.prototype
+    - cryptojs.aes.
+    - aes_block_size
+    - aes_unwrap_key
+    - <openssl/aes.h>
+    - aes_ige_encrypt
+    - require('sjcl')
+    - .getinstance("aes
+    - aes/ecb/nopadding
+    - aes/gcm/nopadding
+    - require('aes-js')
+    - aes_set_decrypt_key
+    - aes_set_encrypt_key
+    - aes/ecb/pkcs5padding
+    - module.exports = aes
+    - advanced encryption standard"

@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: x448
+keywords:
+    - Curve448
+    - X448KeyAgreement
+    - X448KeyPair
+    - X448PrivateKey
+    - X448PublicKey
+    - X448_compute
+    - RFC7748
+    - X448Function
+    - X448Agreement

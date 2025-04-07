@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: xdh
+keywords:
+    - Extended Diffie-Hellman
+    - XDHKeyAgreement
+    - XDH_computeKey
+    - XDHParameters
+    - XDHUnifiedAgreement
+    - XDHKeyPair
+    - XDHPublicKey
+    - XDHPrivateKey

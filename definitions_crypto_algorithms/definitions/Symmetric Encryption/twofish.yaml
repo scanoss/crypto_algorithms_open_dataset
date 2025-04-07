@@ -1,0 +1,14 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: twofish
+keywords:
+    - twofish.h
+    - twofish.h
+    - "0xbcbc3275"
+    - twofish_key
+    - twofish_byte
+    - twofish_fatal
+    - twofish_decrypt
+    - twofish_encrypt
+    - twofish_prepare_key
+    - twofish_prepare_key
+    - 0xa9, 0x67, 0xb3, 0xe8
+    - exp_twofish_prepare_key

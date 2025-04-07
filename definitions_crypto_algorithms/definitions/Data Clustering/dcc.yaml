@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: dcc
+keywords:
+    - dcc.py
+    - check_convergence
+    - recompute_centroids
+    - compute_dissimilarity

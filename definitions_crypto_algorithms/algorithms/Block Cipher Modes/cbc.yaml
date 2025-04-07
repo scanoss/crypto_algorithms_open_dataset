@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Cipher Block Chaining
+algorithmId: cbc
+category: Block Cipher Modes
+strength: ""

@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: RSA Key Encapsulation Mechanism
+algorithmId: rsakem
+category: Key Encapsulation
+strength: 1024-4096

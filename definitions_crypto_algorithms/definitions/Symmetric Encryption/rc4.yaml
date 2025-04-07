@@ -1,0 +1,26 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: rc4
+keywords:
+    - _rc4
+    - rc4_h
+    - rc4-cbc
+    - rc4-cfb
+    - rc4-ecb
+    - rc4-ofb
+    - rc4_gen
+    - rc4_key
+    - rc4_ksa
+    - rc4_decr
+    - rc4_encr
+    - rc4_init
+    - rc4_init
+    - rc4_prga
+    - rc4_setup
+    - crypto/rc4
+    - rc4_cipher
+    - rc4context
+    - rc4_context
+    - rc4_set_key
+    - rc4_generate
+    - ::cipher::rc4
+    - rc4_key_setup
+    - rc4_pseudo_random

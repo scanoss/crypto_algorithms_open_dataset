@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: crc32
+keywords:
+    - crc32_
+    - xcrc32
+    - crc32.c
+    - crc_32_
+    - crc32h.h
+    - crc32.ieee
+    - crc32_init
+    - crc32_poly
+    - crc32_table
+    - java.util.zip.crc32

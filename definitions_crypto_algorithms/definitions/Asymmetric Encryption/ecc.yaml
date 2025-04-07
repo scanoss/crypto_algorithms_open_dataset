@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: ecc
+keywords:
+    - ec_group
+    - cryptopp::ec
+    - ec_point_mul
+    - crypto/elliptic
+    - ecc_prv_key_size
+    - openssl::pkey::ec
+    - eccurve.namedcurves
+    - ec_key_new_by_curve_name

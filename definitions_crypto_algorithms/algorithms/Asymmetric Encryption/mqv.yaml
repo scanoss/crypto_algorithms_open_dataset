@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Menezes-Qu-Vanstone
+algorithmId: mqv
+category: Asymmetric Encryption
+strength: "512"

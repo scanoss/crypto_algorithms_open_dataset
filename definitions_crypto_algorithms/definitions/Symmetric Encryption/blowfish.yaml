@@ -1,0 +1,22 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: blowfish
+keywords:
+    - bf_cbc
+    - bf_cfb
+    - bf_ecb
+    - bf_ofb
+    - blowfish
+    - bf_set_key
+    - blowfish_f
+    - blowfish.new(
+    - blowfish_init
+    - blowfish_decrypt
+    - blowfish_encrypt
+    - blowfish_p_array
+    - blowfish_s_boxes
+    - egoroof-blowfish
+    - blowfish_decipher
+    - blowfish_encipher
+    - blowfish_key_size
+    - blowfish_block_size
+    - blowfish_max_key_size
+    - blowfish_generate_subkeys

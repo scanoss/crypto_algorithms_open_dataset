@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: lucifer
+keywords:
+    - lucifer.h
+    - lucifer_setup
+    - lucifer_decrypt
+    - lucifer_encrypt
+    - lucifer_permute
+    - lucifer_key_size
+    - lucifer_block_size
+    - lucifer_num_rounds
+    - lucifer_key_schedule
+    - lucifer_round_function

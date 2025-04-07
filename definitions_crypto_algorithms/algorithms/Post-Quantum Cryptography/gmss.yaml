@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Generalized Merkle Signature Scheme
+algorithmId: gmss
+category: Post-Quantum Cryptography
+strength: 128-256

@@ -1,0 +1,28 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: ice
+keywords:
+    - icekey
+    - ice_init
+    - node-ice
+    - icesubkey
+    - ice_rounds
+    - ice_cipher_
+    - ice_decrypt
+    - ice_encrypt
+    - ice_padding
+    - ice_set_key
+    - ice_cbc_mode
+    - ice_cfb_mode
+    - ice_ctr_mode
+    - ice_ecb_mode
+    - ice_key_size
+    - ice_ofb_mode
+    - ice_block_size
+    - ice_no_padding
+    - __ruby_ice_key_h
+    - ice_decrypt_mode
+    - ice_encrypt_mode
+    - ice_key_schedule
+    - ice_max_key_size
+    - ice_min_key_size
+    - ice_pkcs5_padding
+    - ice_iso10126_padding

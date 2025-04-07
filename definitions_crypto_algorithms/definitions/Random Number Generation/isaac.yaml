@@ -1,0 +1,16 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: isaac
+keywords:
+    - isaac32
+    - isaac64
+    - isaaccsprng
+    - isaac_rounds
+    - isaac_iv_size
+    - isaac_constant
+    - isaac_key_size
+    - isaac_prng_seed
+    - isaac_seed_array
+    - isaac_state_size
+    - isaac_output_size
+    - isaacrandompool.h
+    - isaac_initial_seed
+    - isaac_mix_constant

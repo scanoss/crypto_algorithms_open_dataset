@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Kerberos Authentication Protocol
+algorithmId: kerberos
+category: Authentication
+strength: 56-256

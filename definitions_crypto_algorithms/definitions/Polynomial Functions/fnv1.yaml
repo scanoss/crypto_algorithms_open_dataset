@@ -1,0 +1,14 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: fnv1
+keywords:
+    - fnv1_32
+    - fnv1_64
+    - fnv1a256
+    - fnv1a512
+    - fnv1a_32
+    - fnv1a_64
+    - fnv1a1024
+    - fnv_32_init
+    - fnv_64_init
+    - fnv1abigbase
+    - fnv_32_prime
+    - fnv_64_prime

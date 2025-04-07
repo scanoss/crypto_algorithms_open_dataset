@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: SOBER Stream Cipher
+algorithmId: sober
+category: Symmetric Encryption
+strength: "128"

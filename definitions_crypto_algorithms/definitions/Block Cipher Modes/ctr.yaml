@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: ctr
+keywords:
+    - _aes_ctr
+    - ctr_drbg
+    - drbg_ctr
+    - mode_ctr
+    - sms4_ctr_
+    - ice_ctr_mode
+    - hc256_ctr_size
+    - camellia_ctr128_encrypt
+    - ideastreamctrrandomaccessinit
+    - crypto.cipher.camellia.mode_ctr

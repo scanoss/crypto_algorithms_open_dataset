@@ -1,0 +1,20 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: drbg
+keywords:
+    - ec_drbg
+    - ctr_drbg
+    - drbg_ctr
+    - hashdrbg
+    - hmacdrbg
+    - drbg_hash
+    - drbg_hmac
+    - drbg_init
+    - hash_drbg
+    - hmac_drbg
+    - rand_drbg
+    - drbg_reseed
+    - drbg_update
+    - drbg_generate
+    - drbg_health_test
+    - drbg_instantiate
+    - crypto.prng.drbg.
+    - drbg_uninstantiate

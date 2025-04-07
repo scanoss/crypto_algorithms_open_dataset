@@ -1,0 +1,29 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: rainbow
+keywords:
+    - rainbow.h
+    - rainbow_key
+    - rainbow_sign
+    - rainbowsigner
+    - crypto.rainbow
+    - rainbow_genkey
+    - rainbow_params
+    - rainbow_verify
+    - rainbowkeypair
+    - rainbowverifier
+    - rainbow_instance
+    - rainbowpublickey
+    - rainbowsignature
+    - rainbow_signature
+    - rainbowparameters
+    - rainbowprivatekey
+    - rainbow_public_map
+    - rainbow_central_map
+    - rainbow_private_map
+    - pqcsignature.rainbow
+    - rainbow_verification
+    - rainbow_solve_equation
+    - rainbowkeypairgenerator
+    - .jcajce.provider.rainbow
+    - rainbow_generate_keypair
+    - rainbow_compute_oil_variables
+    - rainbow_compute_vinegar_variable

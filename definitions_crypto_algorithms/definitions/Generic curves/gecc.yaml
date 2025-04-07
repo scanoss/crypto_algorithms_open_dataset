@@ -1,0 +1,19 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: gecc
+keywords:
+    - ed448
+    - ed25519
+    - secp192
+    - secp224
+    - secp256
+    - curve448
+    - frp256v1
+    - secp384r1
+    - secp521r1
+    - ansix9p256
+    - ansix9p384
+    - ansix9p521
+    - curve25519
+    - prime256v1
+    - brainpoolp256
+    - brainpoolp384
+    - brainpoolp512

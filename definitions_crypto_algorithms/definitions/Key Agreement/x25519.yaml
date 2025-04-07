@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: x25519
+keywords:
+    - Curve25519
+    - X25519KeyAgreement
+    - X25519KeyPair
+    - X25519PrivateKey
+    - X25519PublicKey
+    - X25519_compute
+    - RFC7748
+    - X25519Function
+    - X25519Agreement

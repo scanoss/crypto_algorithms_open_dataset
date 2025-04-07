@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: MD6 Message-Digest Algorithm
+algorithmId: md6
+category: Hash Functions
+strength: "512"

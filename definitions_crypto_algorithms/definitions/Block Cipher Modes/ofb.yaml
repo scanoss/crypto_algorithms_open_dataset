@@ -1,0 +1,18 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: ofb
+keywords:
+    - des_ofb
+    - rc2-ofb
+    - rc2_ofb
+    - rc4-ofb
+    - rc5-ofb
+    - rc5_ofb
+    - idea_ofb_
+    - sms4_ofb_
+    - aes_ofb128_
+    - ice_ofb_mode
+    - tea_ofb_mode
+    - safer_mode_ofb
+    - tdes_flags_ofb
+    - rc5_32_ofb64_encrypt
+    - camellia_ofb128_encrypt
+    - crypto.cipher.camellia.mode_ofb

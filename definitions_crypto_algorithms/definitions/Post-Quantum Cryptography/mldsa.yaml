@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: mldsa
+keywords:
+    - Multilevel Digital Signature Algorithm Algorithm
+    - ML-DSA
+    - ML_DSA
+    - MLDSASigner
+    - MLDSA_sign
+    - MLDSA_verify
+    - MLDSAPrivateKey
+    - MLDSAPublicKey
+    - Falcon

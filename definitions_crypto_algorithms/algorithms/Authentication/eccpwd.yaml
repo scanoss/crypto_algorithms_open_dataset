@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Elliptic Curve Password Authenticated Key Exchange
+algorithmId: eccpwd
+category: Authentication
+strength: 128-256

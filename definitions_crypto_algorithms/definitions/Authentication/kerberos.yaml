@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: kerberos
+keywords:
+    - Kerberos
+    - KerberosAuth
+    - KerberosKey
+    - KerberosTicket
+    - KerberosAuthentication
+    - KRB5
+    - KRB_AP_REQ
+    - KRB_AP_REP
+    - KerberosService
+    - GSS-API Kerberos

@@ -1,0 +1,13 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: f8
+keywords:
+    - f8_init
+    - f8_update
+    - f8context
+    - f8_decrypt
+    - f8_encrypt
+    - f8_iv_size
+    - f8_finalize
+    - f8_key_size
+    - srtpcipherf8
+    - f8_block_size
+    - processpacketaesf8

@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: xmss
+keywords:
+    - eXtended Merkle Signature Scheme
+    - XMSSSigner
+    - XMSS_sign
+    - XMSS_verify
+    - XMSSPrivateKey
+    - XMSSPublicKey
+    - XMSSParameters
+    - XMSS-SHA256
+    - RFC8391

@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Cellular Message Encryption Algorithm
+algorithmId: cmea
+category: Symmetric Encryption
+strength: "64"

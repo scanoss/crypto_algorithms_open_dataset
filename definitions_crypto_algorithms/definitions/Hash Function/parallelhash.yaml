@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: parallelhash
+keywords:
+    - ParallelHash
+    - ParallelHash128
+    - ParallelHash256
+    - NIST-ParallelHash
+    - ParallelHashDigest
+    - SP800-185
+    - ParallelHash_update
+    - ParallelHash_finalize
+    - ParallelHashParameters

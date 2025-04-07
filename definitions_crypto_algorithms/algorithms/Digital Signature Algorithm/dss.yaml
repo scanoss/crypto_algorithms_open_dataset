@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Digital Signature Standard
+algorithmId: dss
+category: Digital Signature Algorithm
+strength: 1024-3072

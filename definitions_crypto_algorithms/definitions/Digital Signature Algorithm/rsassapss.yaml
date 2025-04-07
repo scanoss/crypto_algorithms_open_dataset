@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: rsassapss
+keywords:
+    - RSAssaPSS
+    - RSASSA-PSS
+    - RSA_PSS
+    - RSAPSSSigner
+    - RSAPSS_sign
+    - RSAPSS_verify
+    - RSASSA_PSS_sign
+    - RSASSA_PSS_verify
+    - PSSSigner
+    - PSSParameterSpec

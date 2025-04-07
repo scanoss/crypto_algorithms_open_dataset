@@ -1,0 +1,19 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: aria
+keywords:
+    - aria.h
+    - aria-128
+    - aria-192
+    - aria-256
+    - aria.cpp
+    - aria.new(
+    - ossl_aria
+    - ariaengine
+    - crypto/aria
+    - aria_encrypt
+    - aria.newcipher
+    - openssl/aria.h
+    - r.re.nsri.aria
+    - aria/ecb/nopadding
+    - aria_set_decrypt_key
+    - aria_set_encrypt_key
+    - from cryptodome.cipher import aria

@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: tuplehash
+keywords:
+    - TupleHash
+    - TupleHash128
+    - TupleHash256
+    - NIST-TupleHash
+    - TupleHashDigest
+    - SP800-185
+    - TupleHash_update
+    - TupleHash_finalize
+    - TupleHashParameters

@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: eddsa
+keywords:
+    - Edwards-curve DSA
+    - EdDSASigner
+    - EdDSA_sign
+    - EdDSA_verify
+    - Ed25519
+    - Ed448
+    - Edwards Digital Signature Algorithm
+    - RFC8032
+    - EdDSAParameterSpec
