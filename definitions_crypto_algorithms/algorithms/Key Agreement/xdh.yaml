@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Extended Diffie-Hellman
+algorithmId: xdh
+category: Key Agreement
+strength: 128-224

@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: falcon
+keywords:
+    - Falcon-sign
+    - Falcon-verify
+    - FalconKeyPair
+    - FalconSignature
+    - Falcon-512
+    - Falcon-1024
+    - FALCON_SIGN
+    - FALCON_VERIFY

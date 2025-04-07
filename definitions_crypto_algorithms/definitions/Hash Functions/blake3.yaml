@@ -1,0 +1,16 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: blake3
+keywords:
+    - /blake3
+    - blake3(
+    - blake3.
+    - blake3_
+    - '''blake3'''
+    - 'blake3::'
+    - blake3hash
+    - blake3state
+    - blake3digest
+    - blake3result
+    - blake3context
+    - import blake3
+    - blake3_compress
+    - blake3hashstate

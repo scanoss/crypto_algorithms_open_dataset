@@ -1,0 +1,19 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: CMAC
+keywords:
+    - cmac.new
+    - cmac.copy
+    - cmac_init
+    - cmac_final
+    - cmac.digest
+    - cmac.update
+    - cmac.verify
+    - cmac_update
+    - cmac_verify
+    - cmac_ctx_new
+    - cmac_ctx_free
+    - cmac_generate
+    - cmac.hexdigest
+    - cmac_ctx_reset
+    - .getinstance("aescmac");
+    - '#include <openssl/cmac.h>'
+    - from crypto.hash import cmac

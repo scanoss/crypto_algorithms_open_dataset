@@ -1,0 +1,15 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: cmea
+keywords:
+    - cmeasys
+    - cmea_sbox
+    - startcmea
+    - cmea_decrypt
+    - cmea_encrypt
+    - cmea_key_size
+    - cmea_block_size
+    - cmea_initialize
+    - cmea_num_rounds
+    - cmea_init_vector
+    - cmea_key_schedule
+    - cmea_feistel_round
+    - cmea_process_block

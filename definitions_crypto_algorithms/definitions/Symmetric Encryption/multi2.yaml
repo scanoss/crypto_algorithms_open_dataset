@@ -1,0 +1,9 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: multi2
+keywords:
+    - multi2.h
+    - ltc_multi2
+    - multi2_dec
+    - multi2_ecb
+    - multi2_enc
+    - multi2_desc
+    - multi2_setup

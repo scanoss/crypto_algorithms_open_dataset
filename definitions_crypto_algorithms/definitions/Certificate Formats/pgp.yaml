@@ -1,0 +1,16 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: pgp
+keywords:
+    - _pgp
+    - gpg_
+    - gnupg
+    - libpgp"
+    - pgp_crc
+    - pgp_hash_
+    - pgp_cipher
+    - pgp_format
+    - pgp_material
+    - pgp_signature
+    - pgp_public_key
+    - pgp_file_header
+    - pgp_private_key
+    - pgp_file_trailer

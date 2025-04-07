@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: pbes1
+keywords:
+    - getpbes1kdf
+    - getpbes1hash
+    - pbewithmd5anddes
+    - pkcs5_scheme_pbes1
+    - getpbes1encryptionobject

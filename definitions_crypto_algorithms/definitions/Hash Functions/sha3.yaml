@@ -1,0 +1,26 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: sha3
+keywords:
+    - sha3.h
+    - sha3-224
+    - sha3-256
+    - sha3-384
+    - sha3-512
+    - sha3_224
+    - sha3_256
+    - sha3_384
+    - sha3_512
+    - sha3_ctx
+    - sha3_init
+    - sha3_final
+    - sha3_round
+    - sha3_state
+    - sha3digest
+    - crypto/sha3
+    - digest/sha3
+    - sha3_update
+    - use sha3::{
+    - .digest.sha3
+    - digest::sha3
+    - sha3_context
+    - sha3hashstate
+    - sha3_delimited

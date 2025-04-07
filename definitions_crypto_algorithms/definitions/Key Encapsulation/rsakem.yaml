@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: rsakem
+keywords:
+    - RSAKEM
+    - RSA-KEM
+    - RSA_KEM
+    - RSAKEMGenerator
+    - RSAKEMExtractor
+    - RSA Key Encapsulation Mechanism
+    - RSA-KEM Key Exchange
+    - RSAKEM_encrypt
+    - RSAKEM_decrypt

@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: sphincsplus
+keywords:
+    - SPHINCSPlus
+    - SPHINCS+
+    - SPHINCS_Plus
+    - SPHINCSPlusSigner
+    - SPHINCSPlus_sign
+    - SPHINCSPlus_verify
+    - SPHINCSPlusKeyPair
+    - SPHINCSPlusParameters
+    - SPHINCS-256
+    - SPHINCS-SHA256

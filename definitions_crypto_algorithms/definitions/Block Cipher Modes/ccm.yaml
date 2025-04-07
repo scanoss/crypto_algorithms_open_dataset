@@ -1,0 +1,52 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: ccm
+keywords:
+    - aesccm
+    - ccm_iv
+    - ccmaut
+    - 128-ccm
+    - 128_ccm
+    - 192_ccm
+    - 256_ccm
+    - aes_ccm
+    - ccm_set
+    - ccm_tag
+    - ccmmode
+    - aes/ccm/
+    - ccm_auth
+    - ccm_init
+    - ccm_max_
+    - ccm_mode
+    - ccm_star
+    - ccm_tlen
+    - .mode.ccm
+    - ccm_final
+    - ccm_flags
+    - ccm_ivlen
+    - ccm_start
+    - ccmcipher
+    - cryptoccm
+    - modes.ccm
+    - ccm_finish
+    - ccm_gettag
+    - ccm_max_iv
+    - ccm_update
+    - ccm_verify
+    - ccmcontext
+    - ccm_compute
+    - ccm_context
+    - ccm_decrypt
+    - ccm_default
+    - ccm_encrypt
+    - ccm_process
+    - openssl_ccm
+    - ccmprocessor
+    - ccmtagparams
+    - cryptopp::ccm
+    - ccm_block_size
+    - ccmblockcipher
+    - createccminstance
+    - '#include "ccm_mode.h"'
+    - '#include <botan/ccm.h>'
+    - '#include <mbedtls/ccm.h>'
+    - '#include <openssl/ccm.h>'
+    - '#include <cryptopp/ccm.h>'

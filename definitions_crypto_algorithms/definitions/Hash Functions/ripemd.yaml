@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: ripemd
+keywords:
+    - ripemd128
+    - ripemd160
+    - ripemd256
+    - ripemd320
+    - '#include <openssl/ripemd.h>'

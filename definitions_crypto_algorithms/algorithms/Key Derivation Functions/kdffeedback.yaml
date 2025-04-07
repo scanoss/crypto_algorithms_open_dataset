@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Feedback Mode Key Derivation Functions
+algorithmId: kdffeedback
+category: Key Derivation Functions
+strength: 128-512

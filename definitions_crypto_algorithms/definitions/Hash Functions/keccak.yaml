@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: keccak
+keywords:
+    - keccak_
+    - keccak256
+    - keccak512
+    - keccaksum
+    - keccakhash.h
+    - keccak_hashfinal

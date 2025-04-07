@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: ed448
+keywords:
+    - Ed448
+    - Edwards448
+    - Ed448-Goldilocks
+    - ED448_sign
+    - ED448_verify
+    - ED448_keygen
+    - ED448Signer
+    - ED448Verify
+    - RFC8032
+    - 448bit

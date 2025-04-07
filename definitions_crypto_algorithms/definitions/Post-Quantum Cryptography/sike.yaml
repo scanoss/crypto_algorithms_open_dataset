@@ -1,0 +1,25 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: sike
+keywords:
+    - sike.h
+    - sike_p
+    - libsidh
+    - libsike
+    - sidh_ctx
+    - get_3_isog
+    - sidh_prime
+    - eval_4_isog
+    - sike_crypto
+    - sike_shared
+    - sidh_compute
+    - sike_context
+    - sike_keypair
+    - sidh_generate
+    - sike_params.h
+    - sikepublickey
+    - sikeciphertext
+    - sikeprivatekey
+    - sike_ciphertext
+    - sike_decapsulate
+    - sike_encapsulate
+    - '#include "sidh.h"'
+    - pqcrypto.kem.sike

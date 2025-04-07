@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Salted SHA
+algorithmId: ssha
+category: Hash Functions
+strength: "128"

@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Elliptic Curve Menezes-Qu-Vanstone
+algorithmId: ecmqv
+category: Asymmetric Encryption
+strength: "128"

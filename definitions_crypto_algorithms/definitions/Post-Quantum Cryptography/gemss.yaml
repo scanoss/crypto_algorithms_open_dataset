@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: gemss
+keywords:
+    - Great Multivariate Signature Scheme
+    - GeMSS128
+    - GeMSS192
+    - GeMSS256
+    - GeMSSSigner
+    - GeMSS_sign
+    - GeMSS_verify
+    - GeMSSKeyPair
+    - GeMSSParameters

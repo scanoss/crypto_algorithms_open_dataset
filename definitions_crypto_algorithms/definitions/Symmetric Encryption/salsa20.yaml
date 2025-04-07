@@ -1,0 +1,9 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: salsa20
+keywords:
+    - salsa20.new
+    - c_salsa20_crypt
+    - estream_salsa20
+    - '#include "salsa20.h"'
+    - wrap_salsa20_set_nonce
+    - .createcipheriv('salsa20'
+    - from crypto.cipher import salsa20

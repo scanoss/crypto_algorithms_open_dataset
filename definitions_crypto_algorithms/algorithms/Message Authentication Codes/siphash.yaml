@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: SipHash Pseudorandom Function
+algorithmId: siphash
+category: Message Authentication Codes
+strength: 64-128

@@ -1,0 +1,9 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: ASN1
+keywords:
+    - asn1_tag
+    - asn1integer
+    - asn1_integer_new
+    - '#include <openssl/asn1.h>'
+    - forge.asn1.class.universal
+    - from pyasn1.codec.der import encoder
+    - import org.bouncycastle.asn1.asn1integer

@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: RIPEMD Family of Hash Functions
+algorithmId: ripemd
+category: Hash Functions
+strength: "128"

@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Fowler–Noll–Vo
+algorithmId: fnv1
+category: Polynomial Functions
+strength: "1024"

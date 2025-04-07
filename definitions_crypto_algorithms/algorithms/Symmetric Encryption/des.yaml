@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Data Encryption Standard
+algorithmId: des
+category: Symmetric Encryption
+strength: "168"

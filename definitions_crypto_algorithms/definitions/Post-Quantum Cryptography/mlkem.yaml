@@ -1,0 +1,13 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: mlkem
+keywords:
+    - Module Lattice KEM
+    - ML-KEM
+    - ML_KEM
+    - MLKEMEncapsulation
+    - MLKEMDecapsulation
+    - MLKEMParameters
+    - Kyber
+    - CRYSTALS-Kyber
+    - MLKEM-512
+    - MLKEM-768
+    - MLKEM-1024

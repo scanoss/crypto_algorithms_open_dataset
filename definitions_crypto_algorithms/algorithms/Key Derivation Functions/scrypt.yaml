@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Scrypt Key Derivation Functions
+algorithmId: scrypt
+category: Key Derivation Functions
+strength: 128-256

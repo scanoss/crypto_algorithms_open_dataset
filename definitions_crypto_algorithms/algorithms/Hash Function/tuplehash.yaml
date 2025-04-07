@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: TupleHash Function
+algorithmId: tuplehash
+category: Hash Function
+strength: 128-256

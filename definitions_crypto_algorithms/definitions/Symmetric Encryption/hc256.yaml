@@ -1,0 +1,20 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: hc256
+keywords:
+    - hc256_crypt
+    - hc256_setkey
+    - hc256_update
+    - hc256_iv_size
+    - hc256_process
+    - hc256_ctr_size
+    - hc256_finalize
+    - hc256_generate
+    - hc256_key_size
+    - hc256_xor_mask
+    - hc256_sbox_size
+    - hc256_seed_size
+    - cryptopp_hc256_h
+    - hc256_block_size
+    - hc256_state_size
+    - hc256_round_count
+    - hc256_stream_size
+    - hc256_keystream_size

@@ -1,0 +1,22 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: idea
+keywords:
+    - idea_cfb
+    - idea_ecb
+    - idea_key
+    - idea_cbc_
+    - idea_ofb_
+    - ideamode_h
+    - idea_decrypt
+    - idea_encrypt
+    - idea_decrypt"
+    - idea_encrypt"
+    - ideastreamcfb
+    - ideastreampcb
+    - idea_key_size"
+    - idea_block_size"
+    - idea_num_rounds"
+    - idea_key_schedule
+    - ideastreamdecrypt
+    - ideastreamencrypt
+    - ideaencryptstreamstatus
+    - ideastreamctrrandomaccessinit

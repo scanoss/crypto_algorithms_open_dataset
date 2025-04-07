@@ -1,0 +1,19 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: elgamal
+keywords:
+    - egkey
+    - elgamal
+    - el gamal
+    - el-gamal
+    - el_gamal
+    - elg_sign
+    - elgamal.h
+    - elg_verify
+    - elgamal.py
+    - elg_decrypt
+    - elg_encrypt
+    - elg_generate
+    - elg_public_key
+    - elg_secret_key
+    - elgamaldecryptor
+    - elgamalencryptor
+    - cryptopp_elgamal_h

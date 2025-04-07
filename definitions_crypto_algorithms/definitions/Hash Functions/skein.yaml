@@ -1,0 +1,22 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: skein
+keywords:
+    - sk_init
+    - skein256_
+    - skein512_
+    - skein_fin
+    - sk_decrypt
+    - sk_encrypt
+    - skein1024_
+    - skein_get_
+    - skein_hash
+    - skein_init
+    - skein_set_
+    - skein_clear
+    - skein_reset
+    - skein_xform
+    - skein_digest
+    - skein_update
+    - skein_compute
+    - skein_process
+    - skeincrypto.h
+    - skein_add_data

@@ -1,0 +1,50 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: dsa
+keywords:
+    - dsa.h
+    - dsa.dsa
+    - dsa.sign
+    - dsa.sign
+    - dsa_bits
+    - dsa_init
+    - dsa_meth_
+    - dsa_print
+    - dsa_sign_
+    - ossl_dsa_
+    - pkey_dsa_
+    - crypto/dsa
+    - dsa.verify
+    - dsa_finish
+    - dsa_up_ref
+    - dsa_verify
+    - dsa_do_sign
+    - dsa_sig_new
+    - dsa.generate
+    - dsa_set0_key
+    - int_dsa_free
+    - dsa_generate_
+    - dsa_pkey_ctrl
+    - dsa_pub_print
+    - dsaparams_dup
+    - i2d_dsaparams
+    - dsa_pub_encode
+    - dsa_set_method
+    - dsa_test_flags
+    - dsa_clear_flags
+    - dsa_param_print
+    - dsa_priv_decode
+    - dsa_priv_encode
+    - dsa_set_ex_data
+    - .getinstance("dsa")
+    - dsa_copy_parameters
+    - openssl_keytype_dsa
+    - ossl_ffc_params_cmp
+    - dsa_mod_inverse_fermat
+    - dsa_set_default_method
+    - '#include <openssl/dsa.h>'
+    - dsa_keygen_pairwise_test
+    - .getinstance("sha256withdsa")
+    - crypto.generatekeypairsync('dsa'
+    - evp_pkey_ctx_set_dsa_paramgen_md
+    - from crypto.publickey import dsa
+    - keypairgenerator.generatekeypair
+    - java.security.spec.dsaparameterspec

@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Xoodyak Cryptographic Primitive
+algorithmId: xoodyak
+category: Cryptographic Primitive
+strength: 128-256

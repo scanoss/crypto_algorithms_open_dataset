@@ -1,0 +1,18 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: vmpc
+keywords:
+    - _vmpc_h_
+    - vmpc_init
+    - vmpcencrypt
+    - vmpcinitkey
+    - vmpcrypt.py
+    - vmpc_decrypt
+    - vmpc_encrypt
+    - vmpc_ivsetup
+    - vmpc_process
+    - vmpc_keysetup
+    - vmpcoutputmac
+    - vmpcdecryptmac
+    - vmpcencryptmac
+    - 'vmpcengine.java '
+    - vmpcinitkeybasic
+    - vmpcinitkeyround

@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: X448 Key Exchange
+algorithmId: x448
+category: Key Agreement
+strength: "224"

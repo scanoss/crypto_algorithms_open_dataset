@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Sosemanuk Stream Cipher
+algorithmId: sosemanuk
+category: Symmetric Encryption
+strength: "128"

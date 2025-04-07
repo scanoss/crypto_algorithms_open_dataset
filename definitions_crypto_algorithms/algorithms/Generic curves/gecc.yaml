@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Generic elliptic curve
+algorithmId: gecc
+category: Generic curves
+strength: '-'

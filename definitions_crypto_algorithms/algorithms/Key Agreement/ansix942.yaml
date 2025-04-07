@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: ANSI X9.42 Key Agreement
+algorithmId: ansix942
+category: Key Agreement
+strength: 1024-3072

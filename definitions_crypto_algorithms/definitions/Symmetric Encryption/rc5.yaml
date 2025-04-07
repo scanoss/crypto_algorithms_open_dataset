@@ -1,0 +1,38 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: rc5
+keywords:
+    - rc5.rb
+    - rc5dec
+    - rc5enc
+    - rc5-cbc
+    - rc5-cfb
+    - rc5-ecb
+    - rc5-ofb
+    - rc5.new
+    - rc5_cbc
+    - rc5_cfb
+    - rc5_dec
+    - rc5_ecb
+    - rc5_enc
+    - rc5_key
+    - rc5_ofb
+    - rc5context
+    - rc5dec.java
+    - rc5enc.java
+    - rc5.encrypt(
+    - rc5::encrypt
+    - rc5_finalize
+    - rc5_32_decrypt
+    - rc5_32_encrypt
+    - rc5_32_set_key
+    - rc5_block_size
+    - rc5_initialize
+    - gorc5.newcipher
+    - require 'rc5.php'
+    - rc5_32_cbc_encrypt
+    - rc5_32_ecb_encrypt
+    - from rc5 import rc5
+    - rc5_32_cfb64_encrypt
+    - rc5_32_ofb64_encrypt
+    - require('rc5-cipher')
+    - github.com/inge6/gorc5
+    - import org.bouncycastle.crypto.engines.rc532engine

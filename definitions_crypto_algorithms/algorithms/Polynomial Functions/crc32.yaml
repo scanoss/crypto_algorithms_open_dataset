@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Cyclic Redundancy Check 32-bit
+algorithmId: crc32
+category: Polynomial Functions
+strength: "32"

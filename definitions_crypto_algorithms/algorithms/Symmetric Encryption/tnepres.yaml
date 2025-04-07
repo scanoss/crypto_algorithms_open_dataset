@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Serpent Block Cipher (reversed)
+algorithmId: tnepres
+category: Symmetric Encryption
+strength: "256"

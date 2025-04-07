@@ -1,0 +1,5 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: blum-goldwasser
+keywords:
+    - blumgoldwasser
+    - blumgoldwasser.py
+    - sage.crypto.public_key.blum_goldwasser.blumgoldwasser

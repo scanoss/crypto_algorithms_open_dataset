@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: RC4 with HMAC
+algorithmId: rc4-hmac
+category: Symmetric Encryption
+strength: "2048"

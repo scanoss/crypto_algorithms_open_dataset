@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: psk
+keywords:
+    - Pre-Shared Key
+    - PSKKeyAgreement
+    - PSK_TLS
+    - PSK_Identity
+    - PSK_hint
+    - PSKParameters
+    - TLS-PSK
+    - DHE-PSK
+    - ECDHE-PSK

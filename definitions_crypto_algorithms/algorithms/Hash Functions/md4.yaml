@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: MD4 Message-Digest Algorithm
+algorithmId: md4
+category: Hash Functions
+strength: "128"

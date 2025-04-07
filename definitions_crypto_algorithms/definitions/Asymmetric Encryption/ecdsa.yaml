@@ -1,0 +1,13 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: ecdsa
+keywords:
+    - ecdsa.
+    - ecdsa_
+    - ecdsasign
+    - ecdsawith
+    - signecdsa
+    - withecdsa
+    - createecdsa
+    - ecdsaverify
+    - verifyecdsa
+    - createecdsasignature
+    - validateecdsasignature

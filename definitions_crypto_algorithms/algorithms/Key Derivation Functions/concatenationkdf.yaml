@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Concatenation Key Derivation Functions
+algorithmId: concatenationkdf
+category: Key Derivation Functions
+strength: 128-512

@@ -1,0 +1,32 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: camellia
+keywords:
+    - camellia.core
+    - camellia.final
+    - camellia.update
+    - camellia_cfb128
+    - camellia_ctr128
+    - camellia_ofb128
+    - camellia-256-cbc
+    - camellia.decrypt
+    - camellia.encrypt
+    - camellia_decrypt
+    - camellia_ekeygen
+    - camellia_encrypt
+    - camellia_set_key
+    - camellia_set_key
+    - ciphercamellia256
+    - camellia.newcipher
+    - camellia_cbc_encrypt
+    - camellia_ecb_decrypt
+    - camellia_ecb_encrypt
+    - evp_camellia_128_cbc
+    - evp_camellia_192_cbc
+    - evp_camellia_256_cbc
+    - camellia.createcipher
+    - camellia_cfb1_encrypt
+    - camellia_cfb8_encrypt
+    - camellia.createdecipher
+    - camellia::camellia::new
+    - crypto.cipher.camellia.
+    - camellia::camellia::decrypt
+    - camellia::camellia::encrypt

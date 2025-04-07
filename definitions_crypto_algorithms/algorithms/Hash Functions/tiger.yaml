@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Tiger Hash Function
+algorithmId: tiger
+category: Hash Functions
+strength: "256"

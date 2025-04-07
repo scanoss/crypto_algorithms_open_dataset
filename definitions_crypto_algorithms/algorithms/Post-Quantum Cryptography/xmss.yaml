@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: eXtended Merkle Signature Scheme
+algorithmId: xmss
+category: Post-Quantum Cryptography
+strength: 128-256

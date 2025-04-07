@@ -1,0 +1,38 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: crystals-kyber
+keywords:
+    - kyber.h
+    - kyber512
+    - kyber512
+    - kyber768
+    - kyber768
+    - kyber_ke
+    - kyber1024
+    - kyber1024
+    - kyber_dec
+    - kyber_enc
+    - kyber_rej
+    - pqc_kyber
+    - crypto_kem
+    - kyber_ct_t
+    - kyber_pack
+    - kyber_pk_t
+    - kyber_poly
+    - kyber_sk_t
+    - kyber_kem.h
+    - import kyber
+    - kyber_unpack
+    - kybercontext
+    - kyber_context
+    - crystals-kyber
+    - crystals.kyber
+    - crystals_kyber
+    - kyberpublickey
+    - pqcrypto.kyber
+    - kyberciphertext
+    - kyberprivatekey
+    - kyber_ciphertext
+    - kyber_public_key
+    - 'pqcrypto_kyber::'
+    - pqcrystals_kyber
+    - kyber_private_key
+    - kyber_shake256_prf

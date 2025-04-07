@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Cyclic Redundancy Check 16-bit
+algorithmId: crc16
+category: Polynomial Functions
+strength: "16"

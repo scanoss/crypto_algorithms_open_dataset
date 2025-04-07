@@ -1,0 +1,22 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: cfb
+keywords:
+    - bf_cfb
+    - des_cfb
+    - rc2-cfb
+    - rc4-cfb
+    - rc5-cfb
+    - rc5_cfb
+    - aes_cfb1_
+    - aes_cfb8_
+    - sms4_cfb_
+    - aes_cfb128_
+    - safer_mode_cfb
+    - tdes_flags_cfb8
+    - tdes_flags_cfb16
+    - tdes_flags_cfb32
+    - tdes_flags_cfb64
+    - rc5_32_cfb64_encrypt
+    - camellia_cfb1_encrypt
+    - camellia_cfb8_encrypt
+    - camellia_cfb128_encrypt
+    - crypto.cipher.camellia.mode_cfb

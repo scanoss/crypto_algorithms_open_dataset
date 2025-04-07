@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: hqc
+keywords:
+    - Hamming Quasi-Cyclic
+    - HQC-KEM
+    - HQC_KEM
+    - HQCEncapsulation
+    - HQCDecapsulation
+    - HQCParameters
+    - HQC128
+    - HQC192
+    - HQC256

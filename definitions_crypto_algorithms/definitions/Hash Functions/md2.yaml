@@ -1,0 +1,15 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: md2
+keywords:
+    - _md2
+    - _md2
+    - md2.py
+    - md2sum
+    - md2::md2
+    - md2_init
+    - md2_block
+    - md2_final
+    - md2_update
+    - digest::md2
+    - insecure.md2
+    - .createhash('md2')
+    - hashlib.new('md2')

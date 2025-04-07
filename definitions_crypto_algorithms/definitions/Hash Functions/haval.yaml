@@ -1,0 +1,17 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: haval
+keywords:
+    - haval.h
+    - haval-128
+    - haval-160
+    - haval-192
+    - haval-224
+    - haval-256
+    - haval_128
+    - haval_160
+    - haval_192
+    - haval_224
+    - haval_256
+    - haval_context
+    - haval_version
+    - haval_hash_size
+    - haval_block_size

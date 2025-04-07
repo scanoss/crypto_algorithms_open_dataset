@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: lea
+keywords:
+    - Lightweight Encryption Algorithm
+    - LEAEngine
+    - LEA_encrypt
+    - LEA_decrypt
+    - LEA128
+    - LEA192
+    - LEA256
+    - LEAKeyGenerator
+    - LEACipher

@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: xmssmt
+keywords:
+    - XMSSMT
+    - XMSS^MT
+    - XMSS_MT
+    - XMSSMTSigner
+    - XMSSMT_sign
+    - XMSSMT_verify
+    - XMSSMTPrivateKey
+    - XMSSMTPublicKey
+    - XMSSMTParameters
+    - Multi-Tree XMSS

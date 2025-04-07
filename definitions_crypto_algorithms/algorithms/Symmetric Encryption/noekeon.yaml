@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Noekeon Block Cipher
+algorithmId: noekeon
+category: Symmetric Encryption
+strength: "128"

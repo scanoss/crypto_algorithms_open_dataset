@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: kdfcounter
+keywords:
+    - KDFCounter
+    - Counter Mode KDF
+    - CounterKDF
+    - KDF_Counter
+    - SP800-108-Counter
+    - SP800_108_Counter
+    - CounterModeKDF
+    - KDFCounterParameters
+    - KDFCounterBytesGenerator

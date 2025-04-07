@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Hamming Quasi-Cyclic
+algorithmId: hqc
+category: Post-Quantum Cryptography
+strength: 128-256

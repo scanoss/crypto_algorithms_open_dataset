@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: ecdh
+keywords:
+    - ec.ecdh
+    - crypto/ecdsa
+    - ecdiffiehellman
+    - crypto.createecdh
+    - ecdh.getpublickey
+    - ecdh.computesecret
+    - ecdh.getprivatekey
+    - ecdh.setprivatekey

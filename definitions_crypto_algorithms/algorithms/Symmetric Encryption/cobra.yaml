@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Cobra Stream Cipher
+algorithmId: cobra
+category: Symmetric Encryption
+strength: "128"

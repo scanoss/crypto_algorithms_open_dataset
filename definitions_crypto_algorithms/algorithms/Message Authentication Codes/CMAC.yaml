@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Cipher-based Message Authentication Codes
+algorithmId: CMAC
+category: Message Authentication Codes
+strength: "128"

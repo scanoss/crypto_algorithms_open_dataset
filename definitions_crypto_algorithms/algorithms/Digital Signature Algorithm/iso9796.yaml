@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: ISO 9796 Digital Signature
+algorithmId: iso9796
+category: Digital Signature Algorithm
+strength: 1024-3072

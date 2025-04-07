@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: Elliptic Curve Nyberg-Rueppel Signature Algorithm
+algorithmId: ecnr
+category: Digital Signature Algorithm
+strength: 160-521

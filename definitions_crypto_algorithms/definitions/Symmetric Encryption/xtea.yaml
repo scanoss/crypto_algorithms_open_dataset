@@ -1,0 +1,26 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: xtea
+keywords:
+    - xtea.h
+    - setxteakey
+    - xtea.setkey
+    - xtea_declen
+    - xtea_setkey
+    - xteadecrypt
+    - xteaencrypt
+    - xtea.decrypt
+    - xtea.encrypt
+    - xtea::setkey
+    - xtea_decrypt
+    - xtea_encrypt
+    - xtea::decrypt
+    - xtea::encrypt
+    - xtea_decodecb
+    - initializextea
+    - xtea_encodeecb
+    - xtea.initialize
+    - xtea_initialize
+    - xtea::initialize
+    - xtea.decryptblock
+    - xtea.encryptblock
+    - xtea::decryptblock
+    - xtea::encryptblock

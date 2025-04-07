@@ -1,0 +1,24 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: sms4
+keywords:
+    - sms4.h
+    - sms4_rk
+    - sms4_pck
+    - sms4crol
+    - sms4mask
+    - sms4_cfb_
+    - sms4_ctr_
+    - sms4_ecb_
+    - sms4_init
+    - sms4_mode
+    - sms4_ofb_
+    - sms4_sbox
+    - sm4_encdec
+    - sms4_cbc_e
+    - sms4_final
+    - sms4_cipher
+    - sms4_update
+    - sms4_decrypt
+    - sms4_encrypt
+    - sms4_set_key
+    - cryptopp_sm4_h
+    - cryptopp_sm4_advanced_process_blocks

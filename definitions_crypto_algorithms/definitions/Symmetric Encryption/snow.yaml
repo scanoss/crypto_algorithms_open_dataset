@@ -1,0 +1,13 @@
+# SPDX-License-Identifier: CC0-1.0algorithmId: snow
+keywords:
+    - snow_3g
+    - snow-3g.h
+    - snow_init
+    - snow_set_iv
+    - snow_decrypt
+    - snow_encrypt
+    - snow_process
+    - snow_set_key
+    - snow5_aes_round
+    - rte_crypto_auth_snow3g_uia2
+    - rte_crypto_cipher_snow3g_uea2

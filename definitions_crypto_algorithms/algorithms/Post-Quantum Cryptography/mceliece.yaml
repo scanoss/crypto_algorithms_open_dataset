@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: CC0-1.0algorithm: McEliece
+algorithmId: mceliece
+category: Post-Quantum Cryptography
+strength: "64"
