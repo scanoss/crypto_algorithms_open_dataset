@@ -1,4 +1,5 @@
-# SPDX-License-Identifier: CC0-1.0algorithmId: csprng
+# SPDX-License-Identifier: CC0-1.0
+algorithmId: csprng
 keywords:
     - csprng.h
     - .crypto.prng.

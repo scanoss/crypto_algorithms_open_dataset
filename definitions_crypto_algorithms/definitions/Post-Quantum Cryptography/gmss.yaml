@@ -1,4 +1,5 @@
-# SPDX-License-Identifier: CC0-1.0algorithmId: gmss
+# SPDX-License-Identifier: CC0-1.0
+algorithmId: gmss
 keywords:
     - Generalized Merkle Signature Scheme
     - GMSSSigner

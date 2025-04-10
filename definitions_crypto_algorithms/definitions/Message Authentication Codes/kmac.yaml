@@ -1,4 +1,5 @@
-# SPDX-License-Identifier: CC0-1.0algorithmId: kmac
+# SPDX-License-Identifier: CC0-1.0
+algorithmId: kmac
 keywords:
     - KMAC128
     - KMAC256

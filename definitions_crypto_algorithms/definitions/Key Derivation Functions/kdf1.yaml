@@ -1,4 +1,5 @@
-# SPDX-License-Identifier: CC0-1.0algorithmId: kdf1
+# SPDX-License-Identifier: CC0-1.0
+algorithmId: kdf1
 keywords:
     - Key Derivation Functions 1
     - KDF1BytesGenerator

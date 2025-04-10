@@ -1,4 +1,5 @@
-# SPDX-License-Identifier: CC0-1.0algorithmId: salsa20
+# SPDX-License-Identifier: CC0-1.0
+algorithmId: salsa20
 keywords:
     - salsa20.new
     - c_salsa20_crypt

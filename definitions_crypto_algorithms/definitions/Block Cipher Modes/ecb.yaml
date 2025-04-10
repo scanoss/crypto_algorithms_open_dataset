@@ -1,4 +1,5 @@
-# SPDX-License-Identifier: CC0-1.0algorithmId: ecb
+# SPDX-License-Identifier: CC0-1.0
+algorithmId: ecb
 keywords:
     - rc2-ecb
     - rc2_ecb

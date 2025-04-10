@@ -1,4 +1,5 @@
-# SPDX-License-Identifier: CC0-1.0algorithmId: sha3
+# SPDX-License-Identifier: CC0-1.0
+algorithmId: sha3
 keywords:
     - sha3.h
     - sha3-224

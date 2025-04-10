@@ -1,4 +1,5 @@
-# SPDX-License-Identifier: CC0-1.0algorithmId: tdes
+# SPDX-License-Identifier: CC0-1.0
+algorithmId: tdes
 keywords:
     - tdes_flags_cbc
     - tdes_flags_ecb

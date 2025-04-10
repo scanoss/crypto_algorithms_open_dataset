@@ -1,4 +1,5 @@
-# SPDX-License-Identifier: CC0-1.0algorithmId: zk-snarks
+# SPDX-License-Identifier: CC0-1.0
+algorithmId: zk-snarks
 keywords:
     - snarkjs
     - libsnark
