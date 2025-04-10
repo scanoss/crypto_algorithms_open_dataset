@@ -1,4 +1,5 @@
-# SPDX-License-Identifier: CC0-1.0algorithmId: kdf2
+# SPDX-License-Identifier: CC0-1.0
+algorithmId: kdf2
 keywords:
     - KDF2
     - Key Derivation Functions 2

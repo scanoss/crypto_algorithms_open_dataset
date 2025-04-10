@@ -1,4 +1,5 @@
-# SPDX-License-Identifier: CC0-1.0algorithmId: sm3
+# SPDX-License-Identifier: CC0-1.0
+algorithmId: sm3
 keywords:
     - SM3Digest
     - SM3_hash

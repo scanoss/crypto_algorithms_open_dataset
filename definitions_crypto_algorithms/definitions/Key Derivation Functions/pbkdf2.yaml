@@ -1,4 +1,5 @@
-# SPDX-License-Identifier: CC0-1.0algorithmId: pbkdf2
+# SPDX-License-Identifier: CC0-1.0
+algorithmId: pbkdf2
 keywords:
     - _pbkdf2
     - pbkdf2.js

@@ -1,4 +1,5 @@
-# SPDX-License-Identifier: CC0-1.0algorithmId: elgamal
+# SPDX-License-Identifier: CC0-1.0
+algorithmId: elgamal
 keywords:
     - egkey
     - elgamal

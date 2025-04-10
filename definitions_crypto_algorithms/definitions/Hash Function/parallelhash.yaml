@@ -1,4 +1,5 @@
-# SPDX-License-Identifier: CC0-1.0algorithmId: parallelhash
+# SPDX-License-Identifier: CC0-1.0
+algorithmId: parallelhash
 keywords:
     - ParallelHash
     - ParallelHash128

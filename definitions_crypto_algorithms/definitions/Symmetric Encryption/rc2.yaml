@@ -1,4 +1,5 @@
-# SPDX-License-Identifier: CC0-1.0algorithmId: rc2
+# SPDX-License-Identifier: CC0-1.0
+algorithmId: rc2
 keywords:
     - rc2-cbc
     - rc2-cfb
