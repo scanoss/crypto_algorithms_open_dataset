@@ -1,6 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: ML-DSA
-algorithmId: ml-dsa
-category: Asymmetric Encryption
-# ml-dsa-44 (128), ml-dsa-65 (192), ml-dsa-87 (256)
-strength: "256"

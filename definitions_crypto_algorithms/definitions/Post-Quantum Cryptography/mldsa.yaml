@@ -10,3 +10,8 @@ keywords:
     - MLDSAPrivateKey
     - MLDSAPublicKey
     - Falcon
+    - ML-DSA-44
+    - ML-DSA-65
+    - ML-DSA-87
+    - OSSL_PKEY_PARAM_ML_DSA_INPUT_FORMATS
+    - OSSL_PKEY_PARAM_ML_DSA_OUTPUT_FORMATS
