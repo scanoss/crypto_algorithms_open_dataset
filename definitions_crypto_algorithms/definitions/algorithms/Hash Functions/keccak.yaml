@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Keecak
-algorithmId: keccak
-category: Hash Functions
-strength: "256"

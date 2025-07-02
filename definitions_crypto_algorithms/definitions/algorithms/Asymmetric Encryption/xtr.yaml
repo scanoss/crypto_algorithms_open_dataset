@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: XTR Public Key System
-algorithmId: xtr
-category: Asymmetric Encryption
-strength: "64"

@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Counter with CBC-MAC
-algorithmId: ccm
-category: Block Cipher Modes
-strength: ""

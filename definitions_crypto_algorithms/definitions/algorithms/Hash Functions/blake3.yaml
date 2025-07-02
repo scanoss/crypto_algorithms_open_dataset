@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: BLAKE3
-algorithmId: blake3
-category: Hash Functions
-strength: 256/512

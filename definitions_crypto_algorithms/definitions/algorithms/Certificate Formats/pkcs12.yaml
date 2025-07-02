@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: 'PKCS #12: Personal Information Exchange Syntax'
-algorithmId: pkcs12
-category: Certificate Formats
-strength: "128"

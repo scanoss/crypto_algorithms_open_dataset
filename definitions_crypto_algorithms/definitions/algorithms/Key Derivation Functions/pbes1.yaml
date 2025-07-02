@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Password-Based Encryption Scheme 1
-algorithmId: pbes1
-category: Key Derivation Functions
-strength: "128"

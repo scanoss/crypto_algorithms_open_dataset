@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: X25519 Key Exchange
-algorithmId: x25519
-category: Key Agreement
-strength: "128"

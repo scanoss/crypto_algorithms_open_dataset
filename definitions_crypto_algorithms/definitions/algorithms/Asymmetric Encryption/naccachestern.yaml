@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Naccache-Stern Encryption Algorithm
-algorithmId: naccachestern
-category: Asymmetric Encryption
-strength: 1024-2048

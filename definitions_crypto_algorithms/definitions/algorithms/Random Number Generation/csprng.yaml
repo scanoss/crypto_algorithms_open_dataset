@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Cryptographically Secure Pseudo-Random Number Generator
-algorithmId: csprng
-category: Random Number Generation
-strength: '-'

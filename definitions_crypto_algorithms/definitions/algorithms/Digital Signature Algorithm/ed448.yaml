@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Edwards-Curve Digital Signature Algorithm 448
-algorithmId: ed448
-category: Digital Signature Algorithm
-strength: "224"
