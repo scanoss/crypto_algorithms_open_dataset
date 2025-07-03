@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Elliptic Curve Digital Signature Algorithm
-algorithmId: ecdsa
-category: Asymmetric Encryption
-strength: "128"

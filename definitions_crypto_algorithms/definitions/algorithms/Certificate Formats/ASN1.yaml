@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Abstract Syntax Notation One
-algorithmId: ASN1
-category: Certificate Formats
-strength: "256"

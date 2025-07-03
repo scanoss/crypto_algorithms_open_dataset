@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: LUC Public Key Cryptosystem
-algorithmId: luc
-category: Asymmetric Encryption
-strength: "64"

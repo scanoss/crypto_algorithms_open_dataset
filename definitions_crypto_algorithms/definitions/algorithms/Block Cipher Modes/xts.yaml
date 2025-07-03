@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: XEX-Based Codebook mode
-algorithmId: xts
-category: Block Cipher Modes
-strength: ""

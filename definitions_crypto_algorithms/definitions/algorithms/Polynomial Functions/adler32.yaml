@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Adler-32 Checksum Algorithm
-algorithmId: adler32
-category: Polynomial Functions
-strength: "32"

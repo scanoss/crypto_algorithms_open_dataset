@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: MISTY1 Block Cipher
-algorithmId: misty1
-category: Symmetric Encryption
-strength: "32"

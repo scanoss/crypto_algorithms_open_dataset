@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Cipher-based Message Authentication Codes
-algorithmId: argon2
-category: Message Authentication Codes
-strength: '-'

@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: RC2 Block Cipher
-algorithmId: rc2
-category: Symmetric Encryption
-strength: "128"

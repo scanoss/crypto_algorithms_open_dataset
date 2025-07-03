@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: eXtended Tiny Encryption Algorithm
-algorithmId: xtea
-category: Symmetric Encryption
-strength: "128"

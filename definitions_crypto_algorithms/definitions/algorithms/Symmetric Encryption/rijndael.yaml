@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Rijndael
-algorithmId: rijndael
-category: Symmetric Encryption
-strength: "256"

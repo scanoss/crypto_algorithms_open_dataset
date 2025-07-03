@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Count-Min Sketch
-algorithmId: cms
-category: Message Authentication Codes
-strength: "64"

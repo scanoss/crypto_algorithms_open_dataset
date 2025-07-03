@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Software-optimized Encryption Algorithm
-algorithmId: seal
-category: Secure Protocols
-strength: "128"

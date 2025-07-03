@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: HC Stream Cipher
-algorithmId: hc
-category: Stream Cipher
-strength: 128-256
