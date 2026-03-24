@@ -140,7 +140,7 @@ Keywords definition for each algorithm can be found on:
 | skein | Skein Hash Function | 256 |
 | ssha | Salted SHA | 128 |
 | tiger | Tiger Hash Function | 256 |
-| whirpool | Whirlpool Hash Function | 128 |
+| whirlpool | Whirlpool Hash Function | 128 |
 
 ## Key Agreement
 
