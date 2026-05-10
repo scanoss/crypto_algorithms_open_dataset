@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: TCrypt Disk Encryption
-algorithmId: tcrypt
-category: Secure Protocols
-strength: "128"

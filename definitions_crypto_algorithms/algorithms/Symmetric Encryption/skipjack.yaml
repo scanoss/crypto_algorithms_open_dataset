@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: SKIPJACK Block Cipher
-algorithmId: skipjack
-category: Symmetric Encryption
-strength: "32"

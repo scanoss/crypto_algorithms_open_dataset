@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Microsoft Cache Hash (MSCASH)
-algorithmId: mscash
-category: Password Hashing
-strength: "256"

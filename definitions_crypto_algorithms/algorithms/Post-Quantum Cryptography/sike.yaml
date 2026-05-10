@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Supersingular Isogeny Key Encapsulation
-algorithmId: sike
-category: Post-Quantum Cryptography
-strength: '-'

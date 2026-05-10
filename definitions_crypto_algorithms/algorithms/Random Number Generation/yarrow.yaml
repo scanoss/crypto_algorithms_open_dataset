@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Yarrow Pseudorandom Number Generator
-algorithmId: yarrow
-category: Random Number Generation
-strength: "160"

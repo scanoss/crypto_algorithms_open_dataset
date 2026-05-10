@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: RFC 3211 Password-based Key Wrapping
-algorithmId: rfc3211wrap
-category: Key Wrapping
-strength: 128-256

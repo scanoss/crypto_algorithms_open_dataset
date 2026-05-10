@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Electronic Codebook
-algorithmId: ecb
-category: Block Cipher Modes
-strength: ""

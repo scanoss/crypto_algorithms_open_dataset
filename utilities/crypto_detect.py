@@ -102,93 +102,84 @@ def filter_files(files: list) -> list:
     return file_list
 
 
-def load_algorithm_metadata(definitions_dir: str) -> dict:
+def load_algorithm_metadata(spdx_yaml_dir: str) -> dict:
     """
-    Load algorithm metadata from the algorithms subfolder
+    Load algorithm metadata from the SPDX cryptographic-algorithm-list submodule.
 
-    :param definitions_dir: root definition folder
-    :return: dictionary of algorithm metadata indexed by algorithmId
+    :param spdx_yaml_dir: path to external/spdx-crypto/yaml
+    :return: dictionary of algorithm metadata indexed by algorithm id
     """
-    algorithms_dir = os.path.join(definitions_dir, 'algorithms')
-    if not os.path.exists(algorithms_dir):
-        print_stderr(f'Error: Algorithms directory does not exist: {algorithms_dir}')
+    if not os.path.exists(spdx_yaml_dir):
+        print_stderr(
+            f'Warning: SPDX yaml folder not found at {spdx_yaml_dir}. '
+            f'Run "git submodule update --init --recursive". '
+            f'Continuing with empty metadata.'
+        )
         return {}
-    
+
     algorithm_metadata = {}
-    # Walk through category directories
-    for category_dir in os.listdir(algorithms_dir):
-        category_path = os.path.join(algorithms_dir, category_dir)
-        if os.path.isdir(category_path):
-            # Process all YAML files in the category
-            for file in os.listdir(category_path):
-                if file.endswith('.yaml') or file.endswith('.yml'):
-                    file_path = os.path.join(category_path, file)
-                    print_trace(f'Loading algorithm metadata: {file_path}')
-                    try:
-                        with open(file_path, 'r') as yaml_file:
-                            data = yaml.safe_load(yaml_file)
-                            if 'algorithmId' in data:
-                                algorithm_metadata[data['algorithmId']] = {
-                                    'algorithm': data.get('algorithm', ''),
-                                    'category': data.get('category', category_dir),
-                                    'strength': data.get('strength', '')
-                                }
-                    except Exception as e:
-                        print_stderr(f'Error loading algorithm metadata file {file_path}: {e}')
-    
+    for file in os.listdir(spdx_yaml_dir):
+        if not (file.endswith('.yaml') or file.endswith('.yml')):
+            continue
+        file_path = os.path.join(spdx_yaml_dir, file)
+        print_trace(f'Loading SPDX metadata: {file_path}')
+        try:
+            with open(file_path, 'r') as yaml_file:
+                data = yaml.safe_load(yaml_file) or {}
+            if 'id' in data:
+                algorithm_metadata[data['id']] = {
+                    'algorithm': data.get('name', ''),
+                    'category': data.get('cryptoClass', ''),
+                    'strength': data.get('commonkeySize', ''),
+                }
+        except Exception as e:
+            print_stderr(f'Error loading SPDX metadata file {file_path}: {e}')
     return algorithm_metadata
 
 
 def load_definitions(definitions_dir: str) -> tuple:
     """
-    Load all the YAML definition files from the specified root folder with new structure
+    Load keyword YAML files from <definitions_dir>/keywords/ and algorithm metadata
+    from <definitions_dir>/external/spdx-crypto/yaml/.
 
-    :param definitions_dir: root definition folder
-    :return: tuple of (keyword definitions dictionary, algorithm metadata dictionary)
+    :param definitions_dir: repository root containing keywords/ and external/spdx-crypto/
+    :return: tuple of (keyword_definitions, algorithm_metadata, algorithm_map)
     """
     if not definitions_dir or not os.path.exists(definitions_dir):
         print_stderr(f'Error: No definition folder specified, or it does not exist: {definitions_dir}')
-        return None, None
-   
-    # Load algorithm metadata first
-    algorithm_metadata = load_algorithm_metadata(definitions_dir)
-    print_debug(f'Loaded {len(algorithm_metadata)} algorithm metadata entries')
-  
-    # Now load the keyword definitions
-    definitions_subdir = os.path.join(definitions_dir, 'definitions')
-    if not os.path.exists(definitions_subdir):
-        print_stderr(f'Error: Definitions subfolder does not exist: {definitions_subdir}')
-        return None, None
-  
-    keyword_definitions = defaultdict(list)
-    algorithm_map = {}  # Maps yaml files to algorithm IDs
+        return None, None, None
 
-    # Walk through category directories in the definitions subfolder
-    for category_dir in os.listdir(definitions_subdir):
-        category_path = os.path.join(definitions_subdir, category_dir)
-        if os.path.isdir(category_path):
-            # Process all YAML files in the category
-            for file in os.listdir(category_path):
-                if file.endswith('.yaml') or file.endswith('.yml'):
-                    file_path = os.path.join(category_path, file)
-                    print_trace(f'Loading definition: {file_path}')
-                    try:
-                        with open(file_path, 'r') as yaml_file:
-                            data = yaml.safe_load(yaml_file)
-                            if 'algorithmId' in data and 'keywords' in data:
-                                algorithm_id = data['algorithmId']
-                                # Map this file to its algorithm ID
-                                algorithm_map[file] = algorithm_id
-                               
-                                # Add all keywords for this algorithm
-                                for keyword in data['keywords']:
-                                    keyword_definitions[str(keyword)].append({
-                                        'file': file,
-                                        'algorithmId': algorithm_id
-                                    })
-                    except Exception as e:
-                        print_stderr(f'Error loading definition file {file_path}: {e}')
-    
+    spdx_yaml_dir = os.path.join(definitions_dir, 'external', 'spdx-crypto', 'yaml')
+    algorithm_metadata = load_algorithm_metadata(spdx_yaml_dir)
+    print_debug(f'Loaded {len(algorithm_metadata)} algorithm metadata entries from SPDX')
+
+    keywords_dir = os.path.join(definitions_dir, 'keywords')
+    if not os.path.exists(keywords_dir):
+        print_stderr(f'Error: keywords folder does not exist: {keywords_dir}')
+        return None, None, None
+
+    keyword_definitions = defaultdict(list)
+    algorithm_map = {}
+
+    for file in os.listdir(keywords_dir):
+        if not (file.endswith('.yaml') or file.endswith('.yml')):
+            continue
+        file_path = os.path.join(keywords_dir, file)
+        print_trace(f'Loading definition: {file_path}')
+        try:
+            with open(file_path, 'r') as yaml_file:
+                data = yaml.safe_load(yaml_file) or {}
+            if 'algorithmId' in data and 'keywords' in data:
+                algorithm_id = data['algorithmId']
+                algorithm_map[file] = algorithm_id
+                for keyword in data['keywords']:
+                    keyword_definitions[str(keyword)].append({
+                        'file': file,
+                        'algorithmId': algorithm_id,
+                    })
+        except Exception as e:
+            print_stderr(f'Error loading definition file {file_path}: {e}')
+
     return keyword_definitions, algorithm_metadata, algorithm_map
 
 
@@ -369,8 +360,8 @@ def setup_args():
     parser = argparse.ArgumentParser(description=f'SCANOSS Keyword Analyser. Ver: {__version__}, License: MIT')
     parser.add_argument('--version', '-v', action='store_true', help='Display version details')
     parser.add_argument('target_dir', metavar='TARGET-DIR', type=str, nargs='?', help='Folder to scan')
-    parser.add_argument('--definitions', '-c', type=str, default='definitions_crypto_algorithms',
-                        help='The directory containing cryptography definitions (default: definitions_crypto_algorithms/)')
+    parser.add_argument('--definitions', '-c', type=str, default='.',
+                        help='Repository root containing keywords/ and external/spdx-crypto/ (default: .)')
     parser.add_argument('--output', '-o', type=str, default='crypto-detect.json',
                         help='The output JSON file (default: crypto-detect.json).')
     parser.add_argument('--all-hidden', action='store_true', help='Scan all hidden files/folders')

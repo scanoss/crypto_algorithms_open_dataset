@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: RIPEMD-160 Hash Function
-algorithmId: md160
-category: Hash Functions
-strength: "64"

@@ -1,0 +1,3 @@
+[submodule "external/spdx-crypto"]
+	path = external/spdx-crypto
+	url = https://github.com/spdx/cryptographic-algorithm-list.git
