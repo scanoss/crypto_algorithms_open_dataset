@@ -1,0 +1,71 @@
+# SPDX-License-Identifier: CC0-1.0
+#
+# Triggered when keyword YAMLs change on main. Regenerates the dist/ JSON
+# artifacts and opens a PR with the resulting diff so the maintainer can
+# review and merge. The downstream propagation to scanoss/platform_deployment
+# is handled by .github/workflows/propagate-to-platform-deployment.yml
+# (it triggers on push to main touching dist/**).
+name: Keywords changed
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "keywords/**"
+      - "scripts/**"
+      - ".github/workflows/keywords-changed.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  rebuild-dist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (with submodule)
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml pytest
+
+      - name: Run tests
+        run: pytest tests/
+
+      - name: Validate consistency
+        run: python scripts/validate_consistency.py --json dist/inconsistency_report.json
+
+      - name: Rebuild dist artifacts
+        run: python scripts/build_linked_dataset.py
+
+      - name: Open PR if dist changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore(dist): regenerate after keyword update"
+          title: "chore(dist): regenerate after keyword update"
+          body: |
+            Automated regeneration triggered by changes under `keywords/**`.
+
+            Updated artifacts:
+            - `dist/crypto_algorithms_keywords.json`
+            - `dist/crypto_algorithms_linked.json`
+            - `dist/inconsistency_report.json`
+
+            Once merged, `propagate-to-platform-deployment.yml` opens a
+            follow-up PR in `scanoss/platform_deployment`.
+          branch: bot/regen-dist-keywords
+          base: main
+          add-paths: |
+            dist/**
+          delete-branch: true
