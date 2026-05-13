@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: SMS4 Block Cipher
-algorithmId: sms4
-category: Symmetric Encryption
-strength: "128"

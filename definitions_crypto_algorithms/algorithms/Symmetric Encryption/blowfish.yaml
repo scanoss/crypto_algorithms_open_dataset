@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Blowfish Block Cipher
-algorithmId: blowfish
-category: Symmetric Encryption
-strength: "320"

@@ -1,0 +1,2947 @@
+{
+  "3des": {
+    "keywords": [
+      "3des",
+      "des3-kd",
+      "botan.dll",
+      "tripledes",
+      "triple_des",
+      "botan-3.dll",
+      "libbotan-2.s",
+      "libbotan-3.s",
+      "libbotan-2.dylib",
+      "libbotan-3.dylib"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "3des",
+      "name": "Triple Data Encryption Standard",
+      "oid": "1.2.840.113549.3.7",
+      "reference": [
+        "https://doi.org/10.17487/RFC1851",
+        "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-67r2.pdf"
+      ],
+      "specifiedkeySize": "168"
+    }
+  },
+  "3way": {
+    "keywords": [
+      "3way.h",
+      "cryptopp_threeway_h"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "3way",
+      "name": "3-Way Block Cipher"
+    }
+  },
+  "ASN1": {
+    "keywords": [
+      "asn1_tag",
+      "asn1integer",
+      "asn1_integer_new",
+      "#include <openssl/asn1.h>",
+      "forge.asn1.class.universal",
+      "from pyasn1.codec.der import encoder",
+      "import org.bouncycastle.asn1.asn1integer"
+    ],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Symmetric-Key-Algorithm/Encoding",
+      "id": "asn1",
+      "name": "Abstract Syntax Notation One"
+    }
+  },
+  "X509": {
+    "keywords": [],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Asymmetric-Key-Algorithm/Protocol",
+      "id": "X509",
+      "name": "ITU-T Recommendation X.509 - Public Key Infrastructure Certificate Framework"
+    }
+  },
+  "adler32": {
+    "keywords": [
+      "adler32",
+      "adler-32"
+    ],
+    "spdx": {
+      "commonkeySize": "32",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "adler32",
+      "name": "Adler-32",
+      "specifiedkeySize": "32"
+    }
+  },
+  "aes": {
+    "keywords": [
+      "_aes",
+      "aes.h",
+      "aes.js",
+      "aes128",
+      "aes256",
+      "aeskey",
+      "aes.aes",
+      "aes_cfb",
+      "aes_key",
+      "aescmac",
+      "_aes_ctr",
+      "aes/cbc/",
+      "aes_cbc_",
+      "aes_ecb_",
+      "tiny-aes-c",
+      "aes_decrypt",
+      "aes_encrypt",
+      "aes_ofb128_",
+      "aes_wrap_key",
+      "gibberishaes",
+      "aes.prototype",
+      "cryptojs.aes.",
+      "aes_block_size",
+      "aes_unwrap_key",
+      "<openssl/aes.h>",
+      "aes_ige_encrypt",
+      "require('sjcl')",
+      ".getinstance(\"aes",
+      "aes/ecb/nopadding",
+      "aes/gcm/nopadding",
+      "require('aes-js')",
+      "aes_set_decrypt_key",
+      "aes_set_encrypt_key",
+      "aes/ecb/pkcs5padding",
+      "module.exports = aes",
+      "advanced encryption standard\""
+    ],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "aes",
+      "name": "Advanced Encryption Standard",
+      "oid": "2.16.840.1.101.3.4.1",
+      "reference": [
+        "https://doi.org/10.6028/NIST.FIPS.197-upd1",
+        "https://doi.org/10.6028/NIST.SP.800-38A",
+        "https://www.iso.org/standard/81564.html"
+      ],
+      "specifiedkeySize": {
+        "max": "256",
+        "min": "128"
+      }
+    }
+  },
+  "ansix931": {
+    "keywords": [
+      "ANSI X9.31",
+      "X9.31",
+      "ANSIX9.31",
+      "ANSIX931",
+      "X931",
+      "X9_31",
+      "X9_31_DRBG",
+      "X931RNG",
+      "ANSI X.9.31 PRNG",
+      "X9_31_PRNG",
+      "generateX931"
+    ],
+    "spdx": {
+      "cryptoClass": "Protocol-Standard",
+      "id": "ansix931",
+      "name": "ANSI X9.31"
+    }
+  },
+  "ansix942": {
+    "keywords": [
+      "ANSI X9.42",
+      "X9.42",
+      "ANSIX9.42",
+      "ANSIX942",
+      "X942",
+      "X9_42",
+      "X9_42_DH",
+      "X9_42_SCHEME",
+      "ANSI X9.42 Key Agreement",
+      "DH_ANSI_X942"
+    ],
+    "spdx": {
+      "cryptoClass": "Protocol-Standard",
+      "id": "ansix942",
+      "name": "ANSI X9.42"
+    }
+  },
+  "ansix963": {
+    "keywords": [
+      "ANSI X9.63",
+      "X9.63",
+      "ANSIX9.63",
+      "ANSIX963",
+      "X963",
+      "X9_63",
+      "X9_63_KDF",
+      "X963KDF",
+      "X963_KDF",
+      "ANSI X9.63 KDF",
+      "SEC1-KDF",
+      "SEC1_KDF"
+    ],
+    "spdx": {
+      "cryptoClass": "Protocol-Standard",
+      "id": "ansix963",
+      "name": "ANSI X9.63"
+    }
+  },
+  "argon2": {
+    "keywords": [],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Key-Derivation-Function",
+      "id": "argon2",
+      "name": "Argon2",
+      "oid": null,
+      "specifiedkeySize": {
+        "max": "512",
+        "min": "128"
+      }
+    }
+  },
+  "aria": {
+    "keywords": [
+      "aria.h",
+      "aria-128",
+      "aria-192",
+      "aria-256",
+      "aria.cpp",
+      "aria.new(",
+      "ossl_aria",
+      "ariaengine",
+      "crypto/aria",
+      "aria_encrypt",
+      "aria.newcipher",
+      "openssl/aria.h",
+      "r.re.nsri.aria",
+      "aria/ecb/nopadding",
+      "aria_set_decrypt_key",
+      "aria_set_encrypt_key",
+      "from cryptodome.cipher import aria"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "aria",
+      "name": "Aria Block Cipher",
+      "oid": "1.2.410.200046.1.1.1",
+      "reference": [
+        "https://doi.org/10.17487/RFC5794",
+        "https://link.springer.com/chapter/10.1007/978-3-540-24691-6_32"
+      ],
+      "specifiedkeySize": {
+        "max": "256",
+        "min": "128"
+      }
+    }
+  },
+  "bcrypt": {
+    "keywords": [
+      "bcrypt",
+      "jbcrypt",
+      "bcrypt.java",
+      "pycabcrypt.h"
+    ],
+    "spdx": {
+      "commonkeySize": "320",
+      "cryptoClass": "Cryptographic-Hash-Function/Password-Hashing",
+      "id": "bcrypt",
+      "name": "OpenBSD Blowfish password hashing scheme",
+      "reference": [
+        "https://www.usenix.org/legacy/events/usenix99/provos/provos.pdf"
+      ]
+    }
+  },
+  "blake2": {
+    "keywords": [
+      "blake2.h",
+      "blake256",
+      "blake2::",
+      "blake2b.",
+      "blake2b_",
+      "blake2s.",
+      "blake2s_",
+      "blake2sp",
+      "blake2xb",
+      "blake2xs",
+      "blake512",
+      "'blake2b'",
+      "'blake2s'",
+      "blake 512",
+      "blake-256",
+      "blake-512",
+      "blake2b::",
+      "blake2bp_",
+      "blake2s::",
+      "blake_256",
+      "blake_512",
+      "blake2b256",
+      "blake2b384",
+      "blake2b512",
+      "blake2s128",
+      "blake2s256",
+      "blake2bdigest",
+      "blake2sdigest",
+      "crypto/blake2",
+      "digest/blake2",
+      "import blake2b, blake2s"
+    ],
+    "spdx": {
+      "commonkeySize": "512",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "blake2",
+      "name": "BLAKE2",
+      "reference": [
+        "https://doi.org/10.17487/RFC7693"
+      ],
+      "specifiedkeySize": "512"
+    }
+  },
+  "blake3": {
+    "keywords": [
+      "/blake3",
+      "blake3(",
+      "blake3.",
+      "blake3_",
+      "'blake3'",
+      "blake3::",
+      "blake3hash",
+      "blake3state",
+      "blake3digest",
+      "blake3result",
+      "blake3context",
+      "import blake3",
+      "blake3_compress",
+      "blake3hashstate"
+    ],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "blake3",
+      "name": "BLAKE3",
+      "reference": [
+        "https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf"
+      ],
+      "specifiedkeySize": "256"
+    }
+  },
+  "blakex": {
+    "keywords": [],
+    "spdx": {
+      "commonkeySize": [
+        "256",
+        "512"
+      ],
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "blakex",
+      "name": "BLAKE Hash Function",
+      "specifiedkeySize": {
+        "max": "512",
+        "min": "256"
+      }
+    }
+  },
+  "blowfish": {
+    "keywords": [
+      "bf_cbc",
+      "bf_cfb",
+      "bf_ecb",
+      "bf_ofb",
+      "blowfish",
+      "bf_set_key",
+      "blowfish_f",
+      "blowfish.new(",
+      "blowfish_init",
+      "blowfish_decrypt",
+      "blowfish_encrypt",
+      "blowfish_p_array",
+      "blowfish_s_boxes",
+      "egoroof-blowfish",
+      "blowfish_decipher",
+      "blowfish_encipher",
+      "blowfish_key_size",
+      "blowfish_block_size",
+      "blowfish_max_key_size",
+      "blowfish_generate_subkeys"
+    ],
+    "spdx": {
+      "commonkeySize": "320",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "blowfish",
+      "name": "Blowfish Cipher",
+      "oid": "1.3.6.1.4.1.3029.1.2",
+      "reference": [
+        "https://doi.org/10.1007/3-540-58108-1_24",
+        "https://www.schneier.com/academic/archives/1994/09/description_of_a_new.html"
+      ],
+      "specifiedkeySize": {
+        "max": "448",
+        "min": "128"
+      }
+    }
+  },
+  "blum-goldwasser": {
+    "keywords": [
+      "blumgoldwasser",
+      "blumgoldwasser.py",
+      "sage.crypto.public_key.blum_goldwasser.blumgoldwasser"
+    ],
+    "spdx": {
+      "commonkeySize": "320",
+      "cryptoClass": "Asymmetric-Key-Algorithm/Public-Key-Cipher",
+      "id": "blum-goldwasser",
+      "name": "Blum-Goldwasser Probabilistic Encryption",
+      "specifiedkeySize": "320"
+    }
+  },
+  "camellia": {
+    "keywords": [
+      "camellia.core",
+      "camellia.final",
+      "camellia.update",
+      "camellia_cfb128",
+      "camellia_ctr128",
+      "camellia_ofb128",
+      "camellia-256-cbc",
+      "camellia.decrypt",
+      "camellia.encrypt",
+      "camellia_decrypt",
+      "camellia_ekeygen",
+      "camellia_encrypt",
+      "camellia_set_key",
+      "camellia_set_key",
+      "ciphercamellia256",
+      "camellia.newcipher",
+      "camellia_cbc_encrypt",
+      "camellia_ecb_decrypt",
+      "camellia_ecb_encrypt",
+      "evp_camellia_128_cbc",
+      "evp_camellia_192_cbc",
+      "evp_camellia_256_cbc",
+      "camellia.createcipher",
+      "camellia_cfb1_encrypt",
+      "camellia_cfb8_encrypt",
+      "camellia.createdecipher",
+      "camellia::camellia::new",
+      "crypto.cipher.camellia.",
+      "camellia::camellia::decrypt",
+      "camellia::camellia::encrypt"
+    ],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "camellia",
+      "name": "Camellia Cipher",
+      "oid": "1.2.392.200011.61.1.1.1",
+      "reference": [
+        "https://doi.org/10.17487/RFC3713",
+        "https://www.iso.org/standard/54531.html"
+      ],
+      "specifiedkeySize": {
+        "max": "256",
+        "min": "128"
+      }
+    }
+  },
+  "cast": {
+    "keywords": [
+      "cast5",
+      "cast6",
+      "cast128",
+      "cast256",
+      "cast3.h",
+      "cast5.h",
+      "pycast6",
+      "cast-128",
+      "cast-256",
+      "cast_128",
+      "cast_256",
+      "cast_cbc",
+      "cast_ecb",
+      "cast_ecb",
+      "cast_key",
+      "cast_mac",
+      "cast_set",
+      "cast3_cbc",
+      "cast3_ecb",
+      "cast3_key",
+      "cast3_mac",
+      "cast5_cbc",
+      "cast5_ecb",
+      "cast5_key",
+      "cast5_mac",
+      "cast6_key",
+      "cast_sbox",
+      "cast_rounds",
+      "cast6_rounds",
+      "cast_decrypt",
+      "cast_encrypt",
+      "cast6_decrypt",
+      "cast6_encrypt",
+      "cast6_set_key",
+      "cast_block_size",
+      "cast6_block_size"
+    ],
+    "spdx": {
+      "commonkeySize": "320",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "cast",
+      "name": "Carlisle Adams and Stafford Tavares",
+      "oid": "1.2.840.113533.7.66.10",
+      "reference": [
+        "https://doi.org/10.17487/RFC2144",
+        "https://tnlandforms.us/cs594-cns96/cast.pdf"
+      ],
+      "specifiedkeySize": "128"
+    }
+  },
+  "chacha": {
+    "keywords": [],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "chacha",
+      "name": "ChaCha Stream Cipher",
+      "reference": [
+        "https://doi.org/10.17487/RFC8439",
+        "https://cr.yp.to/chacha/chacha-20080128.pdf"
+      ],
+      "specifiedkeySize": "256"
+    }
+  },
+  "cmac": {
+    "keywords": [
+      "cmac.new",
+      "cmac.copy",
+      "cmac_init",
+      "cmac_final",
+      "cmac.digest",
+      "cmac.update",
+      "cmac.verify",
+      "cmac_update",
+      "cmac_verify",
+      "cmac_ctx_new",
+      "cmac_ctx_free",
+      "cmac_generate",
+      "cmac.hexdigest",
+      "cmac_ctx_reset",
+      ".getinstance(\"aescmac\");",
+      "#include <openssl/cmac.h>",
+      "from crypto.hash import cmac"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Cryptographic-Hash-Function/Message-Authentication-Code",
+      "id": "cmac",
+      "name": "Cipher-based Message Authentication Code",
+      "oid": "1.2.840.113549.1.9.16.3.25",
+      "reference": [
+        "https://csrc.nist.gov/pubs/sp/800/38/b/upd1/final",
+        "https://csrc.nist.gov/News/2025/decision-to-revise-sp-800-38b-and-38c",
+        "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-38b.pdf"
+      ]
+    }
+  },
+  "cmea": {
+    "keywords": [
+      "cmeasys",
+      "cmea_sbox",
+      "startcmea",
+      "cmea_decrypt",
+      "cmea_encrypt",
+      "cmea_key_size",
+      "cmea_block_size",
+      "cmea_initialize",
+      "cmea_num_rounds",
+      "cmea_init_vector",
+      "cmea_key_schedule",
+      "cmea_feistel_round",
+      "cmea_process_block"
+    ],
+    "spdx": {
+      "commonkeySize": "64",
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "cmea",
+      "name": "Cellular Message Encryption Algorithm",
+      "reference": [
+        "https://www.schneier.com/wp-content/uploads/2016/02/paper-cmea.pdf",
+        "https://link.springer.com/content/pdf/10.1007/BFb0052260.pdf"
+      ]
+    }
+  },
+  "cms": {
+    "keywords": [
+      "cm-sketch",
+      "cms_encrypt",
+      "openssl/cms.h",
+      "countminsketch",
+      "cms_contentinfo_new",
+      "cmsenvelopeddatagenerator",
+      "import org.bouncycastle.cms."
+    ],
+    "spdx": {
+      "commonkeySize": "64",
+      "cryptoClass": "Asymmetric-Key-Algorithm/Protocol",
+      "id": "cms",
+      "name": "Cryptographic Message Syntax"
+    }
+  },
+  "cobra": {
+    "keywords": [
+      "cobra.java",
+      "cobra_algorithm"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "cobra",
+      "name": "Cobra Cipher"
+    }
+  },
+  "crc16": {
+    "keywords": [
+      "crc16_",
+      "crc_16 ",
+      "crc_16_",
+      "crc_16ccitt",
+      "crc_16xmodem"
+    ],
+    "spdx": {
+      "commonkeySize": "16",
+      "cryptoClass": "Cryptographic-Hash-Function/Checksum",
+      "id": "crc16",
+      "name": "Cyclic Redundancy Check 16-bit"
+    }
+  },
+  "crc32": {
+    "keywords": [
+      "crc32_",
+      "xcrc32",
+      "crc32.c",
+      "crc_32_",
+      "crc32h.h",
+      "crc32.ieee",
+      "crc32_init",
+      "crc32_poly",
+      "crc32_table",
+      "java.util.zip.crc32"
+    ],
+    "spdx": {
+      "commonkeySize": "32",
+      "cryptoClass": "Cryptographic-Hash-Function/Checksum",
+      "id": "crc32",
+      "name": "Cyclic Redundancy Check 32-bit"
+    }
+  },
+  "dcc": {
+    "keywords": [
+      "dcc.py",
+      "check_convergence",
+      "recompute_centroids",
+      "compute_dissimilarity"
+    ],
+    "spdx": {
+      "commonkeySize": "64",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "dcc",
+      "name": "Direct Code Construction"
+    }
+  },
+  "des": {
+    "keywords": [
+      "desx",
+      "des_e",
+      "des__p",
+      "des_fp",
+      "des_ip",
+      "des_pc",
+      "rawdes",
+      "des_cbc",
+      "des_cfb",
+      "des_key",
+      "des_ofb",
+      "des_ecb_",
+      "des_sbox",
+      "des_set_",
+      "des_crypt",
+      "des_ecb3_",
+      "des_ede3_",
+      "des_ncbc_",
+      "des_pcbc_",
+      "des_xcbc_",
+      "0x01010400",
+      "des_fcrypt",
+      "desede/cbc",
+      "desede/ecb",
+      "des_encrypt",
+      "des_feistel",
+      "deserr_none",
+      "des_key_size",
+      "des algorithm",
+      "des_key_sched",
+      "des_setparity",
+      "des_block_size",
+      "des_num_rounds",
+      "des_quad_cksum",
+      "des_random_key",
+      "des_is_weak_key",
+      "des_round_shift",
+      "des_string_to_key",
+      "des_string_to_2keys",
+      "des_check_key_parity",
+      "des_final_permutation",
+      "des_initial_permutation",
+      "data encryption standard"
+    ],
+    "spdx": {
+      "commonkeySize": "168",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "des",
+      "name": "Data Encryption Standard",
+      "oid": "1.3.14.3.2.7",
+      "reference": [
+        "https://csrc.nist.gov/pubs/fips/46-3/final",
+        "https://web.archive.org/web/20140226205104/http://origin-www.computer.org/csdl/mags/co/1977/06/01646525.pdf"
+      ],
+      "specifiedkeySize": "56"
+    }
+  },
+  "desede": {
+    "keywords": [
+      "desedekeyspec",
+      "des_ede_key_len",
+      "javax.crypto.spec.desedekeyspec"
+    ],
+    "spdx": {
+      "commonkeySize": "168",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "desede",
+      "name": "Data Encryption Standard \u2013 Encrypt-Decrypt-Encrypt.",
+      "oid": "1.2.840.113549.3.7",
+      "specifiedkeySize": "168"
+    }
+  },
+  "dhe": {
+    "keywords": [
+      "dh_get0_",
+      "dh_meth_",
+      "dh_pkey_",
+      "dh_set0_",
+      "dhpubkey",
+      "ossl_dh_",
+      "dhprivkey",
+      "rsa_dh.cpp",
+      "dhe-rsa-aes",
+      "dhpublickey",
+      "dhprivatekey",
+      "cryptopp/dh.h",
+      "dh_param_init",
+      "dh_test_flags",
+      "diffiehellman",
+      "ecdhe-rsa-aes",
+      "dh_compute_key",
+      "dh_get_ex_data",
+      "dh_set_ex_data",
+      "diffie hellman",
+      "diffie-hellman",
+      "diffie.hellman",
+      "diffie_hellman",
+      "dh_generate_key",
+      "dh_public_print",
+      "dhparameterspec",
+      "dhparameterspec",
+      "dh_security_bits",
+      "crypto.createecdh",
+      "dh_cmp_parameters",
+      "dh_check_params_ex",
+      "dh_gen_named_group",
+      "getdhobjectfromevent",
+      "dh_set_default_method",
+      "dhe-rsa-camellia128-sha",
+      "dhe-rsa-camellia256-sha",
+      6277101735386680763762764202302969639603900930322733997265
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Asymmetric-Key-Algorithm/Key-Exchange-Mechanism",
+      "id": "dhe",
+      "name": "Diffie-Hellman Ephemeral",
+      "specifiedkeySize": {
+        "max": "4096",
+        "min": "2048"
+      }
+    }
+  },
+  "dhies": {
+    "keywords": [
+      "dhies_",
+      "dhiesdecrypt",
+      "dhiesencrypt",
+      "dhies_decrypt",
+      "dhies_encrypt"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Asymmetric-Key-Algorithm/Hybrid-Cipher",
+      "id": "dhies",
+      "name": "Diffie-Hellman Integrated Encryption Scheme",
+      "specifiedkeySize": {
+        "max": "4096",
+        "min": "2048"
+      }
+    }
+  },
+  "diffiehellman": {
+    "keywords": [],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Asymmetric-Key-Algorithm/Key-Exchange-Mechanism",
+      "id": "diffiehellman",
+      "name": "Diffie-Hellman Key Exchange",
+      "oid": "1.2.840.113549.1.3.1"
+    }
+  },
+  "dsa": {
+    "keywords": [
+      "dsa.h",
+      "dsa.dsa",
+      "dsa.sign",
+      "dsa.sign",
+      "dsa_bits",
+      "dsa_init",
+      "dsa_meth_",
+      "dsa_print",
+      "dsa_sign_",
+      "ossl_dsa_",
+      "pkey_dsa_",
+      "crypto/dsa",
+      "dsa.verify",
+      "dsa_finish",
+      "dsa_up_ref",
+      "dsa_verify",
+      "dsa_do_sign",
+      "dsa_sig_new",
+      "dsa.generate",
+      "dsa_set0_key",
+      "int_dsa_free",
+      "dsa_generate_",
+      "dsa_pkey_ctrl",
+      "dsa_pub_print",
+      "dsaparams_dup",
+      "i2d_dsaparams",
+      "dsa_pub_encode",
+      "dsa_set_method",
+      "dsa_test_flags",
+      "dsa_clear_flags",
+      "dsa_param_print",
+      "dsa_priv_decode",
+      "dsa_priv_encode",
+      "dsa_set_ex_data",
+      ".getinstance(\"dsa\")",
+      "dsa_copy_parameters",
+      "openssl_keytype_dsa",
+      "ossl_ffc_params_cmp",
+      "dsa_mod_inverse_fermat",
+      "dsa_set_default_method",
+      "#include <openssl/dsa.h>",
+      "dsa_keygen_pairwise_test",
+      ".getinstance(\"sha256withdsa\")",
+      "crypto.generatekeypairsync('dsa'",
+      "evp_pkey_ctx_set_dsa_paramgen_md",
+      "from crypto.publickey import dsa",
+      "keypairgenerator.generatekeypair",
+      "java.security.spec.dsaparameterspec"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Asymmetric-Key-Algorithm/Digital-Signature",
+      "id": "dsa",
+      "name": "Digital Signature Algorithm",
+      "oid": "1.2.840.10040.4.1",
+      "reference": [
+        "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf",
+        "https://web.archive.org/web/20131213131144/http://www.itl.nist.gov/fipspubs/fip186.htm#FIPS_TOP"
+      ],
+      "specifiedkeySize": {
+        "max": "3072",
+        "min": "2048"
+      }
+    }
+  },
+  "ecdh": {
+    "keywords": [
+      "ec.ecdh",
+      "crypto/ecdsa",
+      "ecdiffiehellman",
+      "crypto.createecdh",
+      "ecdh.getpublickey",
+      "ecdh.computesecret",
+      "ecdh.getprivatekey",
+      "ecdh.setprivatekey"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Asymmetric-Key-Algorithm/Key-Exchange-Mechanism",
+      "id": "ecdh",
+      "name": "Elliptic-Curve Diffie-Hellman",
+      "oid": "1.3.132.1.12",
+      "reference": [
+        "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-56Ar3.pdf"
+      ],
+      "specifiedkeySize": {
+        "max": "521",
+        "min": "256"
+      }
+    }
+  },
+  "ecmqv": {
+    "keywords": [
+      "_ecmqv",
+      "ecmqv_",
+      "ecmqv.h",
+      "ecmqvpublic",
+      "ecmqvshared",
+      "ecmqvprivate",
+      "import ecmqv",
+      "ecmqvephemeral",
+      "ecmqvbasicagreement"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Asymmetric-Key-Algorithm/Key-Exchange-Mechanism",
+      "id": "ecmqv",
+      "name": "Elliptic Curve Menezes-Qu-Vanstone",
+      "oid": "1.3.132.1.13",
+      "specifiedkeySize": {
+        "max": "521",
+        "min": "256"
+      }
+    }
+  },
+  "elgamal": {
+    "keywords": [
+      "egkey",
+      "elgamal",
+      "el gamal",
+      "el-gamal",
+      "el_gamal",
+      "elg_sign",
+      "elgamal.h",
+      "elg_verify",
+      "elgamal.py",
+      "elg_decrypt",
+      "elg_encrypt",
+      "elg_generate",
+      "elg_public_key",
+      "elg_secret_key",
+      "elgamaldecryptor",
+      "elgamalencryptor",
+      "cryptopp_elgamal_h"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Asymmetric-Key-Algorithm/Public-Key-Cipher",
+      "id": "elgamal",
+      "name": "ElGamal Encryption System",
+      "oid": "1.3.14.7.2.1.1",
+      "reference": [
+        "https://caislab.kaist.ac.kr/lecture/2010/spring/cs548/basic/B02.pdf",
+        "https://en.wikipedia.org/wiki/ElGamal_encryption"
+      ],
+      "specifiedkeySize": {
+        "max": "4096",
+        "min": "2048"
+      }
+    }
+  },
+  "f8": {
+    "keywords": [
+      "f8_init",
+      "f8_update",
+      "f8context",
+      "f8_decrypt",
+      "f8_encrypt",
+      "f8_iv_size",
+      "f8_finalize",
+      "f8_key_size",
+      "srtpcipherf8",
+      "f8_block_size",
+      "processpacketaesf8"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "f8",
+      "name": "F8 Confidentiality Mode (F8 Mode)"
+    }
+  },
+  "fasthash": {
+    "keywords": [
+      "aquahash_h",
+      "fnv_32_prime",
+      "fnv_64_prime",
+      "fnv_offset_basis"
+    ],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "fasthash",
+      "name": "FastHash Algorithm"
+    }
+  },
+  "fcrypt": {
+    "keywords": [
+      "f_encrypt",
+      "fcrypt_ctx",
+      "crypt_gensalt",
+      "fcrypt.decrypt",
+      "fcrypt.encrypt",
+      "fcrypt_mod_init"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "fcrypt",
+      "name": "Fast DES"
+    }
+  },
+  "feal": {
+    "keywords": [
+      "feal_sbox",
+      "feal_rounds",
+      "createlmhash",
+      "feal_key_size",
+      "lmhashconstant",
+      "feal_block_size",
+      "unknownlmhashes"
+    ],
+    "spdx": {
+      "commonkeySize": "64",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "feal",
+      "name": "Fast Data Encipherment Algorithm"
+    }
+  },
+  "fletcher": {
+    "keywords": [
+      "fletcher16",
+      "fletcher32",
+      "fletcher64",
+      "fletcher_hash",
+      "fletcher_update",
+      "fletcher_finaliz",
+      "fletcher_checksum"
+    ],
+    "spdx": {
+      "commonkeySize": "64",
+      "cryptoClass": "Cryptographic-Hash-Function/Checksum",
+      "id": "fletcher",
+      "name": "Fletcher's Checksum"
+    }
+  },
+  "fnv1": {
+    "keywords": [
+      "fnv1_32",
+      "fnv1_64",
+      "fnv1a256",
+      "fnv1a512",
+      "fnv1a_32",
+      "fnv1a_64",
+      "fnv1a1024",
+      "fnv_32_init",
+      "fnv_64_init",
+      "fnv1abigbase",
+      "fnv_32_prime",
+      "fnv_64_prime"
+    ],
+    "spdx": {
+      "commonkeySize": "1024",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "fnv1",
+      "name": "Fowler-Noll-Vo Hash Function"
+    }
+  },
+  "fortuna": {
+    "keywords": [
+      "fortuna_mix",
+      "fortuna_init",
+      "fortuna_seed",
+      "fortuna_reset",
+      "fortuna_random",
+      "fortuna_reseed",
+      "fortuna_update",
+      "fortuna_process",
+      "fortuna_generate",
+      "fortuna_get_state",
+      "fortuna_pool_size",
+      "fortuna_seed_size",
+      "fortuna_set_state",
+      "fortuna_block_size",
+      "fortuna_next_bytes",
+      "fortuna_state_size",
+      "fortuna_add_entropy",
+      "fortuna_periodicity",
+      "fortuna_update_pool",
+      "fortuna_entropy_pool"
+    ],
+    "spdx": {
+      "commonkeySize": "64",
+      "cryptoClass": "Symmetric-Key-Algorithm/Random-Number-Generator",
+      "id": "fortuna",
+      "name": "Fortuna Random Number Generator",
+      "reference": [
+        "https://www.schneier.com/wp-content/uploads/2015/12/fortuna.pdf",
+        "https://www.schneier.com/academic/fortuna/"
+      ]
+    }
+  },
+  "gea0-x": {
+    "keywords": [
+      "ll_gea",
+      "gea0_x_",
+      "libgea0_x-",
+      "hf_nas_eps_emm_gea"
+    ],
+    "spdx": {
+      "commonkeySize": {
+        "max": "128",
+        "min": "64"
+      },
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "gea0-x",
+      "name": "GPRS Encryption Algorithm version 0"
+    }
+  },
+  "gost": {
+    "keywords": [
+      "libgost",
+      "gost.hpp",
+      "gost28147",
+      "gost-28147",
+      "gost_28147",
+      "gost_34_11_94_",
+      "gost_34_11_2012_",
+      "gost_34_12_2015_"
+    ],
+    "spdx": {
+      "commonkeySize": "64",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "gostr3412-2015",
+      "name": "Magma",
+      "oid": "1.2.643.7.1.1.5.1",
+      "reference": [
+        "https://doi.org/10.17487/RFC8891"
+      ],
+      "specifiedkeySize": "256"
+    }
+  },
+  "grain": {
+    "keywords": [
+      "grain.h",
+      "grainhash",
+      "graininit",
+      "grain_data",
+      "grainfinal",
+      "grain_state",
+      "grainupdate",
+      "grain-128aead",
+      "grain128aead.h",
+      "grain128engine"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "grain",
+      "name": "Grain Stream Cipher"
+    }
+  },
+  "haval": {
+    "keywords": [
+      "haval.h",
+      "haval-128",
+      "haval-160",
+      "haval-192",
+      "haval-224",
+      "haval-256",
+      "haval_128",
+      "haval_160",
+      "haval_192",
+      "haval_224",
+      "haval_256",
+      "haval_context",
+      "haval_version",
+      "haval_hash_size",
+      "haval_block_size"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "haval",
+      "name": "HAVAL Hash Function"
+    }
+  },
+  "hc128": {
+    "keywords": [
+      "hc-128",
+      "hc128_p",
+      "hc128_q",
+      "hc128_r",
+      "hc128rng",
+      "hc128info",
+      "hc128_iv_size",
+      "hc128_key_size",
+      "cryptopp_hc128_h",
+      "hc128_block_size",
+      "hc128_state_size"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "hc128",
+      "name": "Hongjun Wu's Cipher 128"
+    }
+  },
+  "hc256": {
+    "keywords": [
+      "hc256_crypt",
+      "hc256_setkey",
+      "hc256_update",
+      "hc256_iv_size",
+      "hc256_process",
+      "hc256_ctr_size",
+      "hc256_finalize",
+      "hc256_generate",
+      "hc256_key_size",
+      "hc256_xor_mask",
+      "hc256_sbox_size",
+      "hc256_seed_size",
+      "cryptopp_hc256_h",
+      "hc256_block_size",
+      "hc256_state_size",
+      "hc256_round_count",
+      "hc256_stream_size",
+      "hc256_keystream_size"
+    ],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "hc256",
+      "name": "Hongjun Wu's Cipher 256"
+    }
+  },
+  "ice": {
+    "keywords": [
+      "icekey",
+      "ice_init",
+      "node-ice",
+      "icesubkey",
+      "ice_rounds",
+      "ice_cipher_",
+      "ice_decrypt",
+      "ice_encrypt",
+      "ice_padding",
+      "ice_set_key",
+      "ice_cbc_mode",
+      "ice_cfb_mode",
+      "ice_ctr_mode",
+      "ice_ecb_mode",
+      "ice_key_size",
+      "ice_ofb_mode",
+      "ice_block_size",
+      "ice_no_padding",
+      "__ruby_ice_key_h",
+      "ice_decrypt_mode",
+      "ice_encrypt_mode",
+      "ice_key_schedule",
+      "ice_max_key_size",
+      "ice_min_key_size",
+      "ice_pkcs5_padding",
+      "ice_iso10126_padding"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "ice",
+      "name": "Information Concealment Engine"
+    }
+  },
+  "idea": {
+    "keywords": [
+      "idea_cfb",
+      "idea_ecb",
+      "idea_key",
+      "idea_cbc_",
+      "idea_ofb_",
+      "ideamode_h",
+      "idea_decrypt",
+      "idea_encrypt",
+      "idea_decrypt\"",
+      "idea_encrypt\"",
+      "ideastreamcfb",
+      "ideastreampcb",
+      "idea_key_size\"",
+      "idea_block_size\"",
+      "idea_num_rounds\"",
+      "idea_key_schedule",
+      "ideastreamdecrypt",
+      "ideastreamencrypt",
+      "ideaencryptstreamstatus",
+      "ideastreamctrrandomaccessinit"
+    ],
+    "spdx": {
+      "commonkeySize": "64",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "idea",
+      "name": "International Data Encryption Algorithm",
+      "oid": "1.3.6.1.4.1.188.7.1.1.2",
+      "specifiedkeySize": "128"
+    }
+  },
+  "isaac": {
+    "keywords": [
+      "isaac32",
+      "isaac64",
+      "isaaccsprng",
+      "isaac_rounds",
+      "isaac_iv_size",
+      "isaac_constant",
+      "isaac_key_size",
+      "isaac_prng_seed",
+      "isaac_seed_array",
+      "isaac_state_size",
+      "isaac_output_size",
+      "isaacrandompool.h",
+      "isaac_initial_seed",
+      "isaac_mix_constant"
+    ],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Symmetric-Key-Algorithm/Random-Number-Generator",
+      "id": "isaac",
+      "name": "ISAAC Random Number Generator"
+    }
+  },
+  "juniper": {
+    "keywords": [
+      "juniper_init",
+      "juniper::init",
+      "juniperdecrypt",
+      "juniperencrypt",
+      "juniper::setkey",
+      "juniper_decrypt",
+      "juniper_encrypt",
+      "juniper_set_key",
+      "juniper::decrypt",
+      "juniper::encrypt",
+      "juniper_key_size",
+      "juniper::key_size",
+      "juniper_block_size",
+      "juniper::block_size",
+      "mod_juniper_decrypt",
+      "juniper::generatekey"
+    ],
+    "spdx": {
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "juniper",
+      "name": "Juniper Ciphe"
+    }
+  },
+  "kazumi": {
+    "keywords": [
+      "kasumi.h",
+      "kasumi_desc",
+      "__kasumi_h__",
+      "kazumidecrypt",
+      "kazumiencrypt"
+    ],
+    "spdx": {
+      "commonkeySize": "64",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "kazumi",
+      "name": "Kazumi Cipher"
+    }
+  },
+  "keccak": {
+    "keywords": [
+      "keccak_",
+      "keccak256",
+      "keccak512",
+      "keccaksum",
+      "keccakhash.h",
+      "keccak_hashfinal"
+    ],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "keccak",
+      "name": "Keccak Hash Function",
+      "oid": "2.16.840.1.101.3.4.2",
+      "specifiedkeySize": "256"
+    }
+  },
+  "khazad": {
+    "keywords": [
+      "khazad_h",
+      "khazad_key_",
+      "khazad-min.h",
+      "khazad_crypt",
+      "khazad_rounds",
+      "khazad_setkey",
+      "khazad_decrypt",
+      "khazad_encrypt",
+      "khazad_mod_fini",
+      "khazad_block_size",
+      "khazad_num_rounds"
+    ],
+    "spdx": {
+      "commonkeySize": "16",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "khazad",
+      "name": "Khazad Block Ciphe"
+    }
+  },
+  "loki91": {
+    "keywords": [
+      "loki.h",
+      "loki.i",
+      "loki91_",
+      "setlokikey",
+      "setlokikey",
+      "loki_lib_ver"
+    ],
+    "spdx": {
+      "commonkeySize": "64",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "loki91",
+      "name": "LOKY91 Bock Cipher"
+    }
+  },
+  "luc": {
+    "keywords": [
+      "luc.h",
+      "lucfunction",
+      "cryptopp_luc_h"
+    ],
+    "spdx": {
+      "commonkeySize": "64",
+      "cryptoClass": "Asymmetric-Key-Algorithm/Public-Key-Cipher",
+      "id": "luc",
+      "name": null,
+      "specifiedkeySize": "1024"
+    }
+  },
+  "lucifer": {
+    "keywords": [
+      "lucifer.h",
+      "lucifer_setup",
+      "lucifer_decrypt",
+      "lucifer_encrypt",
+      "lucifer_permute",
+      "lucifer_key_size",
+      "lucifer_block_size",
+      "lucifer_num_rounds",
+      "lucifer_key_schedule",
+      "lucifer_round_function"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "lucifer",
+      "name": "Lucifer Cipher"
+    }
+  },
+  "mceliece": {
+    "keywords": [
+      "mceliece.h",
+      "mceliece_g",
+      "mceliece_h",
+      "mceliece_dec",
+      "mceliece_enc",
+      "mceliece_init",
+      "delete_mceliece",
+      "mceliece_keygen\"",
+      "mceliececipher.py"
+    ],
+    "spdx": {
+      "commonkeySize": "64",
+      "cryptoClass": "Asymmetric-Key-Algorithm/Public-Key-Cipher",
+      "id": "mceliece",
+      "name": "McEliece Cryptosystem"
+    }
+  },
+  "md160": {
+    "keywords": [
+      "md160-",
+      "md160.",
+      "md160_",
+      "ripemd160.h",
+      "ripemd160_init",
+      "ripemd160_update",
+      "ripemd160_process"
+    ],
+    "spdx": {
+      "commonkeySize": "64",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "md160",
+      "name": "RACE Integrity Primitives Evaluation Message Digest)",
+      "specifiedkeySize": "160"
+    }
+  },
+  "md2": {
+    "keywords": [
+      "_md2",
+      "_md2",
+      "md2.py",
+      "md2sum",
+      "md2::md2",
+      "md2_init",
+      "md2_block",
+      "md2_final",
+      "md2_update",
+      "digest::md2",
+      "insecure.md2",
+      ".createhash('md2')",
+      "hashlib.new('md2')"
+    ],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "md2",
+      "name": "Message-Digest Algorithm 2"
+    }
+  },
+  "md4": {
+    "keywords": [
+      "md4 ",
+      "md4.h",
+      "md4_hash",
+      "md4_init",
+      "md4_final",
+      "md4_magic",
+      "crypto/md4",
+      "md4_digest",
+      "md4_update",
+      "md4_padding",
+      "md4_transform",
+      "hashlib.new('md4'",
+      ".createhash('md4')",
+      "md4_hmac_block_size",
+      "md4_block_data_order",
+      "#include <openssl/md4.h>",
+      "md4_block_words - md4_hash_"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "md4",
+      "name": "Message-Digest Algorithm 4"
+    }
+  },
+  "md5": {
+    "keywords": [
+      "md5.",
+      "md5_",
+      "md5sum",
+      "md5hash",
+      "md5hash",
+      "aprcrypt",
+      "hash_md5",
+      "md5_file",
+      "md5_init",
+      "md5crypt",
+      "mdstring",
+      "md5digest",
+      "0x5a827999",
+      "0xd76aa478",
+      "0xe8c7b756",
+      "md5compute",
+      "md5_encrypt\"",
+      "ossl_md5_sha1_",
+      "md5_block_data_order"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "md5",
+      "name": "Message-Digest Algorithm 5",
+      "specifiedkeySize": "128"
+    }
+  },
+  "md6": {
+    "keywords": [
+      "md6.",
+      "md6_",
+      "md6_encrypt",
+      "catmd6crypto",
+      "md6crypto.hash"
+    ],
+    "spdx": {
+      "commonkeySize": "512",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "md6",
+      "name": "Message-Digest Algorithm 6"
+    }
+  },
+  "mdc2": {
+    "keywords": [
+      "mdc2",
+      "::md2",
+      "mdc2.h",
+      "mdc2.new",
+      "mdc2_body",
+      "mdc2_init",
+      "mdc2_final",
+      "mdc2_update",
+      "mdc2_with_aes.py",
+      "getinstance(\"mdc2\")",
+      "crypto.createhash('mdc2')"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "mdc2",
+      "name": "Modification Detection Code 2"
+    }
+  },
+  "misty1": {
+    "keywords": [
+      "misty1_"
+    ],
+    "spdx": {
+      "commonkeySize": "32",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "misty1",
+      "name": "MISTY1 Block Cipher"
+    }
+  },
+  "mqv": {
+    "keywords": [
+      "ecmqv",
+      "fhmqv",
+      "mqv.h",
+      "hmqv.h",
+      "fhmqv128",
+      "fhmqv256",
+      "fhmqv384",
+      "fhmqv512",
+      "eqv_domain",
+      "mqv_signing",
+      "mqv_key_agreement",
+      "mqv_key_exchange\"",
+      "mqv_verification\"",
+      "menezes-qu-vanstone"
+    ],
+    "spdx": {
+      "commonkeySize": "512",
+      "cryptoClass": "Asymmetric-Key-Algorithm/Key-Exchange-Mechanism",
+      "id": "mqv",
+      "name": "Menezes-Qu-Vanstone",
+      "specifiedkeySize": {
+        "max": "4096",
+        "min": "2048"
+      }
+    }
+  },
+  "mscash": {
+    "keywords": [
+      "mscash.",
+      "mscash_",
+      "mscash.x.gz"
+    ],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Cryptographic-Hash-Function/Password-Hashing",
+      "id": "mscash",
+      "name": "MSCash2 Password Hashing"
+    }
+  },
+  "mscash2": {
+    "keywords": [
+      "mascash2"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Cryptographic-Hash-Function/Password-Hashing",
+      "id": "mscash2",
+      "name": "MSCash2 Password Hashing"
+    }
+  },
+  "multi2": {
+    "keywords": [
+      "multi2.h",
+      "ltc_multi2",
+      "multi2_dec",
+      "multi2_ecb",
+      "multi2_enc",
+      "multi2_desc",
+      "multi2_setup"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "multi2",
+      "name": "MULTI2 Cipher"
+    }
+  },
+  "nimbus": {
+    "keywords": [
+      "nimbus.",
+      "nimbus_",
+      "nimbusds.jose",
+      "joseobjecttype "
+    ],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "nimbus",
+      "name": "Nimbus Cipher"
+    }
+  },
+  "noekeon": {
+    "keywords": [
+      "noekeon.",
+      "noekeon_",
+      "noekeon.h",
+      "noekeonengine",
+      "noekeonengine.cs",
+      "noekeonindirectref"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "noekeon",
+      "name": "NOEKEON Block Cipher"
+    }
+  },
+  "ntruencrypt": {
+    "keywords": [
+      "ntru_",
+      "ntru.h",
+      "ntrudec",
+      "ntruenc",
+      "decryptntru",
+      "encryptntru",
+      "decryptwithntru",
+      "encryptwithntru",
+      "generatentrukeys",
+      "net.sf.ntru.util",
+      "generatentrukeypair",
+      "generatentrukeypair",
+      "ntrugeneratekeypair",
+      "ntrugeneratekeypair",
+      "ntruprime_gen_key_pair"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Asymmetric-Key-Algorithm/Public-Key-Cipher",
+      "id": "ntruencrypt",
+      "name": "N-th degree TRuncated polynomial Ring Units"
+    }
+  },
+  "panama": {
+    "keywords": [
+      "panama_",
+      "panama.h",
+      "panamainit",
+      "panamafinal",
+      "panama_ltx__",
+      "panamaupdate",
+      "panamacontext",
+      "panamaencrypt",
+      "panamakeysetup"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "panama",
+      "name": "PANAMA Hash and Stream Cipher"
+    }
+  },
+  "pbe": {
+    "keywords": [
+      "pbe",
+      "kpbe",
+      "pbewith",
+      "pbekeyspec",
+      "pbes2parameters",
+      "pbeparameterspec",
+      "org.xeustechnologies.crypto.kpbe"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Key-Derivation",
+      "id": "pbe",
+      "name": "Password-Based Encryption"
+    }
+  },
+  "pbes1": {
+    "keywords": [
+      "getpbes1kdf",
+      "getpbes1hash",
+      "pbewithmd5anddes",
+      "pkcs5_scheme_pbes1",
+      "getpbes1encryptionobject"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Key-Derivation",
+      "id": "pbes1",
+      "name": "Password-Based Encryption Scheme 1"
+    }
+  },
+  "pbes2": {
+    "keywords": [
+      "_pbes2",
+      "pbes2_",
+      "id-pbes2",
+      "pbes2aeskw",
+      "pbes2hs256a128kw",
+      "pbes2-hs256+a128k",
+      "getpbes2encryptionobject"
+    ],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Symmetric-Key-Algorithm/Key-Derivation",
+      "id": "pbes2",
+      "name": "Password-Based Encryption Scheme 2"
+    }
+  },
+  "pbkdf1": {
+    "keywords": [
+      "pbkdf1"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Cryptographic-Hash-Function/Key-Derivation",
+      "id": "pbkdf1",
+      "name": "Password-Based Key Derivation Function 1"
+    }
+  },
+  "pbkdf2": {
+    "keywords": [
+      "_pbkdf2",
+      "pbkdf2.js",
+      "ikonoshirt_pbkdf2_model_encryption"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Cryptographic-Hash-Function/Key-Derivation",
+      "id": "pbkdf2",
+      "name": "Password-Based Key Derivation Function 2",
+      "oid": "1.2.840.113549.1.5.12"
+    }
+  },
+  "pkcs12": {
+    "keywords": [
+      "pkcs8_",
+      "pkcs12_",
+      "parse_pk12",
+      "openssl_asc2uni"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Asymmetric-Key-Algorithm/Protocol",
+      "id": "pkcs12",
+      "name": "Public Key Cryptography Standards 12",
+      "oid": "1.2.840.113549.1.12"
+    }
+  },
+  "pkcs7": {
+    "keywords": [
+      "pkcs7_",
+      "pkcs7data",
+      "pkcs7padding",
+      "pkcs7signature",
+      "pkcs7data_final",
+      "pkcs7contentinfo",
+      "pkcs7contenttype",
+      "smime_write_pkcs7",
+      "smime_write_asn1_ex",
+      "ossl_x509_add_cert_new"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Asymmetric-Key-Algorithm/Protocol",
+      "id": "pkcs7",
+      "name": "Public Key Cryptography Standards 7",
+      "oid": "1.2.840.113549.1.7"
+    }
+  },
+  "quad": {
+    "keywords": [
+      "quad.pack",
+      "quad_key_",
+      "quad.unpack",
+      "quad_block_",
+      "quad_decrypt",
+      "quad_encrypt"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "quad",
+      "name": "Quad Cipher"
+    }
+  },
+  "rabbit": {
+    "keywords": [
+      "rabbit_ctx",
+      "rabbit_util",
+      "rabbit_state",
+      "rabbit_cipher",
+      "rabbit_crypto",
+      "rabbit_cypher",
+      "rabbit_set_iv",
+      "rabbit_decrypt",
+      "rabbit_encrypt",
+      "rabbit_encrypt",
+      "rabbit_set_key",
+      "rabbit_key_setup",
+      "rabbit_crypt_bytes",
+      "#include \"rabbit.h\"",
+      "rabbit_process_bytes",
+      "createcipheriv('rabbit'",
+      "secretkeyspec(key, \"rabbit\")",
+      "from crypto.cipher import rabbit"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "rabbit",
+      "name": "Rabbit Stream Cipher"
+    }
+  },
+  "rabin": {
+    "keywords": [
+      "rabin_dec",
+      "rabin_enc",
+      "rabin.genkey",
+      "rabin.decrypt",
+      "rabin.encrypt",
+      "rabin_generate_key",
+      "rabin_compute_signature",
+      "rabin_validate_signature"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Asymmetric-Key-Algorithm/Public-Key-Cipher",
+      "id": "rabin",
+      "name": "Rabin Encryption Algorithm",
+      "specifiedkeySize": {
+        "max": "2048",
+        "min": "1024"
+      }
+    }
+  },
+  "rc2": {
+    "keywords": [
+      "rc2-cbc",
+      "rc2-cfb",
+      "rc2-ecb",
+      "rc2-ofb",
+      "rc2.new",
+      "rc2_128",
+      "rc2_cbc",
+      "rc2_cfb",
+      "rc2_ecb",
+      "rc2_key",
+      "rc2_ofb",
+      "rc2context",
+      "rc2engine.",
+      "cipher::rc2",
+      "rc2.decrypt",
+      "rc2.encrypt",
+      "rc2_decrypt",
+      "rc2_encrypt",
+      "rc2_set_key",
+      "rc2_set_key",
+      "rc2.key_size",
+      "rc2 algorithm",
+      "rc2.newcipher",
+      "rc2.block_size",
+      "rc2.block_size",
+      "rc2_block_size",
+      "rc2_ltx__mcrypt_",
+      "createcipheriv('rc2'",
+      "createdecipheriv('rc2'",
+      "#include <openssl/rc2.h>"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "rc2",
+      "name": "Rivest Cipher 2",
+      "oid": "1.2.840.113549.3.2"
+    }
+  },
+  "rc4": {
+    "keywords": [
+      "_rc4",
+      "rc4_h",
+      "rc4-cbc",
+      "rc4-cfb",
+      "rc4-ecb",
+      "rc4-ofb",
+      "rc4_gen",
+      "rc4_key",
+      "rc4_ksa",
+      "rc4_decr",
+      "rc4_encr",
+      "rc4_init",
+      "rc4_init",
+      "rc4_prga",
+      "rc4_setup",
+      "crypto/rc4",
+      "rc4_cipher",
+      "rc4context",
+      "rc4_context",
+      "rc4_set_key",
+      "rc4_generate",
+      "::cipher::rc4",
+      "rc4_key_setup",
+      "rc4_pseudo_random"
+    ],
+    "spdx": {
+      "commonkeySize": "2048",
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "rc4",
+      "name": "Rivest Cipher 4",
+      "oid": "1.2.840.113549.3.4",
+      "specifiedkeySize": {
+        "max": "2048",
+        "min": "128"
+      }
+    }
+  },
+  "rc4-hmac": {
+    "keywords": [
+      "rc4hmac",
+      "rc4-hmac.go",
+      "rc4-hmac-md5",
+      "cryptopp::rc4",
+      "crypto.hash.hmac"
+    ],
+    "spdx": {
+      "commonkeySize": "2048",
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "rc4-hmac",
+      "name": "RC4 with HMAC-MD5"
+    }
+  },
+  "rc5": {
+    "keywords": [
+      "rc5.rb",
+      "rc5dec",
+      "rc5enc",
+      "rc5-cbc",
+      "rc5-cfb",
+      "rc5-ecb",
+      "rc5-ofb",
+      "rc5.new",
+      "rc5_cbc",
+      "rc5_cfb",
+      "rc5_dec",
+      "rc5_ecb",
+      "rc5_enc",
+      "rc5_key",
+      "rc5_ofb",
+      "rc5context",
+      "rc5dec.java",
+      "rc5enc.java",
+      "rc5.encrypt(",
+      "rc5::encrypt",
+      "rc5_finalize",
+      "rc5_32_decrypt",
+      "rc5_32_encrypt",
+      "rc5_32_set_key",
+      "rc5_block_size",
+      "rc5_initialize",
+      "gorc5.newcipher",
+      "require 'rc5.php'",
+      "rc5_32_cbc_encrypt",
+      "rc5_32_ecb_encrypt",
+      "from rc5 import rc5",
+      "rc5_32_cfb64_encrypt",
+      "rc5_32_ofb64_encrypt",
+      "require('rc5-cipher')",
+      "github.com/inge6/gorc5",
+      "import org.bouncycastle.crypto.engines.rc532engine"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "rc5",
+      "name": "Rivest Cipher 5",
+      "oid": "1.2.840.113549.3.8",
+      "specifiedkeySize": "128"
+    }
+  },
+  "rc6": {
+    "keywords": [
+      "rc6_dec",
+      "rc6_enc",
+      "rc6_key",
+      "rc6_hpp__",
+      "rc6_rounds",
+      "rc6.decript",
+      "rc6.encrypt",
+      "rc6_set_key",
+      "algorithmrc6",
+      "rc6_finalize",
+      "rc6_block_size",
+      "rc6_initialize"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "rc6",
+      "name": "Rivest Cipher 6",
+      "oid": null,
+      "specifiedkeySize": {
+        "max": "256",
+        "min": "128"
+      }
+    }
+  },
+  "rijndael": {
+    "keywords": [
+      "rijndaeli",
+      "rijndaels",
+      "rijndael.h",
+      "rijndael256",
+      "rijndaelkey",
+      "rijndaelfinal",
+      "rijndaelround",
+      "rijndaelcipher",
+      "rijndaelupdate",
+      "rijndaeldecrypt",
+      "rijndaelencrypt",
+      "rijndaelexpandkey",
+      "rijndaelmixcolumns",
+      "rijndaeladdroundkey",
+      "rijndaelgeneratekey"
+    ],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "rijndael",
+      "name": "Rijndael - AES Candidate Algorithm",
+      "oid": "2.16.840.1.101.3.4.1",
+      "specifiedkeySize": {
+        "max": "256",
+        "min": "128"
+      }
+    }
+  },
+  "ripemd": {
+    "keywords": [
+      "ripemd128",
+      "ripemd160",
+      "ripemd256",
+      "ripemd320",
+      "#include <openssl/ripemd.h>"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "ripemd",
+      "name": "RIPEMD Hash Function",
+      "oid": "1.3.36.3.2.1"
+    }
+  },
+  "rsa": {
+    "keywords": [
+      "rsaz",
+      "_rsa_",
+      "pk_rsa",
+      "rsa_f4",
+      "rsakey",
+      "rsa key",
+      "ossl_rsa",
+      "rsa/ecb/",
+      "rsa_meth",
+      "rsa_oaep",
+      "rsa_sha1",
+      "rsa_size",
+      "rsacrypt",
+      "ossl_rsa_",
+      "rsa_key_s",
+      "rsa_pkcs1",
+      "rsa_priv_",
+      "rsa_sign_",
+      "rsapubkey",
+      "rsa_pkcs1_",
+      "rsa_sha256",
+      "rsa_sha512",
+      "rsadecrypt",
+      "rsaprivkey",
+      "rsa.newkeys",
+      "rsa.private",
+      "rsa_decrypt",
+      "rsa_encrypt",
+      "rsa_modulus",
+      "rsa_padding",
+      "rsa_public_",
+      "rsa_public_",
+      "rsa_verify_",
+      "rsa_padding_",
+      "rsa_private_",
+      "rsa_private_",
+      "rsapublickey",
+      "openssl/rsa.h",
+      "rsa_algorithm",
+      "rsa_generate_",
+      "rsa_item_sign",
+      "rsa_validate_",
+      "rsaprivatekey",
+      "cryptopp/rsa.h",
+      "forge.pki.rsa.",
+      "rsa_decryption",
+      "rsa_encryption",
+      "rsa_new_intern",
+      "rsa_no_padding",
+      "rsa_pkcs1_v1_5",
+      "rsa_pub_encode",
+      "rsa_set_method",
+      "rsa_gen_keypair",
+      "rsa_get_ex_data",
+      "rsa_get_padding",
+      "rsa_set_padding",
+      " rsa private key",
+      "rsa_max_key_size",
+      "rsa_min_key_size",
+      "rsa_oaep_padding",
+      "rsaes-pkcs1-v1_5",
+      ".getinstance(\"rsa",
+      "pkey_rsa_ctrl_str",
+      "rsa_pkcs1_padding",
+      "rsa_pkey_dirty_cnt",
+      "rsa_public_encrypt",
+      "require('node-rsa')",
+      "rsa_get0_crt_params",
+      "rsa_int_import_from",
+      "rsa_public_exponent",
+      "rsa_signing_padding",
+      "rsa_private_exponent",
+      "rsa_verify_signature",
+      "rsa_verify_signature",
+      "rsa_compute_signature",
+      "rsa_encryption_padding",
+      "rsa_x931_generate_key_ex",
+      "rsaes-pkcs1-v1_5-encrypt",
+      "evp_pkey_ctx_set_rsa_keygen_primes"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Asymmetric-Key-Algorithm/Public-Key-Cipher",
+      "id": "rsa",
+      "name": "Rivest\u2013Shamir\u2013Adleman Algorithm",
+      "oid": "1.2.840.113549.1.1.1",
+      "specifiedkeySize": {
+        "max": "4096",
+        "min": "2048"
+      }
+    }
+  },
+  "salsa10": {
+    "keywords": [
+      "salsa10",
+      "salsa10-src.bin",
+      "salsa10-nonce.bin"
+    ],
+    "spdx": {
+      "commonkeySize": "64",
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "salsa10",
+      "name": "Salsa10 Stream Cipher"
+    }
+  },
+  "salsa20": {
+    "keywords": [
+      "salsa20.new",
+      "c_salsa20_crypt",
+      "estream_salsa20",
+      "#include \"salsa20.h\"",
+      "wrap_salsa20_set_nonce",
+      ".createcipheriv('salsa20'",
+      "from crypto.cipher import salsa20"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "salsa20",
+      "name": "Salsa20 Stream Cipher",
+      "specifiedkeySize": "256"
+    }
+  },
+  "sapphire": {
+    "keywords": [
+      "sapphire.h",
+      "sapphire::keyrand",
+      "sapphire::init_hash",
+      "sapphire::initialize"
+    ],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "sapphire",
+      "name": "SAPPHIRE Cipher"
+    }
+  },
+  "seal": {
+    "keywords": [
+      "seal.h",
+      "sealcontext",
+      "sealwrapper",
+      "tosealobject",
+      "fromsealobject"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "seal",
+      "name": "Software-Optimized Encryption Algorithm Cipher"
+    }
+  },
+  "seed": {
+    "keywords": [
+      "seed.go",
+      "seed_setkey",
+      "seed_decrypt",
+      "seed_encrypt",
+      "seed128cipher"
+    ],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "seed",
+      "name": "SEED Block Cipher",
+      "oid": "1.2.410.200004.1",
+      "specifiedkeySize": {
+        "max": "256",
+        "min": "128"
+      }
+    }
+  },
+  "serpent": {
+    "keywords": [
+      "serpent_blk",
+      "serpent_subkey_t"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "serpent",
+      "name": "Serpent Block Cipher",
+      "oid": "1.3.6.1.4.1.11591.13.2",
+      "specifiedkeySize": {
+        "max": "256",
+        "min": "128"
+      }
+    }
+  },
+  "shacal": {
+    "keywords": [
+      "shacal",
+      "shacal2",
+      "isshacal1",
+      "shacal2.new",
+      "crypto/shacal2",
+      "require('shacal')",
+      "shacal2encryption",
+      "cryptopp_shacal2_h",
+      "#include \"shacal.h\"",
+      ".getinstance(\"shacal2\");",
+      "from crypto.cipher import shacal2"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "shacal",
+      "name": "SHACAL Block Cipher"
+    }
+  },
+  "shark": {
+    "keywords": [
+      "shark.h",
+      "voipshark",
+      "sharktransform",
+      "cryptopp_shark_h"
+    ],
+    "spdx": {
+      "commonkeySize": "64",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "shark",
+      "name": "SHARK Block Cipher"
+    }
+  },
+  "shax": {
+    "keywords": [],
+    "spdx": {
+      "commonkeySize": [
+        "128",
+        "512"
+      ],
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "shax",
+      "name": "SHA-x (SHA-1, SHA-256, etc.)",
+      "specifiedkeySize": {
+        "max": "512",
+        "min": "224"
+      }
+    }
+  },
+  "shs": {
+    "keywords": [
+      "shs1",
+      "shs.h",
+      "shs_ctx",
+      "shsinit",
+      "shsinit",
+      "shsupdate",
+      "secret-handshake"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "shs",
+      "name": "Secure Hash Standard"
+    }
+  },
+  "skein": {
+    "keywords": [
+      "sk_init",
+      "skein256_",
+      "skein512_",
+      "skein_fin",
+      "sk_decrypt",
+      "sk_encrypt",
+      "skein1024_",
+      "skein_get_",
+      "skein_hash",
+      "skein_init",
+      "skein_set_",
+      "skein_clear",
+      "skein_reset",
+      "skein_xform",
+      "skein_digest",
+      "skein_update",
+      "skein_compute",
+      "skein_process",
+      "skeincrypto.h",
+      "skein_add_data"
+    ],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "skein",
+      "name": "Skein Hash Function"
+    }
+  },
+  "skipjack": {
+    "keywords": [
+      "skipjack",
+      "skipjack.go",
+      "fastskipjack",
+      "skipjack_key",
+      "skipjack_init",
+      "skipjack_num_",
+      "skipjackcipher",
+      "skipjack_decrypt",
+      "skipjack_encrypt"
+    ],
+    "spdx": {
+      "commonkeySize": "32",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "skipjack",
+      "name": "Skipjack Block Cipher"
+    }
+  },
+  "sms4": {
+    "keywords": [
+      "sms4.h",
+      "sms4_rk",
+      "sms4_pck",
+      "sms4crol",
+      "sms4mask",
+      "sms4_cfb_",
+      "sms4_ctr_",
+      "sms4_ecb_",
+      "sms4_init",
+      "sms4_mode",
+      "sms4_ofb_",
+      "sms4_sbox",
+      "sm4_encdec",
+      "sms4_cbc_e",
+      "sms4_final",
+      "sms4_cipher",
+      "sms4_update",
+      "sms4_decrypt",
+      "sms4_encrypt",
+      "sms4_set_key",
+      "cryptopp_sm4_h",
+      "cryptopp_sm4_advanced_process_blocks"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "sms4",
+      "name": "SMS4 Block Cipher"
+    }
+  },
+  "snerfu": {
+    "keywords": [
+      "snerfu"
+    ],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "snerfu",
+      "name": "SNERFU Hash Function"
+    }
+  },
+  "snow": {
+    "keywords": [
+      "snow_3g",
+      "snow-3g.h",
+      "snow_init",
+      "snow_set_iv",
+      "snow_decrypt",
+      "snow_encrypt",
+      "snow_process",
+      "snow_set_key",
+      "snow5_aes_round",
+      "rte_crypto_auth_snow3g_uia2",
+      "rte_crypto_cipher_snow3g_uea2"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "snow",
+      "name": null
+    }
+  },
+  "sober": {
+    "keywords": [
+      "sober32_",
+      "sober64_",
+      "sober128_",
+      "sober_dec",
+      "sober_enc",
+      "ltc_sober128",
+      "sober_set_iv",
+      "sober_process",
+      "sober_set_key",
+      "sober_finalize",
+      "sober_generate_iv",
+      "sober_generate_key"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "sober",
+      "name": "SOBER Stream Cipher"
+    }
+  },
+  "sosemanuk": {
+    "keywords": [
+      "sosemanuk_",
+      "sosemanukfast",
+      "sosemanukslow"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "sosemanuk",
+      "name": "SOSEMANUK Stream Cipher"
+    }
+  },
+  "srp": {
+    "keywords": [
+      "_ctsrp",
+      "_pysrp",
+      "libsrp",
+      "srp_gn_",
+      "srp_calc_",
+      "srpclient",
+      "srpserver",
+      "srp_vbase_",
+      "srp_verify_",
+      "srp_user_pwd_",
+      "srp_calc_client_",
+      "srp_get_gn_by_id",
+      "srp_get_default_gn",
+      "srp_create_verifier_",
+      "srp_check_known_gn_param"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Asymmetric-Key-Algorithm/Protocol",
+      "id": "srp",
+      "name": "Secure Remote Password Protocol"
+    }
+  },
+  "ssha": {
+    "keywords": [
+      "ssha_",
+      "checkssha",
+      "ssha224password"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "ssha",
+      "name": "Salted Secure Hash Algorithm"
+    }
+  },
+  "tcrypt": {
+    "keywords": [
+      "tcrypt.h",
+      "tcrypt_hash",
+      "tcrypt_init",
+      "tcrypt_final",
+      "tcrypt_mode_",
+      "tcrypt_error_",
+      "tcrypt_keygen",
+      "tcrypt_set_iv",
+      "tcrypt_update",
+      "tcrypt_verify",
+      "tcrypt_decrypt",
+      "tcrypt_encrypt",
+      "tcrypt_failure",
+      "tcrypt_process",
+      "tcrypt_set_key",
+      "tcrypt_success",
+      "_crypto_tcrypt_h",
+      "tcrypt_block_size",
+      "tcrypt_key_length",
+      "tcrypt_generate_key"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "tcrypt",
+      "name": "TCRYPT Encryption"
+    }
+  },
+  "tdes": {
+    "keywords": [
+      "tdes_flags_cbc",
+      "tdes_flags_ecb",
+      "tdes_flags_ofb",
+      "tdes_flags_cfb8",
+      "des_ecb3_encrypt",
+      "tdes_flags_cfb16",
+      "tdes_flags_cfb32",
+      "tdes_flags_cfb64",
+      "tdes_flags_encrypt",
+      "tdes_flags_opmode_mask"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "tdes",
+      "name": "Triple Data Encryption Standard",
+      "oid": "1.2.840.113549.3.7",
+      "specifiedkeySize": "168"
+    }
+  },
+  "tea": {
+    "keywords": [
+      "tea_decrypt",
+      "tea_encrypt",
+      "tea_cbc_mode",
+      "tea_ofb_mode"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "tea",
+      "name": "Tiny Encryption Algorithm"
+    }
+  },
+  "threefish": {
+    "keywords": [
+      "threefish_algs",
+      "newthreefish256",
+      "newthreefish512",
+      "threefish_round",
+      "newthreefish1024",
+      "threefishdecrypt",
+      "threefishencrypt",
+      "threefish_decrypt",
+      "threefish_encrypt",
+      "threefish_mod_fini",
+      "threefish_roundinv",
+      "crypto.threefish.common",
+      "threefish_encrypt_generic"
+    ],
+    "spdx": {
+      "commonkeySize": "1024",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "threefish",
+      "name": "Threefish Block Cipher"
+    }
+  },
+  "tiger": {
+    "keywords": [
+      "tiger_compress",
+      "austigertokens1",
+      "tiger_compress_macro"
+    ],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "tiger",
+      "name": "Tiger Hash Function",
+      "specifiedkeySize": "192"
+    }
+  },
+  "tnepres": {
+    "keywords": [
+      "tnepresengine",
+      "cipher.tnepres",
+      "keygenerator.tnepres",
+      "algorithmparameters.tnepres"
+    ],
+    "spdx": {
+      "commonkeySize": "256",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "tnepres",
+      "name": "TNEPRES Block Cipher (Reverse Serpent)"
+    }
+  },
+  "twofish": {
+    "keywords": [
+      "twofish.h",
+      "twofish.h",
+      "0xbcbc3275",
+      "twofish_key",
+      "twofish_byte",
+      "twofish_fatal",
+      "twofish_decrypt",
+      "twofish_encrypt",
+      "twofish_prepare_key",
+      "twofish_prepare_key",
+      "0xa9, 0x67, 0xb3, 0xe8",
+      "exp_twofish_prepare_key"
+    ],
+    "spdx": {
+      "commonkeySize": "64",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "twofish",
+      "name": "Twofish Block Cipher",
+      "oid": null,
+      "specifiedkeySize": {
+        "max": "256",
+        "min": "128"
+      }
+    }
+  },
+  "vmpc": {
+    "keywords": [
+      "_vmpc_h_",
+      "vmpc_init",
+      "vmpcencrypt",
+      "vmpcinitkey",
+      "vmpcrypt.py",
+      "vmpc_decrypt",
+      "vmpc_encrypt",
+      "vmpc_ivsetup",
+      "vmpc_process",
+      "vmpc_keysetup",
+      "vmpcoutputmac",
+      "vmpcdecryptmac",
+      "vmpcencryptmac",
+      "vmpcengine.java ",
+      "vmpcinitkeybasic",
+      "vmpcinitkeyround"
+    ],
+    "spdx": {
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "vmpc",
+      "name": "VMPC Stream Cipher"
+    }
+  },
+  "wake": {
+    "keywords": [
+      "wake.h",
+      "wake_base",
+      "wake_output",
+      "wake_policy",
+      "wake_testinstantiations"
+    ],
+    "spdx": {
+      "commonkeySize": "64",
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "wake",
+      "name": "WAKE Stream Cipher"
+    }
+  },
+  "whirlpool": {
+    "keywords": [
+      "whirlpool.go",
+      "whirlpool_op",
+      "whirlpool.new",
+      "whirlpool_init",
+      "whirlpool_block",
+      "whirlpool_final",
+      "whirlpool_update",
+      "whirlpool_bitupdate",
+      "whirlpool_block_mmx",
+      "rhash_whirlpool_init",
+      "rhash_whirlpool_sbox",
+      "#include \"whirlpool.h\"",
+      "#include <whirlpool.h>",
+      "hashlib.new('whirlpool')",
+      "rhash_whirlpool_process_block",
+      "crypto.createhash('whirlpool')",
+      "github.com/jzelinskie/whirlpool",
+      "import org.bouncycastle.crypto.digests.whirlpooldigest"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Cryptographic-Hash-Function/Hash-Function",
+      "id": "whirlpool",
+      "name": "Whirlpool Hash Function",
+      "specifiedkeySize": "512"
+    }
+  },
+  "xtea": {
+    "keywords": [
+      "xtea.h",
+      "setxteakey",
+      "xtea.setkey",
+      "xtea_declen",
+      "xtea_setkey",
+      "xteadecrypt",
+      "xteaencrypt",
+      "xtea.decrypt",
+      "xtea.encrypt",
+      "xtea::setkey",
+      "xtea_decrypt",
+      "xtea_encrypt",
+      "xtea::decrypt",
+      "xtea::encrypt",
+      "xtea_decodecb",
+      "initializextea",
+      "xtea_encodeecb",
+      "xtea.initialize",
+      "xtea_initialize",
+      "xtea::initialize",
+      "xtea.decryptblock",
+      "xtea.encryptblock",
+      "xtea::decryptblock",
+      "xtea::encryptblock"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "xtea",
+      "name": "eXtended Tiny Encryption Algorithm"
+    }
+  },
+  "xtr": {
+    "keywords": [
+      "libxtr",
+      "xtrlib",
+      "xtrcrypt",
+      "xtr_curve",
+      "xtr_order",
+      "xtr_prime",
+      "xtr_modulus",
+      "cryptopp_xtr_h",
+      "xtr_exponentiate",
+      "xtr_findprimesandgenerator"
+    ],
+    "spdx": {
+      "commonkeySize": "64",
+      "cryptoClass": "Asymmetric-Key-Algorithm/Public-Key-Cipher",
+      "id": "xtr",
+      "name": "XTR Public Key System",
+      "specifiedkeySize": "1024"
+    }
+  },
+  "yarrow": {
+    "keywords": [
+      "yarrow256",
+      "yarrow512",
+      "ltc_yarrow",
+      "yarrowinit",
+      "yarrow.init",
+      "yarrow_desc",
+      "yarrow_done",
+      "yarrow_read",
+      "yarrow_test",
+      "yarrowstate",
+      "yarrow.state",
+      "yarrow::init",
+      "yarrow_ready",
+      "yarrow_start",
+      "yarrowreseed",
+      "yarrowupdate",
+      "yarrow.reseed",
+      "yarrow.update",
+      "yarrow::state",
+      "yarrow_export",
+      "yarrow_import",
+      "yarrowentropy",
+      "yarrow.entropy",
+      "yarrow::reseed",
+      "yarrow::update",
+      "yarrowgenerate",
+      "yarrow.generate",
+      "yarrow::entropy",
+      "yarrow::generate",
+      "yarrow_add_entropy",
+      "#include <yarrow.h>"
+    ],
+    "spdx": {
+      "commonkeySize": "160",
+      "cryptoClass": "Symmetric-Key-Algorithm/Random-Number-Generator",
+      "id": "yarrow",
+      "name": "Yarrow Random Number Generator"
+    }
+  },
+  "zipcrypt": {
+    "keywords": [
+      "libzip",
+      "zipbare",
+      "zipcloak",
+      "zip_crypto_"
+    ],
+    "spdx": {
+      "commonkeySize": "64",
+      "cryptoClass": "Symmetric-Key-Algorithm/Block-Cipher",
+      "id": "zipcrypt",
+      "name": "ZipCrypt Encryption"
+    }
+  },
+  "zuc": {
+    "keywords": [
+      "zuc_h",
+      "zuc.asm",
+      "zuc_dec",
+      "zuc_enc",
+      "zuc_gen",
+      "zuc_next",
+      "__zuc_h__",
+      "_zuc_init",
+      "zuc_set_key",
+      "_zuc_generate_keystream"
+    ],
+    "spdx": {
+      "commonkeySize": "128",
+      "cryptoClass": "Symmetric-Key-Algorithm/Stream-Cipher",
+      "id": "zuc",
+      "name": "ZUC Stream Cipher"
+    }
+  }
+}

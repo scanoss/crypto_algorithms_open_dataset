@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: RSA with Optimal Asymmetric Encryption Padding
-algorithmId: rsa-oaep
-category: Asymmetric Encryption
-strength: "128"

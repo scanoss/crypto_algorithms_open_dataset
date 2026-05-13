@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: HC-128
-algorithmId: hc128
-category: Symmetric Encryption
-strength: "128"

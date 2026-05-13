@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Secure Hash Algorithm 1
-algorithmId: sha1
-category: Hash Functions
-strength: "160"

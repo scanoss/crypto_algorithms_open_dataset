@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Edwards-Curve Digital Signature Algorithm
-algorithmId: eddsa
-category: Digital Signature Algorithm
-strength: 128-224

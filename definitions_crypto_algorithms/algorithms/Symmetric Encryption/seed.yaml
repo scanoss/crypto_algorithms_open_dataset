@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: SEED Block Cipher
-algorithmId: seed
-category: Symmetric Encryption
-strength: "256"

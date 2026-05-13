@@ -1,0 +1,159 @@
+# SPDX-License-Identifier: CC0-1.0
+#
+# Detects upstream changes in the SPDX cryptographic-algorithm-list,
+# bumps the submodule SHA, regenerates dist/ artifacts, generates SQL
+# deltas for the crypto_algorithms_metadata table, and for added
+# algorithms creates a keywords/<id>.yaml stub (single keyword = lower
+# of the SPDX name). All changes are opened as a SINGLE PR per run.
+#
+# By default the workflow polls the SPDX upstream. For testing
+# (workflow_dispatch), pass spdx_repo_url to point at a fork, e.g.
+# https://github.com/scanoss-qg/crypto-algorithms.
+name: SPDX changed
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # daily at 06:17 UTC
+  workflow_dispatch:
+    inputs:
+      spdx_repo_url:
+        description: "Override SPDX submodule URL (use a fork to test changes safely)"
+        required: false
+        default: ""
+      spdx_ref:
+        description: "SPDX ref/branch/SHA to track (default: origin/main)"
+        required: false
+        default: "origin/main"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  detect-and-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (with submodule)
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml pytest
+
+      - name: Fetch latest SPDX state
+        id: fetch_spdx
+        run: |
+          set -euo pipefail
+          cd external/spdx-crypto
+          override_url="${{ github.event.inputs.spdx_repo_url || '' }}"
+          ref="${{ github.event.inputs.spdx_ref || 'origin/main' }}"
+          if [ -n "$override_url" ]; then
+            git remote set-url origin "$override_url"
+            echo "Using override SPDX repo: $override_url"
+          fi
+          git fetch origin
+          git checkout "$ref"
+          new_sha=$(git rev-parse HEAD)
+          echo "new_sha=$new_sha" >> "$GITHUB_OUTPUT"
+          echo "Submodule now at $new_sha"
+
+      - name: Detect changes vs snapshot
+        id: detect
+        run: |
+          set +e
+          python scripts/detect_spdx_changes.py --out /tmp/diff.json
+          rc=$?
+          echo "diff_exit=$rc" >> "$GITHUB_OUTPUT"
+          if [ "$rc" -eq 0 ]; then
+            echo "No SPDX changes detected. Exiting."
+            exit 0
+          fi
+          echo "Detected changes:"
+          cat /tmp/diff.json
+
+      - name: Create keyword stubs for added algorithms
+        if: steps.detect.outputs.diff_exit == '1'
+        run: |
+          python - <<'PY'
+          import json, pathlib, re
+          diff = json.loads(pathlib.Path('/tmp/diff.json').read_text())
+          for entry in diff.get('added', []):
+              alg_id = entry['id']
+              name = (entry['record'].get('name') or alg_id).lower()
+              keyword = re.sub(r'[^a-z0-9]+', '_', name).strip('_') or alg_id.lower()
+              target = pathlib.Path('keywords') / f'{alg_id}.yaml'
+              if target.exists():
+                  print(f'skip {target} (exists)')
+                  continue
+              target.write_text(
+                  '# SPDX-License-Identifier: CC0-1.0\n'
+                  f'algorithmId: {alg_id}\n'
+                  'keywords:\n'
+                  f'  - {keyword}\n'
+              )
+              print(f'created {target}')
+          PY
+
+      - name: Regenerate dist artifacts
+        if: steps.detect.outputs.diff_exit == '1'
+        run: |
+          python scripts/validate_consistency.py --json dist/inconsistency_report.json
+          python scripts/build_linked_dataset.py
+
+      - name: Generate SQL deltas
+        if: steps.detect.outputs.diff_exit == '1'
+        run: |
+          python scripts/generate_sql.py --diff /tmp/diff.json --out sql
+
+      - name: Summarise changes
+        if: steps.detect.outputs.diff_exit == '1'
+        id: summary
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, pathlib
+          d = json.loads(pathlib.Path('/tmp/diff.json').read_text())
+          added = [x['id'] for x in d['added']]
+          modified = [x['id'] for x in d['modified']]
+          removed = [x['id'] for x in d['removed']]
+          body_lines = ["Detected SPDX changes:", ""]
+          if added:    body_lines.append(f"- **Added** ({len(added)}): {', '.join(added)}")
+          if modified: body_lines.append(f"- **Modified** ({len(modified)}): {', '.join(modified)}")
+          if removed:  body_lines.append(f"- **Removed** ({len(removed)}): {', '.join(removed)}")
+          body = "\n".join(body_lines)
+          # multiline output
+          print(f"body<<EOF\n{body}\nEOF")
+          PY
+
+      - name: Open PR with all changes
+        if: steps.detect.outputs.diff_exit == '1'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore(spdx): sync upstream changes"
+          title: "chore(spdx): sync upstream changes (${{ steps.fetch_spdx.outputs.new_sha }})"
+          body: |
+            ${{ steps.summary.outputs.body }}
+
+            Submodule bumped to `${{ steps.fetch_spdx.outputs.new_sha }}`.
+
+            This PR includes:
+            - submodule SHA bump
+            - regenerated `dist/*.json`
+            - SQL deltas under `sql/`
+            - keyword stubs under `keywords/` for newly added algorithms
+
+            Once merged, `propagate-to-platform-deployment.yml` opens a
+            follow-up PR in `scanoss/platform_deployment` with the JSON
+            and SQL files.
+          branch: bot/spdx-sync
+          base: main
+          labels: spdx-sync
+          delete-branch: true

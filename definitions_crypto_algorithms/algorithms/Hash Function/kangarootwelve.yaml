@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: KangarooTwelve Hash Function
-algorithmId: kangarootwelve
-category: Hash Function
-strength: "128"

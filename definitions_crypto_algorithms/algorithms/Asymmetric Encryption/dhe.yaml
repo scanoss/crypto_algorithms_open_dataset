@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Diffie-Hellman Ephemeral
-algorithmId: dhe
-category: Asymmetric Encryption
-strength: "128"

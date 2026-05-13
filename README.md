@@ -1,57 +1,102 @@
 <!--
-
-SPDX-FileContributor: [Author Name(s)] <[Optional: Email Address(es)]>
-
+SPDX-FileContributor: SCANOSS
 SPDX-License-Identifier: CC0-1.0
 -->
 
 # Cryptographic Algorithms Open Dataset
 
-This data set, which includes a list of cryptography algorithms with an open source implementation, was originally the output of SCANOSS mining efforts across its entire data base, which includes all relevant open source software published. Today, the intention is to turn this repository into a collaborative project to enrich and maintain this data set, not just for export control, the original target activity, but for other purposes as well, like quantum safe or compliance with a variety of regulations.
+This repository defines a set of source-code **keywords** that can be used to
+detect cryptographic algorithm usage. Algorithm **metadata** (canonical name,
+OID, cryptographic class, key sizes, references) is sourced from the
+[SPDX cryptographic-algorithm-list](https://github.com/spdx/cryptographic-algorithm-list)
+and joined with our keyword set by the algorithm `id`.
 
-## Folder Structure
-There are two main folders in this repo and several subfolders:
-* [definitions_crypto_algorithms](definitions_crypto_algorithms)
-    * [list_definitions_crypto_algorithms](definitions_crypto_algorithms/list_definitions_crypto_algorithms)
-    * [spec_crypto_algorithms](definitions_crypto_algorithms/spec_crypto_algorithms)
-* [utilities](utilities)
-* [docs_crypto_algorithms](docs_crypto_algorithms)
+The two repositories are intentionally split:
 
-### Definitions_crypto_algorithms
+| Source | What it owns |
+| ------ | ------------ |
+| `spdx/cryptographic-algorithm-list` | Algorithm metadata (single source of truth). |
+| this repo | Keyword definitions used to detect each algorithm in source code. |
 
-The [definitions_crypto_algorithms](definitions_crypto_algorithms) folder contains the current definitions list together the information to create new ones or enrich the existing ones
+## Folder structure
 
-You can find the index of the cryptography algorithms and their corresponding algorithId in the [definition_index_crypto_algorithms.md](/definitions_crypto_algorithms/definitions_index_crypto_algorithms.md) fine. This is the best place to start.
+```
+keywords/<algorithmId>.yaml       # one file per algorithm; only id + keywords[]
+spec/                             # YAML format spec and template
+external/spdx-crypto/             # Git submodule pinned to a commit of the SPDX list
+scripts/                          # build_linked_dataset.py, validate_consistency.py
+dist/                             # generated artifacts (committed, kept current by CI)
+utilities/crypto_detect.py        # example consumer of this dataset
+docs_crypto_algorithms/           # project docs
+```
 
-#### list_definitions_crypto_algorithms
+### Generated artifacts in `dist/`
 
-The [list_definitions_crypto_algorithms](definitions_crypto_algorithms folder contains a set of YAML files which define all the available cryptography algorithms to be used when searching for hints inside source files.
+These files are produced by `scripts/build_linked_dataset.py` and kept current
+by the GitHub workflows. **Do not edit them manually.**
 
-#### spec_crypto_algorithms
+* `crypto_algorithms_keywords.json` — `{id: [keywords...]}` for every
+  algorithm in `keywords/`.
+* `crypto_algorithms_linked.json` — `{id: {spdx: <metadata>, keywords: [...]}}`
+  for every id that exists in **both** `keywords/` and SPDX. IDs that only
+  exist in this repo (no SPDX counterpart yet) are intentionally absent here;
+  see `dist/inconsistency_report.json`.
+* `spdx_snapshot.json` — copy of the SPDX records keyed by id, used by the
+  SPDX-change detector as a diff baseline.
 
-The [spec_crypto_algorithms](definitions_crypto_algorithms/spec_crypto_algorithms) contains the information to create new definitions, or to enrich the existing ones, as well as a description of the syntax followed on each definition. If you want to understand the syntaxt of each one of the definitions, this is the place to go.
+## Cloning and updating the SPDX submodule
 
-### Utilities
+```sh
+git clone --recurse-submodules https://github.com/scanoss/crypto_algorithms_open_dataset.git
+# or, on an existing clone
+git submodule update --init --recursive
+```
 
-The [utilities](utilities) folder contains some helper utility scripts written in Python to illustrate how these definitions can be leveraged.
+To pull a newer SPDX state locally (workflows do this automatically):
 
-The primary example is [crypto_detect.py](utilities/crypto_detect.py).
-More details on how to use it can be found [here](utilities/README.md)
+```sh
+git submodule update --remote external/spdx-crypto
+```
 
-### docs_crypto_algorithms
+## Adding or updating a keyword set
 
-The [docs_crypto_algorithms](docs_crypto_algorithms) folder contains documents that are relevant for maintainers, contributors and users, related to the project and its releases.
+1. Find the SPDX `id` for the algorithm in
+   [`external/spdx-crypto/yaml/`](external/spdx-crypto/yaml). The filename
+   without `.yaml` is the id.
+2. Create or edit `keywords/<id>.yaml`:
 
-## Contributing New Cryptographic Data
+   ```yaml
+   # SPDX-License-Identifier: CC0-1.0
+   algorithmId: <id>
+   keywords:
+     - <keyword 1>
+     - <keyword 2>
+   ```
 
-If you find a missing/invalid keyword, please do the following:
-- Fork the [repo](https://github.com/scanoss/crypto_algorithms_open_dataset)
-- Update or Add the affected YAML files inside the [definitions](definitions_crypto_algorithms) folder
-- Create a Pull Request with the details of the update
+3. Open a PR. The build/validate workflow runs and refreshes `dist/` artifacts.
 
-The team will review these requests and accept them into repo for everyone to benefit from.
+If the algorithm is not yet in SPDX, file the keyword YAML under the SCANOSS
+id you choose — `scripts/validate_consistency.py` will list it as
+keywords-only and the linked JSON will skip it until SPDX gains the entry.
+
+## Algorithm consistency rules
+
+* **`id` casing**: when SPDX has the same id with different casing, the SPDX
+  id wins. Rename the keyword YAML accordingly.
+* **Other inconsistencies** (missing in SPDX, mismatched names): reported by
+  the validator only; nothing is generated for them in `dist/crypto_algorithms_linked.json`.
+
+## Utilities
+
+`utilities/crypto_detect.py` is a small Python tool that loads keywords from
+`keywords/` and metadata from the SPDX submodule, and scans a folder for
+matches. See [`utilities/README.md`](utilities/README.md).
+
+## Contributing
+
+Fork → branch → PR. The team will review and merge.
 
 ## License
 
-This project is released under the Creative Commons Public Domain CC0-1.0 license. 
-Full details can be found [here](LICENSE).
+Released under the Creative Commons Public Domain CC0-1.0 license. Full
+details in [`LICENSES/`](LICENSES).

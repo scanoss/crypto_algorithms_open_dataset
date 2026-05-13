@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Password-Based Key Derivation Function 2
-algorithmId: pbkdf2
-category: Key Derivation Functions
-strength: "128"

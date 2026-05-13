@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: NTRUEncrypt
-algorithmId: ntruencrypt
-category: Post-Quantum Cryptography
-strength: "128"

@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Rabin
-algorithmId: rabin
-category: Asymmetric Encryption
-strength: "128"

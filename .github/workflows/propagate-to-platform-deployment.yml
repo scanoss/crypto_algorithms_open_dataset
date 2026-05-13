@@ -1,0 +1,90 @@
+# SPDX-License-Identifier: CC0-1.0
+#
+# When generated dist/ JSON or sql/ files change on main, copy them into
+# scanoss/platform_deployment and open a PR there. Requires a repo secret
+# PLATFORM_DEPLOYMENT_TOKEN: PAT (or fine-grained token) with `contents:write`
+# and `pull-requests:write` on scanoss/platform_deployment.
+#
+# The destination paths inside platform_deployment are configured by the
+# env vars below; adjust as that repo's layout is finalised.
+name: Propagate to platform_deployment
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "dist/crypto_algorithms_linked.json"
+      - "dist/crypto_algorithms_keywords.json"
+      - "sql/**"
+
+permissions:
+  contents: read
+
+env:
+  TARGET_REPO: scanoss/platform_deployment
+  TARGET_DIST_DIR: crypto/data
+  TARGET_SQL_DIR: crypto/migrations
+
+jobs:
+  open-downstream-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Checkout target repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.TARGET_REPO }}
+          token: ${{ secrets.PLATFORM_DEPLOYMENT_TOKEN }}
+          path: target
+          fetch-depth: 0
+
+      - name: Copy generated artifacts into target
+        id: copy
+        run: |
+          set -euo pipefail
+          mkdir -p "target/${TARGET_DIST_DIR}"
+          mkdir -p "target/${TARGET_SQL_DIR}"
+          cp dist/crypto_algorithms_linked.json   "target/${TARGET_DIST_DIR}/"
+          cp dist/crypto_algorithms_keywords.json "target/${TARGET_DIST_DIR}/"
+          # copy any sql files newly added in this push
+          changed_sql=$(git diff --name-only HEAD~1 HEAD -- 'sql/' || true)
+          if [ -n "$changed_sql" ]; then
+            echo "$changed_sql" | while read -r f; do
+              [ -f "$f" ] && cp "$f" "target/${TARGET_SQL_DIR}/"
+            done
+          fi
+          cd target && git status --porcelain
+
+      - name: Open PR in target
+        run: |
+          set -euo pipefail
+          cd target
+          branch="bot/crypto-sync-$(date -u +%Y%m%dT%H%M%SZ)"
+          git checkout -b "$branch"
+          git config user.name  "scanoss-bot"
+          git config user.email "scanoss-bot@users.noreply.github.com"
+          git add "${TARGET_DIST_DIR}/" "${TARGET_SQL_DIR}/" || true
+          if git diff --cached --quiet; then
+            echo "No effective changes after copy. Skipping PR."
+            exit 0
+          fi
+          src_sha=${GITHUB_SHA::7}
+          git commit -m "chore(crypto): sync from crypto_algorithms_open_dataset@${src_sha}"
+          git push -u origin "$branch"
+          gh pr create \
+            --repo "${TARGET_REPO}" \
+            --base main \
+            --head "$branch" \
+            --title "chore(crypto): sync from crypto_algorithms_open_dataset@${src_sha}" \
+            --body "Automated sync of generated crypto artifacts from upstream commit ${src_sha}.
+
+          Includes:
+          - \`${TARGET_DIST_DIR}/crypto_algorithms_linked.json\`
+          - \`${TARGET_DIST_DIR}/crypto_algorithms_keywords.json\`
+          - any SQL migrations under \`${TARGET_SQL_DIR}/\`"
+        env:
+          GH_TOKEN: ${{ secrets.PLATFORM_DEPLOYMENT_TOKEN }}

@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: GSM Encryption Algorithm
-algorithmId: gea0-x
-category: Secure Protocols
-strength: 64-128

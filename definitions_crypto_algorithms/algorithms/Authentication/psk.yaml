@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Pre-Shared Key Authentication
-algorithmId: psk
-category: Authentication
-strength: 128-256

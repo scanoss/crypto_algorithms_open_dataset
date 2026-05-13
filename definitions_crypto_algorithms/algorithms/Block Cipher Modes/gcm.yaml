@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: CC0-1.0
-algorithm: Galois/Counter Mode
-algorithmId: gcm
-category: Block Cipher Modes
-strength: ""

@@ -1,0 +1,13 @@
+# SPDX-FileContributor: [Author Name(s)] <[Optional: Email Address(es)]>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+# Cryptographic algorithm keyword definition.
+# This file defines the keyword set used to detect a cryptographic algorithm
+# inside source files. Algorithm metadata (name, OID, class, key sizes,
+# references) lives in the SPDX cryptographic-algorithm-list repository,
+# linked here via the algorithmId. See spec/README.md.
+
+algorithmId:        # SPDX id of the algorithm. Filename MUST be <algorithmId>.yaml.
+keywords:           # list of unique strings (with or without spaces).
+  -
